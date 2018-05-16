@@ -1,4 +1,4 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{1}
 \providecommand{\biburl}[1]{\url{#1}}
 \providecommand{\urlprefix}{Dostupn{\' e} z: }
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -7,5 +7,9 @@
   \urlstyle{rm}\Url}\fi
 \providecommand{\selectlanguage}[1]{\relax}
 \providecommand{\eprint}[2][]{\biburl{#2}}
+
+\bibitem{polarion_alm}
+Polarion ALM. [online], [cit. 2018-05-01s].
+\urlprefix\biburl{https://polarion.plm.automation.siemens.com/}
 
 \end{thebibliography}

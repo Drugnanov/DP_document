@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.2.27)  11 MAR 2018 12:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.2.27)  16 MAY 2018 14:39
 entering extended mode
-**./DP_sláma_michal_2018.tex
-(DP_sláma_michal_2018.tex
+**./DP_Slama_Michal_2018.tex
+(DP_Slama_Michal_2018.tex
 LaTeX2e <2017-04-15>
 Babel <3.17> and hyphenation patterns for 75 language(s) loaded.
 (FITthesis.cls
@@ -359,9 +359,9 @@ File: switch.def 2018/01/24 3.17 Babel switching mechanism
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-czech\czech
-.ldf"
-Language: czech 2008/07/06 v3.1a Czech support from the babel system
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-english\eng
+lish.ldf"
+Language: english 2017/06/06 v3.3r English support from the babel system
 
 ("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.def
 "
@@ -378,9 +378,9 @@ File: switch.def 2018/01/24 3.17 Babel switching mechanism
 def")
 \bbl@dirlevel=\count138
 )
-Package babel Info: Making " an active character on input line 172.
-\cs@wordlen=\count139
-Package babel Info: Making - an active character on input line 226.
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
 ))
 ("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\hyperref
 .sty"
@@ -445,14 +445,14 @@ s.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen148
-\Hy@linkcounter=\count140
-\Hy@pagecounter=\count141
+\Hy@linkcounter=\count139
+\Hy@pagecounter=\count140
 
 ("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\pd1enc.d
 ef"
 File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count142
+\Hy@SavedSpaceFactor=\count141
 
 ("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\hyperref
 .cfg"
@@ -472,14 +472,14 @@ Package hyperref Info: Plain pages OFF on input line 4524.
 Package hyperref Info: Backreferencing OFF on input line 4529.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4762.
-\c@Hy@tempcnt=\count143
+\c@Hy@tempcnt=\count142
  ("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5115.
 \XeTeXLinkMargin=\dimen149
-\Fld@menulength=\count144
+\Fld@menulength=\count143
 \Field@Width=\dimen150
 \Fld@charsize=\dimen151
 Package hyperref Info: Hyper figures OFF on input line 6369.
@@ -491,24 +491,24 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6394.
 Package hyperref Info: PDF/A mode OFF on input line 6399.
 LaTeX Info: Redefining \ref on input line 6439.
 LaTeX Info: Redefining \pageref on input line 6443.
-\Hy@abspage=\count145
-\c@Item=\count146
-\c@Hfootnote=\count147
+\Hy@abspage=\count144
+\c@Item=\count145
+\c@Hfootnote=\count146
 )
 ("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\memoir\memhfixc.s
 ty"
 Package: memhfixc 2013/05/30 v1.17 nameref/hyperref package fixes for memoir cl
 ass
-\c@memhycontfloat=\count148
-\c@Hpagenote=\count149
+\c@memhycontfloat=\count147
+\c@Hpagenote=\count148
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
 ("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\hpdftex.
 def"
 File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
-\Fld@listcount=\count150
-\c@bookmark@seq@number=\count151
+\Fld@listcount=\count149
+\c@bookmark@seq@number=\count150
 
 ("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\rerunfil
 echeck.sty"
@@ -553,12 +553,6 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
 )
-("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fontenc.sty"
-Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
-("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1enc.def"
-File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
-LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
-))
 
 ******************************************************
 Stock height and width: 845.04684pt by 597.50787pt
@@ -583,7 +577,7 @@ Sidefootvsep and sidefootheight: 13.6pt and 594.32022pt
 ("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\etoolbox\etoolbox
 .sty"
 Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count152
+\etb@tempcnta=\count151
 ))
 ("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.sty
 "
@@ -944,41 +938,737 @@ Package: dirtree 2012/12/11 v0.32 package wrapper for dirtree
 \DT@rulewidth=\dimen158
 \DT@dotwidth=\dimen159
 \DTbaselineskip=\dimen160
-\DT@counti=\count153
-\DT@countii=\count154
-\DT@countiii=\count155
-\DT@countiv=\count156
+\DT@counti=\count152
+\DT@countii=\count153
+\DT@countiii=\count154
+\DT@countiv=\count155
 \DT@indent=\dimen161
 \DT@parskip=\dimen162
 \DT@baselineskip=\dimen163
 )
 File: dirtree.tex 2012/12/11 v0.32 `dirtree' (jcc)
-) (DP_sláma_michal_2018.aux)
-\openout1 = `DP_sláma_michal_2018.aux'.
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 57.
-
-("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
-File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-\AtBeginShipoutBox=\box29
-Package hyperref Info: Link coloring OFF on input line 57.
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\glossaries\base\g
+lossaries.sty"
+Package: glossaries 2018/03/07 v4.36 (NLCT)
+
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.s
+ty"
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\xkeyval
+.tex"
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\xkvutil
+s.tex"
+\XKV@toks=\toks25
+\XKV@tempa@toks=\toks26
+)
+\XKV@depth=\count156
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mfirstuc\mfirstuc
+.sty"
+Package: mfirstuc 2017/11/14 v2.06 (NLCT)
+\@glsmfirst=\toks27
+\@glsmrest=\toks28
+)
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\textcase\textcase
+.sty"
+Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
+LaTeX Info: Redefining \MakeTextUppercase on input line 47.
+LaTeX Info: Redefining \MakeTextLowercase on input line 50.
+)
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xfor\xfor.sty"
+Package: xfor 2009/02/05 v1.05 (NLCT)
+)
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\datatool\datatool
+-base.sty"
+Package: datatool-base 2017/11/12 v2.29 (NLCT)
+
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.s
+ty"
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip186
+
+For additional information on amsmath, use the `?' option.
+
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext.s
+ty"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.st
+y"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks29
+\ex@=\dimen164
+))
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.st
+y"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen165
+)
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.st
+y"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count157
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count158
+\leftroot@=\count159
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count160
+\DOTSCASE@=\count161
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box29
+\strutbox@=\box30
+\big@size=\dimen166
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count162
+\c@MaxMatrixCols=\count163
+\dotsspace@=\muskip11
+\c@parentequation=\count164
+\dspbrk@lvl=\count165
+\tag@help=\toks30
+\row@=\count166
+\column@=\count167
+\maxfields@=\count168
+\andhelp@=\toks31
+\eqnshift@=\dimen167
+\alignsep@=\dimen168
+\tagshift@=\dimen169
+\tagwidth@=\dimen170
+\totwidth@=\dimen171
+\lineht@=\dimen172
+\@envbody=\toks32
+\multlinegap=\skip187
+\multlinetaggap=\skip188
+\mathdisplay@stack=\toks33
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\substr\substr.sty
+"
+Package: substr 2009/10/20 v1.2 Handle substrings
+\c@su@anzahl=\count169
+)
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\datatool\datatool
+-fp.sty"
+Package: datatool-fp 2017/11/12 v2.29 (NLCT)
+ ("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp.sty"
+Package: fp 1995/04/02
+ `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\defpattern.sty
+"
+Package: defpattern 1994/10/12
+\actioncount=\count170
+) ("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-basic.sty
+"
+Package: fp-basic 1996/05/13
+\FP@xs=\count171
+\FP@xia=\count172
+\FP@xib=\count173
+\FP@xfa=\count174
+\FP@xfb=\count175
+\FP@rega=\count176
+\FP@regb=\count177
+\FP@regs=\count178
+\FP@times=\count179
+)
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-addons.sty"
+Package: fp-addons 1995/03/15
+) ("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-snap.sty"
+Package: fp-snap 1995/04/05
+) ("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-exp.sty"
+Package: fp-exp 1995/04/03
+) ("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-trigo.sty
+"
+Package: fp-trigo 1995/04/14
+) ("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-pas.sty"
+Package: fp-pas 1994/08/29
+) ("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-random.st
+y"
+Package: fp-random 1995/02/23
+\FPseed=\count180
+) ("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-eqn.sty"
+Package: fp-eqn 1995/04/03
+) ("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-upn.sty"
+Package: fp-upn 1996/10/21
+) ("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-eval.sty"
+Package: fp-eval 1995/04/03
+)))
+\@dtl@toks=\toks34
+\@dtl@tmpcount=\count181
+\dtl@tmplength=\skip189
+\dtl@sortresult=\count182
+\@dtl@numgrpsepcount=\count183
+\@dtl@datatype=\count184
+\dtl@codeA=\count185
+\dtl@codeB=\count186
+\@dtl@foreach@level=\count187
+)
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\glossaries\base\g
+lossaries-compatible-307.sty"
+Package: glossaries-compatible-307 2018/03/07 v4.36 (NLCT)
+)
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tracklang\trackla
+ng.sty"
+Package: tracklang 2018/02/21 v1.3.5 (NLCT) Track Languages
+
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\generic\tracklang\track
+lang.tex"))
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\translator\transl
+ator.sty"
+Package: translator 2018/01/04 v1.12 Easy translation of strings in LaTeX
+)
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\glossaries-englis
+h\glossaries-english.ldf"
+File: glossaries-english.ldf 2014/11/23 v1.0
+)
+\gls@level=\count188
+\@gls@tmpb=\toks35
+\gls@tmplen=\skip190
+
+
+Package glossaries Warning: Overriding \printglossary on input line 5645.
+
+
+Package glossaries Warning: Overriding `theglossary' environment on input line 
+6304.
+
+\glskeylisttok=\toks36
+\glslabeltok=\toks37
+\glsshorttok=\toks38
+\glslongtok=\toks39
+
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\glossaries\styles
+\glossary-hypernav.sty"
+Package: glossary-hypernav 2018/03/07 v4.36 (NLCT)
+)
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\glossaries\styles
+\glossary-list.sty"
+Package: glossary-list 2018/03/07 v4.36 (NLCT)
+\glslistdottedwidth=\skip191
+)
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\glossaries\styles
+\glossary-long.sty"
+Package: glossary-long 2018/03/07 v4.36 (NLCT)
+
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\longtable.s
+ty"
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip192
+\LTright=\skip193
+\LTpre=\skip194
+\LTpost=\skip256
+\LTchunksize=\count189
+\LTcapwidth=\dimen173
+\LT@head=\box31
+\LT@firsthead=\box32
+\LT@foot=\box33
+\LT@lastfoot=\box34
+\LT@cols=\count190
+\LT@rows=\count191
+\c@LT@tables=\count192
+\c@LT@chunks=\count193
+\LT@p@ftn=\toks40
+)
+\glsdescwidth=\skip257
+\glspagelistwidth=\skip258
+)
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\glossaries\styles
+\glossary-super.sty"
+Package: glossary-super 2018/03/07 v4.36 (NLCT)
+
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\supertabular\supe
+rtabular.sty"
+Package: supertabular 2004/02/20 v4.1e the supertabular environment
+\c@tracingst=\count194
+\ST@wd=\dimen174
+\ST@rightskip=\skip259
+\ST@leftskip=\skip260
+\ST@parfillskip=\skip261
+\ST@pageleft=\dimen175
+\ST@headht=\dimen176
+\ST@tailht=\dimen177
+\ST@pagesofar=\dimen178
+\ST@pboxht=\dimen179
+\ST@lineht=\dimen180
+\ST@stretchht=\dimen181
+\ST@prevht=\dimen182
+\ST@toadd=\dimen183
+\ST@dimen=\dimen184
+\ST@pbox=\box35
+))
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\glossaries\styles
+\glossary-tree.sty"
+Package: glossary-tree 2018/03/07 v4.36 (NLCT)
+\glstreeindent=\skip262
+))
+\glswrite=\write4
+\glo@main@file=\write5
+\openout5 = `DP_Slama_Michal_2018.glo'.
+
+Package glossaries Info: Writing glossary file DP_Slama_Michal_2018.glo on inpu
+t line 24.
+\glo@acronym@file=\write6
+\openout6 = `DP_Slama_Michal_2018.acn'.
+
+Package glossaries Info: Writing glossary file DP_Slama_Michal_2018.acn on inpu
+t line 24.
+
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\todonotes\todonot
+es.sty"
+Package: todonotes 2015/07/09 .dtx Todonotes source and documentation.
+Package: todonotes 2012/07/25
+
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty
+"
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\colo
+r.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\frontendlayer
+\tikz.sty"
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\basiclayer\pg
+f.sty"
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\utilities\pgf
+rcs.sty"
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\p
+gfutil-common.tex"
+\pgfutil@everybye=\toks41
+\pgfutil@tempdima=\dimen185
+\pgfutil@tempdimb=\dimen186
+
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\p
+gfutil-common-lists.tex"))
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\p
+gfutil-latex.def"
+\pgfutil@abb=\box36
+
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ms\everyshi.sty"
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\p
+gfrcs.code.tex"
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
+))
+Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
+
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\basiclayer\pg
+fcore.sty"
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\systemlayer\p
+gfsys.sty"
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer
+\pgfsys.code.tex"
+Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
+
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\p
+gfkeys.code.tex"
+\pgfkeys@pathtoks=\toks42
+\pgfkeys@temptoks=\toks43
+
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\p
+gfkeysfiltered.code.tex"
+\pgfkeys@tmptoks=\toks44
+))
+\pgf@x=\dimen187
+\pgf@y=\dimen188
+\pgf@xa=\dimen189
+\pgf@ya=\dimen190
+\pgf@xb=\dimen191
+\pgf@yb=\dimen192
+\pgf@xc=\dimen193
+\pgf@yc=\dimen194
+\w@pgf@writea=\write7
+\r@pgf@reada=\read2
+\c@pgf@counta=\count266
+\c@pgf@countb=\count267
+\c@pgf@countc=\count268
+\c@pgf@countd=\count269
+\t@pgf@toka=\toks45
+\t@pgf@tokb=\toks46
+\t@pgf@tokc=\toks47
+
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer
+\pgf.cfg"
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer
+\pgfsys-pdftex.def"
+File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
+
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer
+\pgfsys-common-pdf.def"
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+)))
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer
+\pgfsyssoftpath.code.tex"
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count270
+\pgfsyssoftpath@bigbuffer@items=\count271
+)
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer
+\pgfsysprotocol.code.tex"
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+))
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\
+pgfcore.code.tex"
+Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
+
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmat
+h.code.tex"
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmat
+hcalc.code.tex"
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmat
+hutil.code.tex")
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmat
+hparser.code.tex"
+\pgfmath@dimen=\dimen256
+\pgfmath@count=\count272
+\pgfmath@box=\box37
+\pgfmath@toks=\toks48
+\pgfmath@stack@operand=\toks49
+\pgfmath@stack@operation=\toks50
+)
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmat
+hfunctions.code.tex"
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmat
+hfunctions.basic.code.tex")
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmat
+hfunctions.trigonometric.code.tex")
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmat
+hfunctions.random.code.tex")
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmat
+hfunctions.comparison.code.tex")
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmat
+hfunctions.base.code.tex")
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmat
+hfunctions.round.code.tex")
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmat
+hfunctions.misc.code.tex")
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmat
+hfunctions.integerarithmetics.code.tex")))
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmat
+hfloat.code.tex"
+\c@pgfmathroundto@lastzeros=\count273
+))
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\
+pgfcorepoints.code.tex"
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen257
+\pgf@picmaxx=\dimen258
+\pgf@picminy=\dimen259
+\pgf@picmaxy=\dimen260
+\pgf@pathminx=\dimen261
+\pgf@pathmaxx=\dimen262
+\pgf@pathminy=\dimen263
+\pgf@pathmaxy=\dimen264
+\pgf@xx=\dimen265
+\pgf@xy=\dimen266
+\pgf@yx=\dimen267
+\pgf@yy=\dimen268
+\pgf@zx=\dimen269
+\pgf@zy=\dimen270
+)
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\
+pgfcorepathconstruct.code.tex"
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen271
+\pgf@path@lasty=\dimen272
+)
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\
+pgfcorepathusage.code.tex"
+File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
+\pgf@shorten@end@additional=\dimen273
+\pgf@shorten@start@additional=\dimen274
+)
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\
+pgfcorescopes.code.tex"
+File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
+\pgfpic=\box38
+\pgf@hbox=\box39
+\pgf@layerbox@main=\box40
+\pgf@picture@serial@count=\count274
+)
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\
+pgfcoregraphicstate.code.tex"
+File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
+\pgflinewidth=\dimen275
+)
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\
+pgfcoretransformations.code.tex"
+File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
+\pgf@pt@x=\dimen276
+\pgf@pt@y=\dimen277
+\pgf@pt@temp=\dimen278
+)
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\
+pgfcorequick.code.tex"
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\
+pgfcoreobjects.code.tex"
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\
+pgfcorepathprocessing.code.tex"
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+)
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\
+pgfcorearrows.code.tex"
+File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
+\pgfarrowsep=\dimen279
+)
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\
+pgfcoreshade.code.tex"
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen280
+\pgf@sys@shading@range@num=\count275
+)
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\
+pgfcoreimage.code.tex"
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\
+pgfcoreexternal.code.tex"
+File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
+\pgfexternal@startupbox=\box41
+))
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\
+pgfcorelayers.code.tex"
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+)
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\
+pgfcoretransparency.code.tex"
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+)
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\
+pgfcorepatterns.code.tex"
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+)))
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\modules\pgf
+moduleshapes.code.tex"
+File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
+\pgfnodeparttextbox=\box42
+)
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\modules\pgf
+moduleplot.code.tex"
+File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
+)
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\compatibility
+\pgfcomp-version-0-65.sty"
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen281
+\pgf@nodesepend=\dimen282
+)
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\compatibility
+\pgfcomp-version-1-18.sty"
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
+))
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\utilities\pgf
+for.sty"
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\utilities\pgf
+keys.sty"
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\p
+gfkeys.code.tex"))
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\math\pgfmath.
+sty"
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmat
+h.code.tex"))
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\p
+gffor.code.tex"
+Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
+
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmat
+h.code.tex")
+\pgffor@iter=\dimen283
+\pgffor@skip=\dimen284
+\pgffor@stack=\toks51
+\pgffor@toks=\toks52
+))
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlay
+er\tikz\tikz.code.tex"
+Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
+
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\p
+gflibraryplothandlers.code.tex"
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
+\pgf@plot@mark@count=\count276
+\pgfplotmarksize=\dimen285
+)
+\tikz@lastx=\dimen286
+\tikz@lasty=\dimen287
+\tikz@lastxsaved=\dimen288
+\tikz@lastysaved=\dimen289
+\tikzleveldistance=\dimen290
+\tikzsiblingdistance=\dimen291
+\tikz@figbox=\box43
+\tikz@figbox@bg=\box44
+\tikz@tempbox=\box45
+\tikz@tempbox@bg=\box46
+\tikztreelevel=\count277
+\tikznumberofchildren=\count278
+\tikznumberofcurrentchild=\count279
+\tikz@fig@count=\count280
+
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\modules\pgf
+modulematrix.code.tex"
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count281
+\pgfmatrixcurrentcolumn=\count282
+\pgf@matrix@numberofcolumns=\count283
+)
+\tikz@expandcount=\count284
+
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlay
+er\tikz\libraries\tikzlibrarytopaths.code.tex"
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
+)))
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlay
+er\tikz\libraries\tikzlibrarypositioning.code.tex"
+File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.1a (rcs-revision 1.7)
+)
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\calc.sty"
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count285
+\calc@Bcount=\count286
+\calc@Adimen=\dimen292
+\calc@Bdimen=\dimen293
+\calc@Askip=\skip263
+\calc@Bskip=\skip264
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count287
+\calc@Cskip=\skip265
+)
+\c@@todonotes@numberoftodonotes=\count288
+)
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\enumitem\enumitem
+.sty"
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\labelindent=\skip266
+\enit@outerparindent=\dimen294
+\enit@toks=\toks53
+\enit@inbox=\box47
+\enitdp@description=\count289
+)
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\spverbatim\spverb
+atim.sty"
+Package: spverbatim 2009/08/10 v1.0 Verbatim with breakable spaces
+)
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\listings
+.sty"
+\lst@mode=\count290
+\lst@gtempboxa=\box48
+\lst@token=\toks54
+\lst@length=\count291
+\lst@currlwidth=\dimen295
+\lst@column=\count292
+\lst@pos=\count293
+\lst@lostspace=\dimen296
+\lst@width=\dimen297
+\lst@newlines=\count294
+\lst@lineno=\count295
+\lst@maxwidth=\dimen298
+
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstmisc.
+sty"
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count296
+\lst@skipnumbers=\count297
+\lst@framebox=\box49
+)
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\listings
+.cfg"
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+
+
+Class memoir Warning: You are using the caption package with the memoir class. 
+To prepare we will now reset all captioning macros and configurations to kernel
+ defaults, and then let the caption package take over. Please remember to use
+ the caption package interfaces in order to
+ configure your captions.
+
+
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption.s
+ty"
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption3.
+sty"
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen299
+\captionmargin@=\dimen300
+\captionwidth=\dimen301
+\caption@tempdima=\dimen302
+\caption@indent=\dimen303
+\caption@parindent=\dimen304
+\caption@hangindent=\dimen305
+)
+\c@ContinuedFloat=\count298
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: longtable package is loaded.
+
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\ltcaption
+.sty"
+Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
+)
+Package caption Info: supertabular package is loaded.
+)
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstlang1
+.sty"
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+) (DP_Slama_Michal_2018.aux)
+\openout1 = `DP_Slama_Michal_2018.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 82.
+
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+\AtBeginShipoutBox=\box50
+Package hyperref Info: Link coloring OFF on input line 82.
 
 ("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\nameref.
 sty"
@@ -988,33 +1678,33 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 lestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count157
+\c@section@level=\count299
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 57.
-LaTeX Info: Redefining \ref on input line 57.
-LaTeX Info: Redefining \pageref on input line 57.
-LaTeX Info: Redefining \nameref on input line 57.
-(DP_sláma_michal_2018.out) (DP_sláma_michal_2018.out)
-\@outlinefile=\write4
-\openout4 = `DP_sláma_michal_2018.out'.
+LaTeX Info: Redefining \nameref on input line 82.
+LaTeX Info: Redefining \ref on input line 82.
+LaTeX Info: Redefining \pageref on input line 82.
+LaTeX Info: Redefining \nameref on input line 82.
+(DP_Slama_Michal_2018.out) (DP_Slama_Michal_2018.out)
+\@outlinefile=\write8
+\openout8 = `DP_Slama_Michal_2018.out'.
 
 
 ("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.m
 kii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count158
-\scratchdimen=\dimen164
-\scratchbox=\box30
-\nofMPsegments=\count159
-\nofMParguments=\count160
-\everyMPshowfont=\toks25
-\MPscratchCnt=\count161
-\MPscratchDim=\dimen165
-\MPnumerator=\count162
-\makeMPintoPDFobject=\count163
-\everyMPtoPDFconversion=\toks26
+\scratchcounter=\count300
+\scratchdimen=\dimen306
+\scratchbox=\box51
+\nofMPsegments=\count301
+\nofMParguments=\count302
+\everyMPshowfont=\toks55
+\MPscratchCnt=\count303
+\MPscratchDim=\dimen307
+\MPnumerator=\count304
+\makeMPintoPDFobject=\count305
+\everyMPtoPDFconversion=\toks56
 )
 ("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf
 -base.sty"
@@ -1030,52 +1720,63 @@ Package grfext Info: Graphics extension search list:
 (grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
-) [1
-
-{C:/Users/qhxq9u/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-[2
-
-]
-<cvut-logo-bw.pdf, id=45, 554.07pt x 193.29715pt>
-File: cvut-logo-bw.pdf Graphic file (type pdf)
-<use cvut-logo-bw.pdf>
-Package pdftex.def Info: cvut-logo-bw.pdf  used on input line 57.
-(pdftex.def)             Requested size: 184.5pt x 64.36635pt.
+)
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\glossaries-englis
+h\glossaries-dictionary-English.dict"
+Dictionary: glossaries-dictionary, Language: English 
+) (DP_Slama_Michal_2018.glsdefs)
+ABD: EveryShipout initializing macros
+\c@lstlisting=\count306
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
  [1
 
- <./cvut-logo-bw.pdf>] [2
+\openout4 = `DP_Slama_Michal_2018.ist'.
+
+{C:/Users/qhxq9u/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2
+
+]
+<cvut-logo-bw-en.pdf, id=104, 591.64943pt x 193.23091pt>
+File: cvut-logo-bw-en.pdf Graphic file (type pdf)
+<use cvut-logo-bw-en.pdf>
+Package pdftex.def Info: cvut-logo-bw-en.pdf  used on input line 82.
+(pdftex.def)             Requested size: 184.5pt x 60.25772pt.
+ [1
+
+ <./cvut-logo-bw-en.pdf>] [2
 
 ]
 
-LaTeX Font Warning: Font shape `T1/lmr/bx/sc' undefined
-(Font)              using `T1/lmr/bx/n' instead on input line 57.
+LaTeX Font Warning: Font shape `OT1/lmr/bx/sc' undefined
+(Font)              using `OT1/lmr/bx/n' instead on input line 82.
 
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 57.
-("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\t1lmss.fd"
-File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+LaTeX Font Info:    Try loading font information for OT1+lmss on input line 82.
+
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\ot1lmss.fd"
+File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 
-LaTeX Font Warning: Font shape `T1/lmss/bx/sc' undefined
-(Font)              using `T1/lmss/bx/n' instead on input line 57.
+LaTeX Font Warning: Font shape `OT1/lmss/bx/sc' undefined
+(Font)              using `OT1/lmss/bx/n' instead on input line 82.
 
 [3
 
 ] [4
 
 ] [5]
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 57.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 82.
 
 ("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\omslmr.fd"
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 57.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 82.
 
 
 ("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 57.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 82.
 
 [6
 
@@ -1083,127 +1784,153 @@ LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
 
 ] [8
 
-] (DP_sláma_michal_2018.toc
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 4.
-
-("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
-File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 4.
+] (DP_Slama_Michal_2018.toc
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 5.
 
 ("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 4.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 5.
 
 ("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 4.
+(Font)              <10.95> on input line 5.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 4.
+(Font)              <8> on input line 5.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 4.
-)
-[9] [10
+(Font)              <6> on input line 5.
 
-] (DP_sláma_michal_2018.lof) [11] [12
+[9]) [10] (DP_Slama_Michal_2018.lof) [11
 
-]pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
- been already used, duplicate ignored
+] [12
+
+]
+\@gls@deffile=\write9
+\openout9 = `DP_Slama_Michal_2018.glsdefs'.
+
+ (DP_Slama_Michal_2018.tdo)pdfTeX warning (ext4): destination with the same ide
+ntifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.66 \chapter
-             {Polarion} [1
+l.92 \begin{introduction}
+                          [1
 
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.66 \chapter
-             {Polarion} [2
+l.92 \begin{introduction}
+                          [2
 
-]
-! Undefined control sequence.
-l.67 \subchapter
-                {ALM}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[3] [4
+] [3] [4
 
 ] [5] [6
 
 ] [7] [8
 
-] (DP_sláma_michal_2018.bbl [9] [10
+] [9] [10
+
+] [11] [12
+
+]
+[13] [14
+
+] [15] [16
+
+] [17] [18
+
+] [19] [20
+
+] (DP_Slama_Michal_2018.bbl [21] [22
 
 ]
 bibitemlist
+LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 13.
 
-LaTeX Warning: Empty `thebibliography' environment on input line 11.
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\ot1lmtt.fd"
+File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Underfull \hbox (badness 1888) in paragraph at lines 12--14
+[]\OT1/lmr/m/n/10.95 Polarion ALM. [on-line], [cit. 2018-05-01s]. Dos-tupne z:
+ []$\OT1/lmtt/m/n/10.95 https : / /
+ []
 
-) [11] [12
-
-] [13] [14
+) [23] [24
 
 ]
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 211.
+No file DP_Slama_Michal_2018.gls.
+No file DP_Slama_Michal_2018.acr.
+[25] [26
 
+]
 
-("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd"
-File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-[15]
-\tf@toc=\write5
-\openout5 = `DP_sláma_michal_2018.toc'.
+Package caption Warning: Unused \captionsetup[lstlisting] on input line 36.
+See the caption package documentation for explanation.
 
-\tf@lof=\write6
-\openout6 = `DP_sláma_michal_2018.lof'.
+[27]
+\tf@toc=\write10
+\openout10 = `DP_Slama_Michal_2018.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 214.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 214.
- (DP_sláma_michal_2018.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 214.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 214.
-Package rerunfilecheck Info: File `DP_sláma_michal_2018.out' has not changed.
-(rerunfilecheck)             Checksum: FA673800139BA9A4CFF41237182D727D;880.
+\tf@lof=\write11
+\openout11 = `DP_Slama_Michal_2018.lof'.
+
+\tf@tdo=\write12
+\openout12 = `DP_Slama_Michal_2018.tdo'.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 327.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 327.
+ (DP_Slama_Michal_2018.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 327.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 327.
+Package rerunfilecheck Info: File `DP_Slama_Michal_2018.out' has not changed.
+(rerunfilecheck)             Checksum: 86483A7D17336D77C6C4D13D2B1618A4;2707.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 214.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 327.
  ) 
 Here is how much of TeX's memory you used:
- 13411 strings out of 493303
- 188288 string characters out of 3129349
- 311055 words of memory out of 3000000
- 16789 multiletter control sequences out of 15000+200000
- 63195 words of font info for 43 fonts, out of 3000000 for 9000
+ 32517 strings out of 493303
+ 570350 string characters out of 3129349
+ 730040 words of memory out of 3000000
+ 35463 multiletter control sequences out of 15000+200000
+ 55782 words of font info for 40 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,10n,25p,1108b,374s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/qhxq9u/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.e
-nc}{C:/Users/qhxq9u/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mat
-hsy.enc}<C:/Users/qhxq9u/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/l
-m/lmbx10.pfb><C:/Users/qhxq9u/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
-lic/lm/lmbx12.pfb><C:/Users/qhxq9u/AppData/Local/Programs/MiKTeX 2.9/fonts/type
-1/public/lm/lmbxi10.pfb><C:/Users/qhxq9u/AppData/Local/Programs/MiKTeX 2.9/font
-s/type1/public/lm/lmcsc10.pfb><C:/Users/qhxq9u/AppData/Local/Programs/MiKTeX 2.
-9/fonts/type1/public/lm/lmr10.pfb><C:/Users/qhxq9u/AppData/Local/Programs/MiKTe
-X 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Users/qhxq9u/AppData/Local/Programs/M
-iKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Users/qhxq9u/AppData/Local/Program
-s/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Users/qhxq9u/AppData/Local/Pr
-ograms/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/qhxq9u/AppData/L
-ocal/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Users/qhxq9u/AppD
-ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb>
-Output written on DP_sláma_michal_2018.pdf (29 pages, 281856 bytes).
+ 68i,11n,92p,2068b,486s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{glo:alm} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{glo:polarion} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{glo:ml} has been referenced but does not exist, rep
+laced by a fixed one
+
+{C:/Users/qhxq9u/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc
+}{C:/Users/qhxq9u/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathi
+t.enc}{C:/Users/qhxq9u/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-
+rmtt.enc}{C:/Users/qhxq9u/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/
+lm-rmsc.enc}{C:/Users/qhxq9u/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/
+lm/lm-mathsy.enc}<C:/Users/qhxq9u/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
+/public/lm/lmbx10.pfb><C:/Users/qhxq9u/AppData/Local/Programs/MiKTeX 2.9/fonts/
+type1/public/lm/lmbx12.pfb><C:/Users/qhxq9u/AppData/Local/Programs/MiKTeX 2.9/f
+onts/type1/public/lm/lmbxi10.pfb><C:/Users/qhxq9u/AppData/Local/Programs/MiKTeX
+ 2.9/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/qhxq9u/AppData/Local/Programs/
+MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Users/qhxq9u/AppData/Local/Prog
+rams/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Users/qhxq9u/AppData/Local/
+Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Users/qhxq9u/AppData/Lo
+cal/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Users/qhxq9u/AppData
+/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Users/qhxq9u/Ap
+pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/qh
+xq9u/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Use
+rs/qhxq9u/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb>
+Output written on DP_Slama_Michal_2018.pdf (41 pages, 311675 bytes).
 PDF statistics:
- 230 PDF objects out of 1000 (max. 8388607)
- 41 named destinations out of 1000 (max. 500000)
- 70 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 398 PDF objects out of 1000 (max. 8388607)
+ 84 named destinations out of 1000 (max. 500000)
+ 194 words of extra memory for PDF output out of 10000 (max. 10000000)
 

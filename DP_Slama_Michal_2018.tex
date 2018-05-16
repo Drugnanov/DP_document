@@ -6,7 +6,7 @@
 % english thesis in English language
 % hidelinks remove colour boxes around hyperlinks
 
-\documentclass[thesis=M,czech]{FITthesis}[2012/06/26]
+\documentclass[thesis=M,english]{FITthesis}[2012/06/26]
 
 \usepackage[utf8]{inputenc} % LaTeX source encoded as UTF-8
 
@@ -17,18 +17,28 @@
 \usepackage{dirtree} %directory tree visualisation
 
 % % list of acronyms
-% \usepackage[acronym,nonumberlist,toc,numberedsection=autolabel]{glossaries}
-% \iflanguage{czech}{\renewcommand*{\acronymname}{Seznam pou{\v z}it{\' y}ch zkratek}}{}
-% \makeglossaries
+
+
+\usepackage[acronym,nonumberlist,toc,numberedsection=autolabel]{glossaries}
+\iflanguage{english}{\renewcommand*{\acronymname}{List of abbreviations used}}{}
+\makeglossaries
+
+\usepackage{todonotes}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{tabularx}
+\usepackage{spverbatim}
+\usepackage{listings}
+\usepackage{caption}
+
+\DeclareCaptionFont{white}{\color{white}}
+\DeclareCaptionFormat{listing}{\colorbox{gray}{\parbox{\textwidth}{#1#2#3}}}
+\captionsetup[lstlisting]{format=listing,labelfont=white,textfont=white}
 
 \newcommand{\tg}{\mathop{\mathrm{tg}}} %cesky tangens
 \newcommand{\cotg}{\mathop{\mathrm{cotg}}} %cesky cotangens
 
-% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % 
-% ODTUD DAL VSE ZMENTE
-% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % 
-
-\department{Katedra \ldots (DOPLŇTE)}
+\department{Katedra \ldots softwarového inženýrství}
 \title{A Case Study and Proof of Concept of the Application of Machine Learning to Polarion's ALM Software}
 \authorGN{Michal} %(křestní) jméno (jména) autora
 \authorFN{Sláma} %příjmení autora
@@ -42,34 +52,139 @@
 \declarationOfAuthenticityOption{4} %volba Prohlášení (číslo 1-6)
 \keywordsCS{Strojové učení, životní cyklus softwarových aplikací, ALM}
 \keywordsEN{Machine learning, application lifecycle management, ALM}
-% \website{http://site.example/thesis} %volitelná URL práce, objeví se v tiráži - úplně odstraňte, nemáte-li URL práce
 
-
-%Description (English) (max. 1000 characters)
-%The aim of this thesis is to analyze and identify machine learning (ML) use cases that would prove valuable for Polarion’s application lifecycle management (ALM) software. A proof of concept prototype will be supplied for the selected use case.
-
-%1. Analyze and describe Polarion in order to identify suitable use cases to apply ML to. 
-%2. Provide a review of ML frameworks and algorithms that are relevant for such an application.
-%3. Describe several use cases for ML and define their benefit to both Polarion as a business and the users that deploy it. 
-%4. Choose a scenario from the previous investigation and implement a proof of concept prototype.
-%5. Discuss the possibility of the full implementation and deployment of the previous prototype into the production environment.
+%definition for Java source code examples
+\lstset{
+	basicstyle=\footnotesize\ttfamily,
+	numberstyle=\tiny,
+	numbersep=5pt,
+	tabsize=2,
+	extendedchars=true,
+	breaklines=true,
+	%	showstringspaces=true,
+	keywordstyle=\color{red},
+	frame=b,         
+	stringstyle=\color{white}\ttfamily,
+	showspaces=false, 
+	showtabs=false,  
+	xleftmargin=17pt,
+	framexleftmargin=17pt,
+	framexrightmargin=5pt,
+	framexbottommargin=4pt,
+	showstringspaces=false, 
+	breakatwhitespace=true,
+	commentstyle=\color{pgreen},
+	keywordstyle=\color{pblue},
+	stringstyle=\color{pred}    
+}
+\lstloadlanguages{Java}
 
 \begin{document}
 
-% \newacronym{CVUT}{{\v C}VUT}{{\v C}esk{\' e} vysok{\' e} u{\v c}en{\' i} technick{\' e} v Praze}
-% \newacronym{FIT}{FIT}{Fakulta informa{\v c}n{\' i}ch technologi{\' i}}
+
+\newacronym{alm}{ALM}{Application lifecycle management}
+\newacronym{ml}{ML}{Machine learning}
+\newacronym{polarion}{Polarion}{Polarion ALM} 
+
+\todototoc
+\listoftodos
 
 \begin{introduction}
-	%sem napište úvod Vaší práce
+\begin{center}
+	\textit{\textit{The revolution is just beginning, but it’s real – and the time to act is now. In fact, it is yours for the taking to harness a broad platform, services and ecosystem to transform your business. A unified approach to application lifecycle management is not a futuristic technology trend. It’s here today,and the good news is that you don’t have to completely stop and reset, but can smoothly transition from squeezing the most out of your existing business processes to making your organization thrive.}}\\
+Kurt Bittner\\
+Analyst\\
+Forrester Research\\
+\end{center}
 \end{introduction}
 
+
+We live in the world that is changing rapidly. No part of life of free to this changes and the software development needs more then others to adapt every day to new requirements and technologies. This demand leads to a new level of management for software development where tools, process, implementation, testing and reporting are organized on one place with goal to keep and improve traceability and productivity as high as possible. This comes hand by hand with automation in the form of \acrshort{ml} that moves user experience and reporting to the next level. One of such product is \acrshort{polarion}\cite{polarion_alm} and this work will analyze it's user cases and find out what places are good candidates for using \acrshort{ml} techniques to improve business value of the product. 
+
+\chapter{The aim of the thesis}
+
+sThe aim of this thesis is to analyze and identify machine learning (\acrshort{ml}) use cases that would prove valuable for \acrshort{polarion}’s application lifecycle management (\acrshort{alm}) software. A proof of concept prototype will be supplied for the selected use case.
+
+\begin{enumerate}[nosep]
+	\item Analyze and describe \acrshort{polarion} in order to identify suitable use cases to apply ML to. 
+	\item Provide a review of ML frameworks and algorithms that are relevant for such an application.
+	\item Describe several use cases for ML and define their benefit to both \acrshort{alm} as a business and the users that deploy it.
+	\item Choose a scenario from the previous investigation and implement a proof of concept prototype.
+	\item Discuss the possibility of the full implementation and deployment of the previous prototype into the production environment.
+\end{enumerate}
+
 \chapter{Polarion}
-\subchapter{ALM}
+
+Organizations must accelerate innovation to stay competitive
+in most industries. Unlocking team synergies across disparate
+software development teams is paramount. Many organizations
+are still struggling with the old way of doing things.
+They focus on isolated process optimization instead of driving
+business value through comprehensive synchronization. With
+Polarion ALM, customers have been able to get their teams
+out of their silos and orchestrate development efforts across
+the entire application lifecycle. This approach has empowered
+stakeholders to better perform tasks in context and quickly
+make sound decisions based on real-time access to
+information.
 
 
-\chapter{Analýza a návrh}
+Siemens PLM Software, a business unit of the Siemens
+Digital Factory Division, is a leading global provider of
+product lifecycle management (PLM) and manufacturing
+operations management (MOM) software, systems and
+services with over 15 million licensed seats and more than
+140,000 customers worldwide. Headquartered in Plano,
+Texas, Siemens PLM Software works collaboratively with its
+customers to provide industry software solutions that help
+companies everywhere achieve a sustainable competitive
+advantage by making real the innovations that matter. For
+more information on Siemens PLM Software products and
+services, visit www.siemens.com/plm.
 
-\chapter{Realizace}
+\section{ALM}
+
+\section{Reporting}
+
+\section{Using}
+
+\subsection{Licenses}
+
+\chapter{Machine learning}
+
+\section{Frameworks}
+
+\subsection{TensorFlow}
+
+\subsection{Theano}
+
+\subsection{Caffe}
+
+\subsection{AML - AWS}
+
+\subsection{Microsoft CNTK}
+
+\section{Algorithms}
+
+\subsection{LDA}
+
+\chapter{Creating work items with ML}
+
+\section{User experience}
+
+\section{Architecture}
+
+\section{Realization of prototype}
+
+\chapter{ML in production environment}
+
+\chapter{Security}
+
+implement own ML server using just shareable libraries and provides to customers ability to using ML technics.
+
+\chapter{Validity}
+
+\chapter{The value of the enhancement}
 
 \begin{conclusion}
 	%sem napište závěr Vaší práce
@@ -80,11 +195,14 @@
 
 \appendix
 
-\chapter{Seznam použitých zkratek}
-% \printglossaries
+\chapter{List of abbreviations used}
+
+\printglossaries
+
 \begin{description}
-	\item[GUI] Graphical user interface
-	\item[XML] Extensible markup language
+	\item[ALM] Application lifecycle management
+	\item[Polarion] Polarion ALM
+	\item[ML] Machine learning 
 \end{description}
 
 
@@ -194,16 +312,11 @@
 % 
 % % % % % % % % % % % % % % % % % % % % % % % % % % % % 
 
-\chapter{Obsah přiloženého CD}
-
-%upravte podle skutecnosti
+\chapter{CD contains}
 
 \begin{figure}
 	\dirtree{%
 		.1 readme.txt\DTcomment{stručný popis obsahu CD}.
-		.1 exe\DTcomment{adresář se spustitelnou formou implementace}.
-		.1 src.
-		.2 impl\DTcomment{zdrojové kódy implementace}.
 		.2 thesis\DTcomment{zdrojová forma práce ve formátu \LaTeX{}}.
 		.1 text\DTcomment{text práce}.
 		.2 thesis.pdf\DTcomment{text práce ve formátu PDF}.

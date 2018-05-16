@@ -1,0 +1,90 @@
+\ifglsentryexists{alm}{}%
+{%
+\gls@defglossaryentry{alm}%
+{%
+name={ALM},%
+sort={ALM},%
+type={acronym},%
+first={Application lifecycle management\glsspace (ALM)},%
+firstplural={Application lifecycle managements\glsspace (ALMs)},%
+text={ALM},%
+plural={ALMs},%
+description={Application lifecycle management},%
+descriptionplural={Application lifecycle management\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Application lifecycle management},%
+longplural={Application lifecycle managements},%
+short={ALM},%
+shortplural={ALMs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{ml}{}%
+{%
+\gls@defglossaryentry{ml}%
+{%
+name={ML},%
+sort={ML},%
+type={acronym},%
+first={Machine learning\glsspace (ML)},%
+firstplural={Machine learnings\glsspace (MLs)},%
+text={ML},%
+plural={MLs},%
+description={Machine learning},%
+descriptionplural={Machine learning\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Machine learning},%
+longplural={Machine learnings},%
+short={ML},%
+shortplural={MLs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{polarion}{}%
+{%
+\gls@defglossaryentry{polarion}%
+{%
+name={Polarion},%
+sort={Polarion},%
+type={acronym},%
+first={Polarion ALM\glsspace (Polarion)},%
+firstplural={Polarion ALMs\glsspace (Polarions)},%
+text={Polarion},%
+plural={Polarions},%
+description={Polarion ALM},%
+descriptionplural={Polarion ALM\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Polarion ALM},%
+longplural={Polarion ALMs},%
+short={Polarion},%
+shortplural={Polarions},%
+counter={page},%
+parent={},%
+%
+}%
+}%
