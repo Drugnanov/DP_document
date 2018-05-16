@@ -1,0 +1,30 @@
+\ifglsentryexists{ALM}{}%
+{%
+\gls@defglossaryentry{ALM}%
+{%
+name={Application lifecycle management},%
+sort={Application lifecycle management},%
+type={acronym},%
+first={\par \glsspace (Application lifecycle management)},%
+firstplural={\par s\glsspace (Application lifecycle managements)},%
+text={Application lifecycle management},%
+plural={Application lifecycle managements},%
+description={\par },%
+descriptionplural={\par \acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={\par },%
+longplural={\par s},%
+short={Application lifecycle management},%
+shortplural={Application lifecycle managements},%
+counter={page},%
+parent={},%
+%
+}%
+}%

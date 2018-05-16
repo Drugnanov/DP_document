@@ -83,6 +83,7 @@
 
 
 \newacronym{alm}{ALM}{Application lifecycle management}
+\newacronym{plm}{PLM}{Product lifecycle management}
 \newacronym{ml}{ML}{Machine learning}
 \newacronym{polarion}{Polarion}{Polarion ALM} 
 
@@ -91,19 +92,21 @@
 
 \begin{introduction}
 \begin{center}
-	\textit{\textit{The revolution is just beginning, but it’s real – and the time to act is now. In fact, it is yours for the taking to harness a broad platform, services and ecosystem to transform your business. A unified approach to application lifecycle management is not a futuristic technology trend. It’s here today,and the good news is that you don’t have to completely stop and reset, but can smoothly transition from squeezing the most out of your existing business processes to making your organization thrive.}}\\
+	\textit{“The revolution is just beginning, but it’s real – and the time to act is now. In fact, it is yours for the taking to harness a broad platform, services and ecosystem to transform your business. A unified approach to application lifecycle management is not a futuristic technology trend. It’s here today,and the good news is that you don’t have to completely stop and reset, but can smoothly transition from squeezing the most out of your existing business processes to making your organization thrive.“}\\
 Kurt Bittner\\
 Analyst\\
 Forrester Research\\
 \end{center}
 \end{introduction}
 
+Author of this thesis has been working in software development for more than 10 years. Based on this experiences he got to a question how to manage and keep up to date info for large project where more than dozens people are involved. This is also why he chooses to work as a developer of \acrshort{polarion}.
+
 
 We live in the world that is changing rapidly. No part of life of free to this changes and the software development needs more then others to adapt every day to new requirements and technologies. This demand leads to a new level of management for software development where tools, process, implementation, testing and reporting are organized on one place with goal to keep and improve traceability and productivity as high as possible. This comes hand by hand with automation in the form of \acrshort{ml} that moves user experience and reporting to the next level. One of such product is \acrshort{polarion}\cite{polarion_alm} and this work will analyze it's user cases and find out what places are good candidates for using \acrshort{ml} techniques to improve business value of the product. 
 
 \chapter{The aim of the thesis}
 
-sThe aim of this thesis is to analyze and identify machine learning (\acrshort{ml}) use cases that would prove valuable for \acrshort{polarion}’s application lifecycle management (\acrshort{alm}) software. A proof of concept prototype will be supplied for the selected use case.
+The aim of this thesis is to analyze and identify machine learning (\acrshort{ml}) use cases that would prove valuable for \acrshort{polarion}’s application lifecycle management (\acrshort{alm}) software. A proof of concept prototype will be supplied for the selected use case.
 
 \begin{enumerate}[nosep]
 	\item Analyze and describe \acrshort{polarion} in order to identify suitable use cases to apply ML to. 
@@ -115,44 +118,253 @@ sThe aim of this thesis is to analyze and identify machine learning (\acrshort{m
 
 \chapter{Polarion}
 
-Organizations must accelerate innovation to stay competitive
-in most industries. Unlocking team synergies across disparate
-software development teams is paramount. Many organizations
-are still struggling with the old way of doing things.
-They focus on isolated process optimization instead of driving
-business value through comprehensive synchronization. With
-Polarion ALM, customers have been able to get their teams
-out of their silos and orchestrate development efforts across
-the entire application lifecycle. This approach has empowered
-stakeholders to better perform tasks in context and quickly
-make sound decisions based on real-time access to
-information.
+Organizations are often struggling with the old processes of doing things. They focus on isolated process optimization instead of driving
+business value through comprehensive synchronization. With \acrshort{polarion}, customers have been able to get their teams out of their silos and orchestrate development efforts across the entire application lifecycle. This approach has empowered stakeholders to better perform tasks in context and quickly make sound decisions based on real-time access to information.
 
-
-Siemens PLM Software, a business unit of the Siemens
-Digital Factory Division, is a leading global provider of
-product lifecycle management (PLM) and manufacturing
-operations management (MOM) software, systems and
-services with over 15 million licensed seats and more than
-140,000 customers worldwide. Headquartered in Plano,
-Texas, Siemens PLM Software works collaboratively with its
-customers to provide industry software solutions that help
-companies everywhere achieve a sustainable competitive
-advantage by making real the innovations that matter. For
-more information on Siemens PLM Software products and
-services, visit www.siemens.com/plm.
+Now let's take a look what \acrshort{polarion} comes with and how improves old fashion processes.
 
 \section{ALM}
 
-\section{Reporting}
+\begin{center}
+	\textit{“ALM is a paradox in the software engineering
+		world, where engineers recognize
+		the need for requirements management,
+		change and configuration management, QA
+		and test management, and so on, but are
+		not familiar with the term ALM. This is a
+		serious problem because ALM is necessary
+		to manage software complexity, and the rise
+		of embedded software in engineered products
+		needs mature management processes
+		and tools.”}\\
+	Michael Azoff\\
+	Principal Analyst\\
+\end{center}
 
-\section{Using}
+\acrshort{polarion} is a \acrshort{alm} enterprise solution to deal with modern-day challenges. It has emerged with the intent to fasttrack
+innovation, while safeguarding quality, functional safety and compliance to satisfy that speed in developing and delivering innovative applications is becoming essential to the success of businesses in any industry.\\
 
-\subsection{Licenses}
+\pagebreak
+\acrshort{alm} points to these three aspects:
+\begin{enumerate}[nosep]
+	\item application has to be delivered as fast as possible and the time is a new strategy weapon 
+	\item information technologies are fuel accelerating business success
+	\item errors are not forgiven and can go viral in instant. QA rules must be set and obeyed.
+\end{enumerate}
+
+\section{A unified solution}
+
+\acrshort{polarion} is a single solution providing a solution to build whole application from the ground. At the same time it is ensured that data and logic is in persistent state during entire process.\\ 
+
+This helps with regulations. This basic word means a lot in the world of software development where processes are regulated by intern or external subject and have essential impact on the cost of product not only during development but after it's release.\\
+
+What \acrshort{alm} comes with?\\
+
+The main advantages attributed to ALM process (graphically shown in picture \ref{fig:alm_unified_solutionc}):
+\begin{itemize}[nosep]
+\item Agility through improved collaboration.
+\item Productivity through process integration.
+\item Auditability through traceability and accountability.
+\item Quality through transparency and automation.
+\item Innovation through unlocked team synergy.
+\item Predictability through better estimation and reporting.\\
+\end{itemize}
+
+\begin{figure}[h!]\centering
+	\includegraphics[width=1\textwidth]{pictures/alm_unified_processes}
+	\caption{A unified solution for ALM \cite{polarion_alm}}\label{fig:alm_unified_solutionc}
+\end{figure}
+
+Let's a look more close to some of these advantage.
+
+\subsection{Agility through improved collaboration}
+
+If faster time-to-market is a key success factor in today’s competitive environment, real-time collaboration and contextual performance 
+of tasks are the means to stay ahead. In many cases, lightweight Agile software development methods have replaced or augmented incremental waterfall methods to release products more frequently.\\
+
+\acrshort{polarion} provides flexible support for Agile or Lean, as well as traditional and hybrid environments, including any customized Scrum, feature-driven development, Kanban, extreme programming, or rational unified process methodologies.\\
+
+The \acrshort{polarion} 100 percent browser-based architecture makes information universally accessible from anywhere for any collaborator. Collaboration is so easy and teams divided around the world can communicate to each other and solve tasks together.\\
+
+\subsection{Productivity through process integration}
+
+Major part of \acrshort{polarion} customers apply a combination of Agile and DevOps methodologies The \acrshort{polarion} solution is the perfect conduit to DevOps, allowing easy synchronization of development and delivery processes spanning requirements definition, feature development, quality testing, and maintenance. Any problem can be easily tracked back to the source and time of maintenance is so rapidly reduced even to real time fixes.
+
+\acrshort{polarion} supports integration with other tools. This is done by extension or native integration. Thanks this customers can still use their own tools and data repositories and just integrate them with \acrshort{polarion}. \acrshort{polarion} has it's place on market for many years and during this time many extensions were created by customers or professional services and placed to official \acrshort{polarion}'s marketplace from which can be freely downloaded. Common customer will find there with high probability a solution for his needs.  
+
+\subsection{Auditability through traceability and accountability}
+
+\begin{center}
+	\textit{“We chose Polarion ALM at Phoenix Contact
+		in the Business Unit Automation to consolidate
+		our very heterogeneous tool
+		landscape – PVCS, Bugzilla, OneTree. With
+		Polarion ALM we achieved transparency on
+		all levels of development and we got fast
+		acceptance in the teams. We now see exactly
+		and in detail the status and the progress in
+		our projects in the different project phases.”}\\
+	Andreas Deuter\\
+	Phoenix Contact Electronics\\
+\end{center}
+
+Every change is stored. \acrshort{polarion} stores all you need to track down what, how and by whom happened. In enterprise environment where is working hundreds and hundreds people it's hard to keep in touch who does what. A place where you see it all is priceless and helps to minimize risks of black holes when tasks is left or forgotten without any notice. Such a missing task can have very serious impact on cost or even release date itself.  
+
+\subsection{Quality through transparency and automation}
+
+A big problem with this approach is that team members usually get the information about what they need to accomplish from static documents that tend to go out-of-date as quickly as they were created. But perhaps worst of all, changes and ad hoc decisions often fail to take into account the downstream impact.\\
+
+Processes of \acrshort{polarion} provide way to track all requirement changes and so help to keep in touch with actual state of what needs to be done. For instance if product owner change a task developer is informed and can react by accepting this task or request more information about this change. In both cases every side knows what happened and what comes next.\\
+
+Time when all operations were done only by people is over and automation plays important role in IT management. \acrshort{polarion} provides environment to run automatic jobs to build, test, check, ... or whatever customer may need. Customers are free to implements their own job and run them in the same way as native ones.
+
+\subsection{Automating proof of compliance}
+
+On the most important aspect is document workflow and will need this further in thesis.\\ 
+
+You can understand to document as a normal word document but each task (in \acrshort{polarion} called work item) is external object. That means document is composed from its own text (headings, descriptions...) and work items that also have its description which is shown in the document. All theses together makes customer feel that is working with one unit. If customer wants to edit work item this can be done on document or via work item view easily accessible from document or another part of \acrshort{polarion} as working with work items is the main activity and processes are built on them. Let's look at the workflow shown in \ref{fig:document_workflow}.
+
+\begin{figure}[h!]\centering
+	\includegraphics[width=1\textwidth]{pictures/document_workflow}
+	\caption{Document workflow \cite{polarion_alm}}\label{fig:document_workflow}
+\end{figure}
+
+Picture \ref{document_workflow} shows two separated workflows. One for document and one for work items. Workflows itself does not need explanation but the important part is the relation between them. Document can not move to a next state unless all it's work items are also moved to a desired state. This keep traceability and collaboration consistence by pushing team to accept it's work and remove not desired drafts, fakes and other stuff that is not related to real work. 
+
+\subsection{Innovation through unlocked team synergy}
+
+We live in information age. Information are all around us and the hardest part is to find what is important for us or company and what can be forgotten. Team is a great way how to share this information but what if team has many people? \acrshort{polarion} contains way how to cooperate and improve your know how as fast possible and share it with other co-workers. Time to solve already solved issued is rapidly reduced and new task can be done based on results of previous work that leads to more accurate estimations and risk assessment.
+
+\section{Development process in complex or regulated environments}
+
+Most collaborators don’t have the unified tools environment necessary to get them on the same page at the same time, however, and resulting disconnects have increasingly negative impact, disrupting industries with new records of regulatory warning letters, product failures, recalls, legal sanctions, loss in market position and associated cost explosions.\\
+
+Topping the list of challenges in the new world of software driven innovation are the need for tight orchestration across disparate teams, growing regulatory demands and the increasing role of suppliers as innovation partners. Companies that are able to shift gears to meet the growing complexity will be well positioned to secure new market opportunities.
+
+Common first step is to welcome agile approach. Companies have different expectations about it's benefits shows in picture below \ref{fig:agile_benefits}.
+
+\begin{figure}[h!]\centering
+	\includegraphics[width=1\textwidth]{pictures/agile_benefits}
+	\caption{Companies expectation from using Agile\cite{polarion_alm}}\label{fig:agile_benefits}
+\end{figure}
+
+Result is clear. Companies feel that IT is starting to be more and more complex and demands from business is harder to satisfy. \acrshort{polarion} support all agile methods and is ready to help company improves its environment. More importantly this agile templates (how are called) can be modified based on customers demands to fit their needs and specify requirements.
+
+\begin{center}
+	\textit{“Siemens PLM Software’s Polarion
+		products presents the opportunity to
+		allocate our complex and formal
+		development rules via one state-of-theart
+		tool. The modularity and flexibility
+		make the adjustment to our needs simple
+		and effective. The traceability and
+		workflow features are convincing and
+		really assist the everyday activities.”}\\
+Christian Kettl\\
+MTU Aero Engines\\
+\end{center}
+
+\subsection{Integration of ALM and PLM}
+
+All the time we are talking about \acrshort{alm} but the main goal is to provide entire solution for product application lifecycle \acrshort{plm} where \acrshort{alm} is just a part of it. Where \acrshort{alm} is concentrated around application there \acrshort{plm} is the process of managing the lifecycle of a product itself from inception to final real item. \acrshort{polarion} is able to provide this functionality by integration with external tool that can use \acrshort{polarion} as the source of \acrshort{alm} work flow.\\
+
+ALM-PLM integration benefits include:
+
+\begin{itemize}[nosep]
+	\item Integrated processes make cross-discipline synchronization
+	very easy.
+	\item Access to product and software requirements supports
+	comprehensive understanding of the product definition.
+	\item Bi-directional linking enables cross-discipline lifecycle
+	management and audit readiness.
+	\item Change propagation and automatic notification enable
+	comprehensive change impact analysis.
+	\item Synchronized testing and reporting support cross-functional
+	defect management.
+	\item Linked, versioned data architecture without data duplication
+	delivers closed-loop decision making.
+	\item Integration makes holistic compliance reporting for every
+	aspect of the manufacturing process a reality.
+\end{itemize}
+
+\section{Accelerate collaboration}
+
+Development environments to synchronize team efforts have proliferated. But most of them are cobbled together, posing a wide range of disadvantages. Leveraging \acrshort{polarion} flexibility, customers can choose from different configurations to provide all collaborators with the level of information and functionality they need, while keeping the total cost of ownership the lowest in the industry.
+
+These are the most common:
+\begin{itemize}[nosep]
+	\item Difficulty linking and tracing artifacts across differently
+	structured repositories.
+	\item Problems of low visibility into project status, impact of
+	changes and release predictability.
+	\item Lack of a cohesive feedback loop that brings important
+	context to every stakeholder.
+\end{itemize}
+
+\begin{figure}[h!]\centering
+	\includegraphics[width=1\textwidth]{pictures/collaboration_workflow}
+	\caption{Collaboration traceability workflow \cite{polarion_alm}}\label{fig:collaboration_workflow}
+\end{figure}
+
+\subsection{The dilemma of requirements documentation}
+
+We need to be sure that all side speaks with dialect that respect specify domain. This requirement typically encompass varying pieces of content, including:
+\begin{itemize}[nosep]
+	\item Paragraphs to provide overviews and explain details.
+	\item Lists and tables to detail structured data and rules.
+	\item Images and models to illustrate requirements.
+	\item Flow charts to describe a series of events.
+\end{itemize}
+
+\subsection{"easy-as-Word functionality"}
+
+If we spoke that the base object in \acrshort{polarion} is Document we shall expect that customers will use document in the same way as if they were using in the Microsoft Word. Fortunately behaviour of document in \acrshort{polarion} is very similar in both using and how looks like.\\
+
+Customers can use known buttons and tools from Microsoft Word to edit and interact with document and this speed up learning curve a lot. 
+
+\subsection{Real-time access to content}
+
+Instead of Microsoft word document is \acrshort{polarion} document fully online and each change is immediately visible to everyone. Many users can simultaneously edit one item and \acrshort{polarion} then handle merging of changes. Of course that this can lead to conflict and in this case user have to handle his changes by own.\\ 
+
+Consequently, companies that use Polarion Requirements are no longer forced to rely on meetings, sending emails, or circulating formal documents to make decisions, even with their partners and other external collaborators.
+
+\subsection{Tie in domain experts with their tools}
+
+As was said previously \acrshort{polarion} is expandable. Extensions can change or improve some existing functions or add completely new, transfer data from or to \acrshort{polarion} or connect it to external tools providing new functionality.\\
+
+To complete the picture, connectors for popular third-party tools such as HP® Quality Center® and Atlassian® Jira® are available, and so is an open and fully documented Java API. As a result, a strong community of more than 100,000 members has formed and created extensions, integrations and customizations.
+
+\subsection{Deliver release predictability}
+
+Because every artifact change in the Polarion product is tracked and reported using the underlying configuration management system, customers automatically gain a complete audit trail of who did what, when and why, making it impossible to change anything without leaving a trace.\\
+
+“Visual Diff” functionality is available to easily detect the changes between different states, and customers report that teams that take advantage of change management and impact analysis are much more successful.
+
+\subsection{Reduce time-to-marker}
+
+All previous parts have one main purpose to deliver product in the shortest time but ensure its quality and traceability.\\
+ 
+
+\section{Medical domain}
+
+One the strongest part of \acrshort{polarion} is in ability to satisfy regulation demands from various types of institutions that making development more complex then before. \\
+
+Lets talk about medical domain.\\
+
+Medical device product development work is a highly integrated and regulated process. Two key standards incorporated into medical device risk management are International Organization for Standardization (ISO) 14971:2009, which specifies the process for a manufacturer to identify the hazards associated with medical devices; and ISO Technical Information Report (TIR) 24971:2013, which provides guidance in addressing specific areas of ISO 14971 when implementing risk management. Europe has added to the mix with EN ISO 14971:2012, which is different in several important aspects, and is required if a company is selling medical devices into Europe. You can see this process in Medical risk management workflow picture \ref{fig:medical_standard}.\\
+
+It was just a example how problematic and regulated this domain is.\\
+
+\begin{figure}[h!]\centering
+	\includegraphics[width=1\textwidth]{pictures/medical_standard}
+	\caption{Medical risk management workflow \cite{polarion_alm}}\label{fig:medical_standard}
+\end{figure}
+
+To describe how exactly is \acrshort{polarion} used in medical domain s beyond the scope of this thesis. But one point are data. Data are in medical domain valuable asset whose using is restricted by law and violation has serious financial and social impart. If we want to use this data we have to be use that all rules are obeyed and data are safe before abuse or stolen.
 
 \chapter{Machine learning}
 
-\section{Frameworks}
+
 
 \subsection{TensorFlow}
 

@@ -28,6 +28,36 @@ parent={},%
 %
 }%
 }%
+\ifglsentryexists{plm}{}%
+{%
+\gls@defglossaryentry{plm}%
+{%
+name={PLM},%
+sort={PLM},%
+type={acronym},%
+first={Product lifecycle management\glsspace (PLM)},%
+firstplural={Product lifecycle managements\glsspace (PLMs)},%
+text={PLM},%
+plural={PLMs},%
+description={Product lifecycle management},%
+descriptionplural={Product lifecycle management\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Product lifecycle management},%
+longplural={Product lifecycle managements},%
+short={PLM},%
+shortplural={PLMs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
 \ifglsentryexists{ml}{}%
 {%
 \gls@defglossaryentry{ml}%
