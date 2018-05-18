@@ -86,6 +86,12 @@
 \newacronym{plm}{PLM}{Product lifecycle management}
 \newacronym{ml}{ML}{Machine learning}
 \newacronym{polarion}{Polarion}{Polarion ALM} 
+\newacronym{pof}{PoF}{Proof of Concept} 
+\newacronym{rnn}{RNN}{Recurrent neural network}
+\newacronym{aws}{AWS}{Amazon web services}
+\newacronym{gui}{GUI}{Graphic user interface}
+\newacronym{cntk}{CNTK}{Microsoft Cognitive Toolkit}
+\newacronym{lda}{LDA}{Latent Dirichlet allocation}
 
 \todototoc
 \listoftodos
@@ -119,9 +125,12 @@ The aim of this thesis is to analyze and identify machine learning (\acrshort{ml
 \chapter{Polarion}
 
 Organizations are often struggling with the old processes of doing things. They focus on isolated process optimization instead of driving
-business value through comprehensive synchronization. With \acrshort{polarion}, customers have been able to get their teams out of their silos and orchestrate development efforts across the entire application lifecycle. This approach has empowered stakeholders to better perform tasks in context and quickly make sound decisions based on real-time access to information.
+business value through comprehensive synchronization. With \acrshort{polarion}, customers have been able to get their teams out of their silos and orchestrate development efforts across the entire application lifecycle. This approach has empowered stakeholders to better perform tasks in context and quickly make sound decisions based on real-time access to information.\\
+
+You can try \acrshort{polarion} on \url{https://polarion.plm.automation.siemens.com/}.\\
 
 Now let's take a look what \acrshort{polarion} comes with and how improves old fashion processes.
+
 
 \section{ALM}
 
@@ -160,7 +169,7 @@ This helps with regulations. This basic word means a lot in the world of softwar
 
 What \acrshort{alm} comes with?\\
 
-The main advantages attributed to ALM process (graphically shown in picture \ref{fig:alm_unified_solutionc}):
+The main advantages attributed to ALM process (graphically shown in the picture \ref{fig:alm_unified_solutionc}):
 \begin{itemize}[nosep]
 \item Agility through improved collaboration.
 \item Productivity through process integration.
@@ -241,7 +250,7 @@ Most collaborators don’t have the unified tools environment necessary to get t
 
 Topping the list of challenges in the new world of software driven innovation are the need for tight orchestration across disparate teams, growing regulatory demands and the increasing role of suppliers as innovation partners. Companies that are able to shift gears to meet the growing complexity will be well positioned to secure new market opportunities.
 
-Common first step is to welcome agile approach. Companies have different expectations about it's benefits shows in picture below \ref{fig:agile_benefits}.
+Common first step is to welcome agile approach. Companies have different expectations about it's benefits shows in the picture below \ref{fig:agile_benefits}.
 
 \begin{figure}[h!]\centering
 	\includegraphics[width=1\textwidth]{pictures/agile_benefits}
@@ -364,21 +373,200 @@ To describe how exactly is \acrshort{polarion} used in medical domain s beyond t
 
 \chapter{Machine learning}
 
+It's over 50 years since the first mention of \acrshort{ml} by Arthur Lee Samuel in his study \textit{Some Studies in Machine Learning Using the Game of Checkers}\cite{ml_first_occurence}. At that time it was just an idea IT was not ready to support it. But now we are fully in information age. Machines are able to calculate incredible fast and we are able to store all data what we need. From this \acrshort{ml} has risen and companies from every corner domains have realised that \acrshort{ml} can improve their product significantly or even create entirely new ones.\\
+
+The path from just a theory to practical usage was long and hard \cite{ml_history}.\\
+
+\begin{itemize}[nosep]
+	\item 1979 — Students at Stanford University invent the “Stanford Cart” which can navigate obstacles in a room on its own.\\
+	- If you at it from today the achievement is a bit funny but on the other hand it is almost 40 years old.
+	\item 1997 — IBM Deep Blue Beats Kasparov\\
+	- You sure remember this event. It was also  moment when author of this thesis heard about \acrshort{ml} for the first time along side with public. Machines stopped to be perceived just like calculators and got a status of thinking think.
+	\item 2016 — Beating Humans in Go\\
+	 - Google's AlphaGo was able to beat professional human player using a combination of machine learning and tree search techniques. What will be next? 
+\end{itemize}
+
+\pagebreak
+During MLP 2018 \cite{mlp2018_microsoft} was presented a heartbreaking user case for face recognition. Try to imagine nature disaster leading to thousands and thousands refugees. Families are divided and with all that chaos around it is impossible to find each other. Depression is rising and may lead to panic or violence on himself or someone else. \acrshort{ml} comes with simple idea. Just take a picture of yourself and it will find your relatives. How? \acrshort{ml} has learnt on data from other families and find out what common family characters are and how can be used. Based on this \acrshort{ml} is able to say with high probability if someone is related to someone. \\
+
+What makes this examples so special? This user case uses \acrshort{ml} in a new way but algorithms and frameworks were already here. Data was provided, model was created and it works. Sounds pretty easy and of course reality was a bit complicated but leave us a message where the current state of \acrshort{ml}. Companies can use existing implementations without deep knowledge of complicated algorithms and may straightly start with their own problems, business case and see results in a short time.\\
+
+It was said that with using of existing solutions \acrshort{pof} should not take more than 2 months according to learning task and processed data.
+
+Learning can be done in different ways: 
+\begin{itemize}[nosep]
+\item Supervised learning: relies on data where the data are annotated and algorithm comes through them and tries to find similarities. For example, we want to distinguish between pictures of cats and dogs. Algorithm will go through on lots of annotated pictures and classify them. After it algorithm will be able correctly annotated new pictures but the main disadvantage is need of a large amount of preprocessed data. 
+\item Semi-supervised learning: algorithm does not have any annotations. Again a large amount of data are provided to algorithm and with some characteristics what we want to find. In our case of cats and dogs we want to separate pictures into two groups. During this separation algorithm will learn rules how cats and dogs look like. Compared to the previous one we are good with raw data and no preprocessing is needed.
+\item Reinforcement learning: Chess play is good example of this learning when want to win. Algorithm gets set of plays with moves and results and it learns on this trying to find best moves leading to victory. In case of games this approach has a great advantage that algorithm can play with himself and play many games in a short time that is for people question of minutes or hours.
+\end{itemize}
 
 
-\subsection{TensorFlow}
+For the first Let's see what \acrshort{ml} frameworks or libraries are available.
 
-\subsection{Theano}
+\section{TensorFlow}
 
-\subsection{Caffe}
+TensorFlow\cite{ml_tensorflow} is an open source software library with strong support for machine learning and deep learning and the flexible numerical computation core is used across many other scientific domains. Developed by Google for its internal usage but fast became one the most used \acrshort{ml} framework. The reason for this is the ease with which developers can build and deploy applications.
 
-\subsection{AML - AWS}
+Main focused is on deep learning and has more tools to support reinforcement learning and other algorithms. Deep learning concept is shown in the figure \ref{fig:ml_tensorflow_dl}.
 
-\subsection{Microsoft CNTK}
+\begin{figure}[h!]\centering
+	\includegraphics[width=1\textwidth]{pictures/ml_tensorflow_dl}
+	\caption{Deep learning concept of Tensorflow \cite{ml_tensorflow_dl}}\label{fig:ml_tensorflow_dl}
+\end{figure}
 
-\section{Algorithms}
+Tensorflow has much better performance and customizability, but the learning curve is much steeper as you are not just plugging in data and labels into a constructor, but are actually creating the layers which will make up your model. For its using you need solid understanding of machine learning and mathematical concepts especially linear algebra and calculus.
+\pagebreak
 
-\subsection{LDA}
+\section{PyTorch}
+
+A Python version of Torch, known as Pytorch, was open-sourced by Facebook in January 2017. It is based on dynamic computation graphs. This has a lot of useful benefits for certain types of \acrshort{rnn}, situations where you need to generate weights and things where the very structure of the network changes.\\
+
+PyTorch\cite{ml_pytorch} also has a really nice interface and has the support of Facebook. And contains lots of modular pieces that are easy to combine. The downsides are that it’s a relatively newer framework, so there’s not many integrations with it, not much community and not many papers implemented in it. And note that dynamic computational graphs will make many things rather inefficient because lacking static optimizations.
+
+\section{Keras}
+
+Keras was created by Francois Chollet, a software engineer at Google and is a deep-learning library that sits atop TensorFlow and Theano, providing an intuitive AP that is inspired by Torch and its development is fast growing.\\
+
+On the other hand as Keras\cite{ml_keras} is good in rapid prototyping it lack in flexibility.
+
+\section{Caffe2}
+
+Caffe2\cite{ml_caffe2} with C++ engine is a successor to the original Caffe and is the second deep-learning framework to be backed by Facebook after Torch/PyTorch. The main difference is that Caffe2 is more scalable and light-weight but rather limited in flexibility. Good for smartphone inference.
+
+\section{Amazon web services}
+
+\acrshort{aws} provides a low-cost, scalable and highly reliable infrastructure platform in the cloud. This has been adopted by thousands of businesses globally. Australia, the US, Japan, Europe, Singapore and Brazil are among the data center locations. The locations are widespread to make sure the system is robust and secured against the impact of outages or other such problems.\\
+
+Advantages\cite{ml_aws_advantages} 
+\begin{itemize}[nosep]
+	\item Security.\\
+-\acrshort{aws} conducts regular audits to ensure its infrastructural security. It has implemented best practices in security and also provides documentation on how to deploy the security features. It ensures the availability, integrity and confidentiality of your data and provides ‘end to end’ privacy and ‘end to end’ security.
+	\item Cost-Effectiveness\\
+-You consume only as much storage or computing power as required. No upfront investment or minimum expenditure is required. Generally, it is not easy to predict the requirements for the resources. So, you might allocate fewer resources than required and impact customer satisfaction or you might allocate excessive resources and not be able to maximize return on investment (ROI).
+	\item Flexibility and Openness\\
+- You can use the programming languages, architectures, operating systems and databases you are familiar with. In this manner, there won’t be any need for your IT personnel to pick up new skills and the overall time to market and productivity will improve. 
+	\item Elasticity and Agility\\
+- allows you experiment and innovate quickly through its huge global cloud infrastructure. You can quickly scale up or scale down on the basis of demand. You can also use new applications, rather than wait for months for hardware.\\
+\end{itemize}
+
+Common company solves a problems those can be group by\cite{ml_aws_benefits}
+\begin{itemize}[nosep]
+\item Overspending on hardware and storage capacity. 
+\item Business leaders want IT to help preserve cash. 
+\item A non-standardized IT environment and platform is expensive from a  security, support and training perspective.\\
+\end{itemize}
+
+All these problems are solved by \acrshort{aws}.\\
+
+\acrshort{aws} provides wide range of services shown in the picture below \ref{fig:ml_aws_sagemaker_stack}.
+
+\begin{figure}[h!]\centering
+	\includegraphics[width=1\textwidth]{pictures/ml_aws_sagemaker_stack}
+	\caption{AWS ML stack \cite{ml_aws}}\label{fig:ml_aws_sagemaker_stack}
+\end{figure}
+
+\subsection{Frameworks and infrastructure}
+
+At the low end computation customers can choose from the most used frameworks:
+\begin{itemize}[nosep]
+	\item Mxnet 
+	\item TensorFlow 
+	\item Caffe2
+	\item Keras
+	\item CNTK
+	\item PyTorch
+	\item Gluon
+\end{itemize}
+
+Using is then just about calling united interface without dependence with framework was chosen. It bring great for testing different approaches in a short time.
+
+\subsection{Application services}
+
+It is SaaS layer with applications ready for use. Customers do not need to implement their own solutions to test their data in common cases and can start to use it immediately.
+
+
+\subsection{Platform services}
+
+On this level resides what we can expect except one and this is Amazon SageMaker.
+
+Amazon realized that developers need a fast way how to build, train and deploy machine learning models with as litter effort as possible. And for this purpose SageMaker was created.
+
+Let's look closer on Amazaon SageMaker.
+
+\subsection{SageMaker} 
+
+Amazon SageMaker is a fully-managed platform that enables developers and data scientists to quickly and easily build, train, and deploy machine learning models at any scale with easy to use \acrshort{gui}.\\
+
+\begin{figure}[h!]\centering
+	\includegraphics[width=1\textwidth]{pictures/ml_aws_sagemaker_buildprocess}
+	\caption{Amazaon machine learning stack \cite{ml_aws}}\label{fig:ml_aws_sagemaker_buildprocess}
+\end{figure}
+
+Amazon SageMaker runs on a fully managed elastic compute server. This relieves the data scientist/ developer from DevOps concerns. Amazon SageMaker fully takes care of health checks, and outline infrastructure maintenance tasks via the built-in “Amazon CloudWatch monitoring and logging” service. Machine learning algorithms are provided pre-optimized particularly enhanced to run on Amazon’s compute servers and customers need only simply connect them to their data source. 
+Trained models can be deployed for production directly from Amazon SageMaker thta deploys the model as well as implements a secure HTTPs endpoint for the application. Again from customers point of view DevOps are not needed. 
+The last but not the least billing is based on utilization that are mostly dependent on customer use-case and demand peculiarities.
+
+\section{Microsoft Cognitive Toolkit}
+
+The Microsoft Cognitive Toolkit\cite{ml_cntk} written in C++ is a unified deep learning toolkit that describes neural networks as a series of computational steps via a directed graph. \acrshort{cntk} allows users to easily realize and combine popular model. CNTK has been available under an open-source license since April 2015 and is Microsoft's response to Google's TensorFlow.
+
+
+\begin{figure}[h!]\centering
+	\includegraphics[width=1\textwidth]{pictures/ml_cntk_architecture}
+	\caption{\acrshort{cntk} architecture \cite{ml_cntk}}\label{fig:ml_cntk_architecture}
+\end{figure}
+
+Thanks to architecture it is very flexible, allows distrubted training and supports main programming languages but lack visualizations.
+
+\section{Apache Spark MLlib}
+
+MLlib\cite{ml_spark} is Apache Spark's scalable machine learning library.
+
+Common\cite{ml_spark_advantages]} problem of prototyping in Python or R is that moving from development to production environments requires extensive re-engineering. 
+
+For this Spark provides data engineers and data scientists with a powerful, unified engine that is both fast (100x faster than Hadoop for large-scale data processing) and easy to use. This allows data practitioners to solve their machine learning problems interactively and at much greater scale.\\
+
+The advantages of MLlib’s design include:
+
+\begin{itemize}[nosep]
+\item Simplicity
+- Simple APIs familiar to data scientists coming from tools like R and Python. Novices are able to run algorithms out of the box while experts can easily tune the system by adjusting important knobs and parameters.
+\item Scalability
+- Ability to run the same \acrshort{ml} code on your laptop and on a big cluster seamlessly without breaking down. This lets businesses use the same workflows as their user base and data sets grow.
+\item Streamlined end-to-end
+- MLlib is on top of Spark and it makes possible to tackle these distinct needs with a single tool instead of many disjointed ones. The advantages are lower learning curves, less complex development and production environments, and ultimately shorter times to deliver high-performing models.
+\item Compatibility
+- Data scientists often have workflows built up in common data science tools, such as R, Python and so on. MLlib provides tooling that makes it easier to integrate these existing workflows with Spark. 
+\end{itemize}
+
+
+\begin{figure}[h!]\centering
+	\includegraphics[width=1\textwidth]{pictures/ml_spark_ecosystem}
+	\caption{Spark ecosystem \cite{ml_spark_advantages}}\label{fig:ml_spark_ecosystem}
+\end{figure}
+\pagebreak
+\section{MxNet}
+
+Along\cite{ml_mxnet} side previous frameworks Apache's MxNet is a modern open-source deep learning framework used to train, and deploy deep neural networks supporting multiple programming languages.
+
+Supports an efficient deployment of a trained model to low-end devices for inference, such as mobile devices, IoT devices, Serverless or containers which should used the models trained on a higher-level environments because of limited CPU an RAM resources.\\
+
+It has been chosen by \acrshort{aws} be part of their \acrshort{ml} on demand infrastructure.
+
+Now let's switch to some specific algorithm.
+
+\section{Latent Dirichlet allocation}
+
+\acrshort{lda}\cite{ml_lda} is a type of topic modeling algorithm. The purpose of \acrshort{lda} is to learn the representation of a fixed number of topics, and given this number of topics learn the topic distribution that each document in a collection of documents has.
+
+In \acrshort{lda}, each document may be viewed as a mixture of various topics. The sparse Dirichlet priors encode the intuition that documents cover only a small set of topics and that topics use only a small set of words frequently. In practice, this results in a better disambiguation of words and a more precise assignment of documents to topics. 
+
+\begin{figure}[h!]\centering
+	\includegraphics[width=1\textwidth]{pictures/ml_lda_scheme}
+	\caption{Plate notation (Bayesian inference) for \acrshort{lda} \cite{ml_lda_exmplanation}}\label{fig:ml_lda_scheme}
+\end{figure}
+
+First we need to select number of topics to discover. \acrshort{lda} will go through each of the words in each of the documents, and it will randomly assign the word to one of the K topics. After this step we will have topic representations (how the words are distributed in each topic) and documents represented in terms of topics. This random form is not very optimal or accurate. To better this representation \acrshort{lda} will analyze per document what is the percentage of words within the document that were assigned to a particular topic. And for each word in the document, \acrshort{lda} will analyze over all the documents, what is the percentage of times that particular word has been assigned to a particular topic.
 
 \chapter{Creating work items with ML}
 
@@ -390,7 +578,7 @@ To describe how exactly is \acrshort{polarion} used in medical domain s beyond t
 
 \chapter{ML in production environment}
 
-\chapter{Security}
+\chapter{GDPR}
 
 implement own ML server using just shareable libraries and provides to customers ability to using ML technics.
 
@@ -415,6 +603,12 @@ implement own ML server using just shareable libraries and provides to customers
 	\item[ALM] Application lifecycle management
 	\item[Polarion] Polarion ALM
 	\item[ML] Machine learning 
+	\item[pof] Proof of Concept
+	\item[RNN] Recurrent neural network
+	\item[AWS] Amazon web services
+	\item[GUI] Graphic user interface
+	\item[CNTK] Microsoft Cognitive Toolkit
+	\item[LDA] Latent Dirichlet allocation
 \end{description}
 
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.2.27)  16 MAY 2018 21:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.2.27)  18 MAY 2018 20:43
 entering extended mode
 **./DP_Slama_Michal_2018.tex
 (DP_Slama_Michal_2018.tex
@@ -1736,7 +1736,7 @@ Package caption Info: End \AtBeginDocument code.
 {C:/Users/qhxq9u/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2
 
 ]
-<cvut-logo-bw-en.pdf, id=108, 591.64943pt x 193.23091pt>
+<cvut-logo-bw-en.pdf, id=140, 591.64943pt x 193.23091pt>
 File: cvut-logo-bw-en.pdf Graphic file (type pdf)
 <use cvut-logo-bw-en.pdf>
 Package pdftex.def Info: cvut-logo-bw-en.pdf  used on input line 82.
@@ -1814,7 +1814,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 ntifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.93 \begin{introduction}
+l.99 \begin{introduction}
                           [1
 
 
@@ -1822,7 +1822,7 @@ l.93 \begin{introduction}
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.93 \begin{introduction}
+l.99 \begin{introduction}
                           [2
 
 ] [3] [4
@@ -1830,25 +1830,39 @@ l.93 \begin{introduction}
 ] [5] [6
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 144--146
+Underfull \hbox (badness 10000) in paragraph at lines 127--129
+
+ []
+
+LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 130
+.
+("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\ot1lmtt.fd"
+File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Overfull \hbox (6.52046pt too wide) in paragraph at lines 130--131
+[]\OT1/lmr/m/n/10.95 You can try [][]Po-lar-ion[] on []$\OT1/lmtt/m/n/10.95 htt
+ps : / / polarion\OML/lmm/m/it/10.95 :\OT1/lmtt/m/n/10.95 plm\OML/lmm/m/it/10.9
+5 :\OT1/lmtt/m/n/10.95 automation\OML/lmm/m/it/10.95 :\OT1/lmtt/m/n/10.95 sieme
+ns\OML/lmm/m/it/10.95 :\OT1/lmtt/m/n/10.95 com/$[]\OT1/lmr/m/n/10.95 . 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
 
  []
 
 
-Underfull \vbox (badness 2644) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 153--155
 
- [7]
-Underfull \hbox (badness 10000) in paragraph at lines 157--158
+ []
+
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 166--167
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 159--160
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 161--162
+Underfull \hbox (badness 10000) in paragraph at lines 168--169
 
  []
 
@@ -1857,134 +1871,139 @@ Underfull \hbox (badness 10000) in paragraph at lines 170--171
 
  []
 
-<pictures/alm_unified_processes.jpg, id=265, 622.57594pt x 609.02531pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--180
+
+ []
+
+<pictures/alm_unified_processes.jpg, id=336, 622.57594pt x 609.02531pt>
 File: pictures/alm_unified_processes.jpg Graphic file (type jpg)
 <use pictures/alm_unified_processes.jpg>
 Package pdftex.def Info: pictures/alm_unified_processes.jpg  used on input line
- 174.
+ 183.
 (pdftex.def)             Requested size: 369.0pt x 360.96667pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 182--184
+Underfull \hbox (badness 10000) in paragraph at lines 191--193
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 185--186
+Underfull \hbox (badness 10000) in paragraph at lines 194--195
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--188
+Underfull \hbox (badness 10000) in paragraph at lines 196--197
 
  []
 
 [8] [9 <./pictures/alm_unified_processes.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 215--216
+Underfull \hbox (badness 10000) in paragraph at lines 224--225
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 217--218
+Underfull \hbox (badness 10000) in paragraph at lines 226--227
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 223--224
+Underfull \hbox (badness 10000) in paragraph at lines 232--233
 
  []
 
 [10]
-<pictures/document_workflow.jpg, id=301, 616.55344pt x 364.36125pt>
+<pictures/document_workflow.jpg, id=372, 616.55344pt x 364.36125pt>
 File: pictures/document_workflow.jpg Graphic file (type jpg)
 <use pictures/document_workflow.jpg>
-Package pdftex.def Info: pictures/document_workflow.jpg  used on input line 228
+Package pdftex.def Info: pictures/document_workflow.jpg  used on input line 237
 .
 (pdftex.def)             Requested size: 369.0pt x 218.06802pt.
 
 
 LaTeX Warning: Reference `document_workflow' on page 11 undefined on input line
- 232.
+ 241.
 
 [11 <./pictures/document_workflow.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 240--241
+Underfull \hbox (badness 10000) in paragraph at lines 249--250
 
  []
 
-<pictures/agile_benefits.jpg, id=313, 632.3625pt x 353.06906pt>
+<pictures/agile_benefits.jpg, id=384, 632.3625pt x 353.06906pt>
 File: pictures/agile_benefits.jpg Graphic file (type jpg)
 <use pictures/agile_benefits.jpg>
-Package pdftex.def Info: pictures/agile_benefits.jpg  used on input line 247.
+Package pdftex.def Info: pictures/agile_benefits.jpg  used on input line 256.
 (pdftex.def)             Requested size: 369.0pt x 206.03006pt.
 [12 <./pictures/agile_benefits.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 269--270
+Underfull \hbox (badness 10000) in paragraph at lines 278--279
 
  []
 
 
-Overfull \hbox (0.62366pt too wide) in paragraph at lines 296--298
+Overfull \hbox (0.62366pt too wide) in paragraph at lines 305--307
 []\OT1/lmr/m/n/10.95 Difficulty link-ing and trac-ing ar-ti-facts across dif-fe
 r-ently struc-tured repos-
  []
 
 [13]
-<pictures/collaboration_workflow.jpg, id=336, 347.79938pt x 349.305pt>
+<pictures/collaboration_workflow.jpg, id=407, 347.79938pt x 349.305pt>
 File: pictures/collaboration_workflow.jpg Graphic file (type jpg)
 <use pictures/collaboration_workflow.jpg>
 Package pdftex.def Info: pictures/collaboration_workflow.jpg  used on input lin
-e 305.
+e 314.
 (pdftex.def)             Requested size: 369.0pt x 370.6133pt.
  [14 <./pictures/collaboration_workflow.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 321--322
+Underfull \hbox (badness 10000) in paragraph at lines 330--331
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 327--328
+Underfull \hbox (badness 10000) in paragraph at lines 336--337
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 333--334
+Underfull \hbox (badness 10000) in paragraph at lines 342--343
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 339--340
+Underfull \hbox (badness 10000) in paragraph at lines 348--349
 
  []
 
 [15]
-Underfull \hbox (badness 10000) in paragraph at lines 345--346
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 350--351
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 352--353
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 354--355
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 356--357
+Underfull \hbox (badness 10000) in paragraph at lines 359--360
 
  []
 
-<pictures/medical_standard.jpg, id=361, 287.57437pt x 427.5975pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 361--362
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 363--364
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 365--366
+
+ []
+
+<pictures/medical_standard.jpg, id=432, 287.57437pt x 427.5975pt>
 File: pictures/medical_standard.jpg Graphic file (type jpg)
 <use pictures/medical_standard.jpg>
-Package pdftex.def Info: pictures/medical_standard.jpg  used on input line 359.
+Package pdftex.def Info: pictures/medical_standard.jpg  used on input line 368.
 
 (pdftex.def)             Requested size: 369.0pt x 548.68657pt.
 
@@ -2000,46 +2019,212 @@ Overfull \vbox (3.4863pt too high) has occurred while \output is active []
 
 [17 <./pictures/medical_standard.jpg>] [18
 
-] [19] [20
-
-] [21] [22
-
-] [23] [24
-
 ]
-[25] [26
+Underfull \hbox (badness 10000) in paragraph at lines 376--377
 
-] [27] [28
+ []
 
-] [29] [30
 
-] (DP_Slama_Michal_2018.bbl [31] [32
+Underfull \hbox (badness 10000) in paragraph at lines 378--379
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19]
+Underfull \hbox (badness 10000) in paragraph at lines 390--391
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 392--393
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [20]
+<pictures/ml_tensorflow_dl.jpg, id=479, 803.0pt x 454.69875pt>
+File: pictures/ml_tensorflow_dl.jpg Graphic file (type jpg)
+<use pictures/ml_tensorflow_dl.jpg>
+Package pdftex.def Info: pictures/ml_tensorflow_dl.jpg  used on input line 413.
+
+(pdftex.def)             Requested size: 369.0pt x 208.94887pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [21 <./pictures/ml_tensorflow_dl.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 422--423
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 428--429
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 438--439
+
+ []
+
+[22]
+Underfull \hbox (badness 10000) in paragraph at lines 448--450
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 456--457
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 459--460
+
+ []
+
+<pictures/ml_aws_sagemaker_stack.jpg, id=508, 640.3925pt x 360.34625pt>
+File: pictures/ml_aws_sagemaker_stack.jpg Graphic file (type jpg)
+<use pictures/ml_aws_sagemaker_stack.jpg>
+Package pdftex.def Info: pictures/ml_aws_sagemaker_stack.jpg  used on input lin
+e 464.
+(pdftex.def)             Requested size: 369.0pt x 207.63736pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[23]
+Underfull \hbox (badness 10000) in paragraph at lines 498--499
+
+ []
+
+<pictures/ml_aws_sagemaker_buildprocess.jpg, id=519, 903.375pt x 249.93375pt>
+File: pictures/ml_aws_sagemaker_buildprocess.jpg Graphic file (type jpg)
+<use pictures/ml_aws_sagemaker_buildprocess.jpg>
+Package pdftex.def Info: pictures/ml_aws_sagemaker_buildprocess.jpg  used on in
+put line 501.
+(pdftex.def)             Requested size: 369.0pt x 102.09213pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[24 <./pictures/ml_aws_sagemaker_stack.jpg>]
+<pictures/ml_cntk_architecture.png, id=532, 1405.25pt x 723.70375pt>
+File: pictures/ml_cntk_architecture.png Graphic file (type png)
+<use pictures/ml_cntk_architecture.png>
+Package pdftex.def Info: pictures/ml_cntk_architecture.png  used on input line 
+515.
+(pdftex.def)             Requested size: 369.0pt x 190.03581pt.
+ [25 <./pictures/ml_aws_sagemaker_buildprocess.jpg> <./pictures/ml_cntk_archite
+cture.png>]
+
+LaTeX Warning: Citation `ml_spark_advantages]' on page 26 undefined on input li
+ne 525.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 527--528
+
+ []
+
+<pictures/ml_spark_ecosystem.png, id=545, 622.325pt x 332.24126pt>
+File: pictures/ml_spark_ecosystem.png Graphic file (type png)
+<use pictures/ml_spark_ecosystem.png>
+Package pdftex.def Info: pictures/ml_spark_ecosystem.png  used on input line 54
+4.
+(pdftex.def)             Requested size: 369.0pt x 196.99905pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [26]
+Underfull \hbox (badness 10000) in paragraph at lines 552--553
+
+ []
+
+<pictures/ml_lda_scheme.png, id=560, 565.11125pt x 306.14375pt>
+File: pictures/ml_lda_scheme.png Graphic file (type png)
+<use pictures/ml_lda_scheme.png>
+Package pdftex.def Info: pictures/ml_lda_scheme.png  used on input line 565.
+(pdftex.def)             Requested size: 369.0pt x 199.90666pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[27 <./pictures/ml_spark_ecosystem.png>] [28 <./pictures/ml_lda_scheme.png>]
+[29
+
+] [30
+
+] [31] [32
+
+] [33] [34
+
+] [35] [36
+
+] [37] [38
+
+] (DP_Slama_Michal_2018.bbl
+[39] [40
 
 ]
 bibitemlist
-LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 13.
 
-("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\ot1lmtt.fd"
-File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-Underfull \hbox (badness 1888) in paragraph at lines 12--14
-[]\OT1/lmr/m/n/10.95 Polarion ALM. [on-line], [cit. 2018-05-01s]. Dos-tupne z:
- []$\OT1/lmtt/m/n/10.95 https : / /
+Underfull \hbox (badness 1728) in paragraph at lines 12--14
+[]\OT1/lmr/m/n/10.95 Polarion ALM. [on-line], [cit. 2018-05-01]. Dos-tupne z: 
+[]$\OT1/lmtt/m/n/10.95 https : / /
  []
 
-) [33] [34
 
-]
+Underfull \hbox (badness 2790) in paragraph at lines 37--40
+[]\OT1/lmr/m/n/10.95 Samuel, A. L.: Some Stud-ies in Ma-chine Learn-ing Us-ing 
+the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--44
+\OT1/lmtt/m/n/10.95 02 / 19 / a -[] short -[] history -[] of -[] machine -[] le
+arning -[] every -[] manager -[]
+ []
+
+
+Underfull \hbox (badness 6220) in paragraph at lines 49--51
+[]\OT1/lmr/m/n/10.95 TensorFlow. [on-line], [cit. 2018-05-05]. Dos-tupne z: []
+$\OT1/lmtt/m/n/10.95 https : / /
+ []
+
+[41]
+Underfull \hbox (badness 2418) in paragraph at lines 65--68
+[]\OT1/lmr/m/n/10.95 What is Ama-zon Cloud, Its Ad-van-tages and Why Should You
+
+ []
+
+
+Underfull \hbox (badness 8151) in paragraph at lines 65--68
+\OT1/lmr/m/n/10.95 Con-sider It. [on-line], [cit. 2018-05-06]. Dos-tupne z: []
+$\OT1/lmtt/m/n/10.95 https :
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--68
+\OT1/lmtt/m/n/10.95 / / www\OML/lmm/m/it/10.95 :\OT1/lmtt/m/n/10.95 netsolution
+s\OML/lmm/m/it/10.95 :\OT1/lmtt/m/n/10.95 com / insights / what -[] is -[] amaz
+on -[] cloud -[] its -[]
+ []
+
+) [42]
 No file DP_Slama_Michal_2018.gls.
 No file DP_Slama_Michal_2018.acr.
-[35] [36
+[43
+
+] [44
 
 ]
 
 Package caption Warning: Unused \captionsetup[lstlisting] on input line 36.
 See the caption package documentation for explanation.
 
-[37]
+[45]
 \tf@toc=\write10
 \openout10 = `DP_Slama_Michal_2018.toc'.
 
@@ -2049,13 +2234,13 @@ See the caption package documentation for explanation.
 \tf@tdo=\write12
 \openout12 = `DP_Slama_Michal_2018.tdo'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 539.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 539.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 733.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 733.
  (DP_Slama_Michal_2018.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 539.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 539.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 733.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 733.
 Package rerunfilecheck Info: File `DP_Slama_Michal_2018.out' has not changed.
-(rerunfilecheck)             Checksum: 8A2AD1E6BE1F54ED3DA4B7FC76EE7ED7;3235.
+(rerunfilecheck)             Checksum: 3E39C05368F385CAFA86F9EB00EB44D7;4277.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -2063,18 +2248,30 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 539.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 733.
  ) 
 Here is how much of TeX's memory you used:
- 32622 strings out of 493303
- 572283 string characters out of 3129349
+ 32907 strings out of 493303
+ 576989 string characters out of 3129349
  731040 words of memory out of 3000000
- 35528 multiletter control sequences out of 15000+200000
+ 35764 multiletter control sequences out of 15000+200000
  58530 words of font info for 41 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,11n,92p,2068b,486s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{glo:plm} has been referenced but does not exist, 
+ 68i,11n,92p,2068b,544s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{glo:gui} has been referenced but does not exist, 
 replaced by a fixed one
+
+pdfTeX warning (dest): name{glo:aws} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{glo:rnn} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{glo:pof} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{glo:plm} has been referenced but does not exist, re
+placed by a fixed one
 
 pdfTeX warning (dest): name{glo:alm} has been referenced but does not exist, re
 placed by a fixed one
@@ -2085,10 +2282,16 @@ laced by a fixed one
 pdfTeX warning (dest): name{glo:polarion} has been referenced but does not exis
 t, replaced by a fixed one
 
-{C:/Users/qhxq9u/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit
-.enc}{C:/Users/qhxq9u/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-r
-mtt.enc}{C:/Users/qhxq9u/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/l
-m-rm.enc}{C:/Users/qhxq9u/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/
+pdfTeX warning (dest): name{glo:lda} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{glo:cntk} has been referenced but does not exist, r
+eplaced by a fixed one
+
+{C:/Users/qhxq9u/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc
+}{C:/Users/qhxq9u/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathi
+t.enc}{C:/Users/qhxq9u/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-
+rmtt.enc}{C:/Users/qhxq9u/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/
 lm-rmsc.enc}{C:/Users/qhxq9u/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/
 lm/lm-mathsy.enc}<C:/Users/qhxq9u/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
 /public/lm/lmbx10.pfb><C:/Users/qhxq9u/AppData/Local/Programs/MiKTeX 2.9/fonts/
@@ -2103,9 +2306,9 @@ cal/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Users/qhxq9u/AppData
 pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/qh
 xq9u/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Use
 rs/qhxq9u/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb>
-Output written on DP_Slama_Michal_2018.pdf (51 pages, 558350 bytes).
+Output written on DP_Slama_Michal_2018.pdf (59 pages, 963971 bytes).
 PDF statistics:
- 542 PDF objects out of 1000 (max. 8388607)
- 116 named destinations out of 1000 (max. 500000)
- 227 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 762 PDF objects out of 1000 (max. 8388607)
+ 159 named destinations out of 1000 (max. 500000)
+ 321 words of extra memory for PDF output out of 10000 (max. 10000000)
 

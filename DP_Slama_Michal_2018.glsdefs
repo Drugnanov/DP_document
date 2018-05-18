@@ -118,3 +118,183 @@ parent={},%
 %
 }%
 }%
+\ifglsentryexists{pof}{}%
+{%
+\gls@defglossaryentry{pof}%
+{%
+name={PoF},%
+sort={PoF},%
+type={acronym},%
+first={Proof of Concept\glsspace (PoF)},%
+firstplural={Proof of Concepts\glsspace (PoFs)},%
+text={PoF},%
+plural={PoFs},%
+description={Proof of Concept},%
+descriptionplural={Proof of Concept\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Proof of Concept},%
+longplural={Proof of Concepts},%
+short={PoF},%
+shortplural={PoFs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{rnn}{}%
+{%
+\gls@defglossaryentry{rnn}%
+{%
+name={RNN},%
+sort={RNN},%
+type={acronym},%
+first={R\glsspace (RNN)},%
+firstplural={Rs\glsspace (RNNs)},%
+text={RNN},%
+plural={RNNs},%
+description={R},%
+descriptionplural={R\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={R},%
+longplural={Rs},%
+short={RNN},%
+shortplural={RNNs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{aws}{}%
+{%
+\gls@defglossaryentry{aws}%
+{%
+name={AWS},%
+sort={AWS},%
+type={acronym},%
+first={A\glsspace (AWS)},%
+firstplural={As\glsspace (AWSs)},%
+text={AWS},%
+plural={AWSs},%
+description={A},%
+descriptionplural={A\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={A},%
+longplural={As},%
+short={AWS},%
+shortplural={AWSs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{gui}{}%
+{%
+\gls@defglossaryentry{gui}%
+{%
+name={GUI},%
+sort={GUI},%
+type={acronym},%
+first={Graphic user interface\glsspace (GUI)},%
+firstplural={Graphic user interfaces\glsspace (GUIs)},%
+text={GUI},%
+plural={GUIs},%
+description={Graphic user interface},%
+descriptionplural={Graphic user interface\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Graphic user interface},%
+longplural={Graphic user interfaces},%
+short={GUI},%
+shortplural={GUIs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{cntk}{}%
+{%
+\gls@defglossaryentry{cntk}%
+{%
+name={CNTK},%
+sort={CNTK},%
+type={acronym},%
+first={The Microsoft Cognitive Toolkit\glsspace (CNTK)},%
+firstplural={The Microsoft Cognitive Toolkits\glsspace (CNTKs)},%
+text={CNTK},%
+plural={CNTKs},%
+description={The Microsoft Cognitive Toolkit},%
+descriptionplural={The Microsoft Cognitive Toolkit\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={The Microsoft Cognitive Toolkit},%
+longplural={The Microsoft Cognitive Toolkits},%
+short={CNTK},%
+shortplural={CNTKs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{lda}{}%
+{%
+\gls@defglossaryentry{lda}%
+{%
+name={LDA},%
+sort={LDA},%
+type={acronym},%
+first={Latent Dirichlet allocation\glsspace (LDA)},%
+firstplural={Latent Dirichlet allocations\glsspace (LDAs)},%
+text={LDA},%
+plural={LDAs},%
+description={Latent Dirichlet allocation},%
+descriptionplural={Latent Dirichlet allocation\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Latent Dirichlet allocation},%
+longplural={Latent Dirichlet allocations},%
+short={LDA},%
+shortplural={LDAs},%
+counter={page},%
+parent={},%
+%
+}%
+}%

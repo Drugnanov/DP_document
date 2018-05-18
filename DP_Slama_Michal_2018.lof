@@ -10,6 +10,12 @@
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Collaboration traceability workflow \cite {polarion_alm}\relax }}{14}{figure.caption.10}
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Medical risk management workflow \cite {polarion_alm}\relax }}{17}{figure.caption.11}
 \addvspace {10pt}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Deep learning concept of Tensorflow \cite {ml_tensorflow_dl}\relax }}{21}{figure.caption.12}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces AWS ML stack \cite {ml_aws}\relax }}{24}{figure.caption.13}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Amazaon machine learning stack \cite {ml_aws}\relax }}{25}{figure.caption.14}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces \acrshort {cntk} architecture \cite {ml_cntk}\relax }}{25}{figure.caption.15}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Spark ecosystem \cite {ml_spark_advantages}\relax }}{27}{figure.caption.16}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Plate notation (Bayesian inference) for \acrshort {lda} \cite {ml_lda_exmplanation}\relax }}{28}{figure.caption.17}
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}
