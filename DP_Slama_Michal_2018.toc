@@ -38,15 +38,19 @@
 \contentsline {section}{\numberline {3.7}Apache Spark MLlib}{26}{section.3.7}
 \contentsline {section}{\numberline {3.8}MxNet}{27}{section.3.8}
 \contentsline {section}{\numberline {3.9}Latent Dirichlet allocation}{27}{section.3.9}
-\contentsline {chapter}{\chapternumberline {4}Creating work items with ML}{29}{chapter.4}
-\contentsline {section}{\numberline {4.1}User experience}{29}{section.4.1}
-\contentsline {section}{\numberline {4.2}Architecture}{29}{section.4.2}
-\contentsline {section}{\numberline {4.3}Realization of prototype}{29}{section.4.3}
-\contentsline {chapter}{\chapternumberline {5}ML in production environment}{31}{chapter.5}
-\contentsline {chapter}{\chapternumberline {6}General Data Protection Regulation}{33}{chapter.6}
-\contentsline {chapter}{\chapternumberline {7}Validity}{39}{chapter.7}
-\contentsline {chapter}{\chapternumberline {8}The value of the enhancement}{41}{chapter.8}
-\contentsline {chapter}{Conclusion}{43}{chapter*.20}
-\contentsline {chapter}{Bibliography}{45}{section*.22}
-\contentsline {appendix}{\chapternumberline {A}List of abbreviations used}{47}{appendix.A}
-\contentsline {appendix}{\chapternumberline {B}CD contains}{49}{appendix.B}
+\contentsline {chapter}{\chapternumberline {4}Polarion's use cases for ML}{29}{chapter.4}
+\contentsline {section}{\numberline {4.1}OCR for image attachments}{29}{section.4.1}
+\contentsline {section}{\numberline {4.2}Advanced Search in Polarion}{30}{section.4.2}
+\contentsline {section}{\numberline {4.3}Suggestion for optimization of Polarion configuration}{30}{section.4.3}
+\contentsline {section}{\numberline {4.4}Suggesting of how to split\IeC {\nobreakspace }a\IeC {\nobreakspace }document Space}{31}{section.4.4}
+\contentsline {section}{\numberline {4.5}Translating documents}{33}{section.4.5}
+\contentsline {section}{\numberline {4.6}Estimations and expectations}{33}{section.4.6}
+\contentsline {section}{\numberline {4.7}Defect bot}{34}{section.4.7}
+\contentsline {chapter}{\chapternumberline {5}ML in production environment}{35}{chapter.5}
+\contentsline {chapter}{\chapternumberline {6}General Data Protection Regulation}{37}{chapter.6}
+\contentsline {chapter}{\chapternumberline {7}Validity}{43}{chapter.7}
+\contentsline {chapter}{\chapternumberline {8}The value of the enhancement}{45}{chapter.8}
+\contentsline {chapter}{Conclusion}{47}{chapter*.24}
+\contentsline {chapter}{Bibliography}{49}{section*.26}
+\contentsline {appendix}{\chapternumberline {A}List of abbreviations used}{51}{appendix.A}
+\contentsline {appendix}{\chapternumberline {B}CD contains}{53}{appendix.B}

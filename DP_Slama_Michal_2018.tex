@@ -30,6 +30,7 @@
 \usepackage{spverbatim}
 \usepackage{listings}
 \usepackage{caption}
+\usepackage{adjustbox}
 
 \DeclareCaptionFont{white}{\color{white}}
 \DeclareCaptionFormat{listing}{\colorbox{gray}{\parbox{\textwidth}{#1#2#3}}}
@@ -93,6 +94,7 @@
 \newacronym{cntk}{CNTK}{Microsoft Cognitive Toolkit}
 \newacronym{lda}{LDA}{Latent Dirichlet allocation}
 \newacronym{gdpr}{GDPR}{General Data Protection Regulation}
+\newacronym{ocr}{OCR}{Optical character recognitionn}
 
 
 \todototoc
@@ -570,13 +572,103 @@ In \acrshort{lda}, each document may be viewed as a mixture of various topics. T
 
 First we need to select number of topics to discover. \acrshort{lda} will go through each of the words in each of the documents, and it will randomly assign the word to one of the K topics. After this step we will have topic representations (how the words are distributed in each topic) and documents represented in terms of topics. This random form is not very optimal or accurate. To better this representation \acrshort{lda} will analyze per document what is the percentage of words within the document that were assigned to a particular topic. And for each word in the document, \acrshort{lda} will analyze over all the documents, what is the percentage of times that particular word has been assigned to a particular topic.
 
-\chapter{Creating work items with ML}
+\chapter{Polarion's use cases for ML}
 
-\section{User experience}
+\acrshort{polarion} serves for customers to plan and evaluate their every day work and if something is used frequently and periodically then there should be places for \acrshort{ml} to improve it. Let's find some use cases that can be good candidates for \acrshort{ml}. 
 
-\section{Architecture}
+\section{OCR for image attachments}
 
-\section{Realization of prototype}
+\acrshort{polarion} allows users to upload files on work items (see the picture below \ref{fig:polarion_attachments}) In current image files are treated without processing their contents and it has impact on functions like search engine that can not use information in files. For this case \acrshort{ocr} should server well.
+
+\begin{figure}[h!]\centering
+	\includegraphics[width=1\textwidth]{pictures/polarion_attachments}
+	\caption{Attachments in \acrshort{polarion}}\label{fig:polarion_attachments}
+\end{figure}
+
+What is \acrshort{ocr}? \acrshort{ocr} is a technology that enables you to convert different types of documents, such as scanned paper documents, PDF files or images captured by a digital camera into editable and searchable data. \\
+
+Advantages is plenty of free \acrshort{ocr} libraries in variety of programming languages ready to integrate with \acrshort{polarion}. Cost of this implementation should not be high but will lead to an increase in the index size that can rise rapidly as users using attachments a lot.  
+
+\section{Advanced Search in Polarion}
+
+Common problem with large amount of objects is to find that you are searching for. \acrshort{polarion} contains such large amount of objects. For example customers have more than 10 000 different kind of work items and you have to know how to find the specific one. This should be improved no looking just for exactly same expressions but also for similarities and make suggestions based on input data. 
+
+\begin{figure}[h!]\centering
+	\includegraphics[width=1\textwidth]{pictures/polarion_search}
+	\caption{Search work item in \acrshort{polarion}}\label{fig:polarion_search}
+\end{figure}
+
+Work item's data can contains more specific test like references to another work items, pictures, graphs, stack traces...all these data types should be treated differently. Implementation will be hard as requirements are more unclear but results will lead to improve user experience and less domain experts knowing entire domain and so all work items will be needed.
+
+\section{Suggestion for optimization of Polarion configuration} 
+
+Each customer has a special demands and has a specific environment where \acrshort{polarion} runs on. Optimize these configuration is not easy task as only experts across multiple domains (DevOps, Polarion administrators, Polarion experts, \dots) can see impact and consequences of different settings. \\
+
+This can be changed by us as we know wide range of cases where \acrfull{polarion} or customer was stucked and needed help. This experience contains looking into log for a specific behaviour of user cases, memory/CPU/space/\dots consumption of \acrshort{polarion} or environment itself. Based on this data we should be able to automatically recommend changes to configuration or at least to start resolving problem more proactively before it becomes critical.\\
+
+Example of log information:
+\begin{spverbatim}
+2018-05-09 15:09:34,595 [main | u:p] INFO  TXLOGGER  - Summary for 'Platform startup': transactions: 0, DB: 20.1 s 
+[97% execute (1341x)] (1575x)
+2018-05-09 15:09:35,347 [main | u:p] INFO  TXLOGGER  - Summary for 'Context recognition': transactions: 0, svn: 0.436 s [49% getDir2 content (6x), 36% info (8x)] (15x)
+2018-05-09 15:09:54,556 [LowLevelDataService-contextInitializer-3 | u:p] INFO  TXLOGGER  - Summary: Total: 19.2 s, CPU [user: 1.25 s, system: 1.06 s], Allocated memory: 440.6 MB, transactions: 0, svn: 10.7 s [92% log2 (25x)] (428x), ObjectMaps: 1.59 s 
+[80% setLastProcessedRevision (451x)] (20180x)
+2018-05-09 15:09:54,556 [LowLevelDataService-contextInitializer-5 | u:p] INFO  TXLOGGER  - Summary: Total: 19.2 s, CPU [user: 5.61 s, system: 0.859 s], Allocated memory: 3.5 GB, transactions: 0, svn: 8.56 s [61% info (3043x), 28% getFile content (2015x)] (5093x), 
+ObjectMaps: 1.78 s [67% saveIfNeeded (24679x), 
+11% getPrimaryObjectLocation (6704x), 
+11% addLocation (13528x)] (121868x)
+2018-05-09 15:09:54,556 [LowLevelDataService-contextInitializer-1 | u:p] INFO  TXLOGGER  - Summary: Total: 19.2 s, CPU [user: 0.891 s, system: 1.25 s], Allocated memory: 461.9 MB, transactions: 0, 
+svn: 12 s [94% log2 (45x)] (554x), ObjectMaps: 1.56 s 
+[77% setLastProcessedRevision (510x), 15% saveIfNeeded (5391x)] 
+(19414x)
+2018-05-09 15:09:54,556 [LowLevelDataService-contextInitializer-4 | u:p] INFO  TXLOGGER  - Summary: Total: 19.2 s, CPU [user: 1.11 s, system: 1.5 s], Allocated memory: 596.0 MB, transactions: 0, svn: 13 s [67% log2 (65x), 14% log (1x)] (1445x), ObjectMaps: 1.3 s [72% setLastProcessedRevision (359x), 18% saveIfNeeded (6218x)] (22872x)
+2018-05-09 15:09:54,556 [LowLevelDataService-contextInitializer-2 | u:p] INFO  TXLOGGER  - Summary: Total: 19.2 s, CPU [user: 1.55 s, system: 1.8 s], Allocated memory: 705.2 MB, transactions: 0, svn: 13.6 s [88% log2 (56x)] (875x), ObjectMaps: 1.94 s 
+[79% setLastProcessedRevision (582x), 11% saveIfNeeded (8406x)] 
+(31707x)
+2018-05-09 15:09:54,581 [main | u:p] INFO  TXLOGGER  - Summary for 'Context initialization': transactions: 0, svn: 57.9 s 
+[74% log2 (216x), 15% info (4897x)] (8395x), ObjectMaps: 8.17 s 
+[61% setLastProcessedRevision (1915x), 26% saveIfNeeded (49771x)] (216041x)
+
+\end{spverbatim}
+\end{spverbatim}
+
+\section{Suggesting of how to split a document Space}
+
+\acrshort{polarion} is about working with documents. It is expected that customers have a hundreds of documents separated into document spaces. Document spaces are used as folders and make hierarchy. But in some cases customers create too many document under one document space and orientation within this space becomes unclear. Idea is to split documents under one document space into groups based on their topic. This is a job for \acrshort{lda}.
+
+\begin{figure}[h!]\centering
+	\includegraphics[width=1\textwidth]{pictures/polarion_document_space}
+	\caption{Document space in \acrshort{polarion}}\label{fig:polarion_document_space}
+\end{figure}
+
+As was said before \acrshort{polarion} document contains beside plain text also its work items that contain its own text including title, description, comments, selected properties... All these information should be taken into account for topic creation. Work item can have a reference to another work item and so on that is question how many work items in such chain use. 
+
+Welcome topics into \acrshort{polarion} improves user experience on every day basis. If we talk about splitting documents in one document space topics can be also created for all documents and users will be able to find similar document across entire \acrshort{polarion} which is normally really hard task to do.
+
+\acrshort{lda} is downloadable library and can be easily integrated into existing code base. Changes on the side of \acrshort{polarion} will be much harder but business value of this feature is good enough to balance it.
+
+\section{Translating documents}
+
+Normally customers have all their documents in one language. But there are cases when a document is created in one language and from the document is branched to another one which is translated to different language needed for example for external communication.\\
+
+Important note is that a source document and a branched document are connected together and so changes to one can be propagated to another. Direction of propagation should be only from source to branched document because it is expected that branched document will contain more information than its source. First translation when branched document is created has no problems but complications come when the source is changed and changes should be propagated to its branched documents. These documents can already have overwriting or context changing changes and the question is how to solve a collision issue. \\
+
+Anyway problem lies also in translation itself though translation services are widely accessible we can not sent customer's data outside their environment and local translation server must be used.
+
+\section{Estimations and expectations}
+
+Agile planning is built around task estimation, fulfilling expectations and constant improving by learning from estimations. The more experienced developer is, the better estimates has. Average time for a programmer job is in order of years and time to take familiar with \acrshort{polarion} is more than year. That is why estimates from inexperienced programmer are more tips then relevant data. On the other hand \acrshort{polarion} has previous data from all project done before which may give hints with the estimation of a task.\\ 
+
+Firstly we need to find similar tasks. We can look for work items with same parameter like category, story type and so on and combine it with similarity of description. Process all estimations from these found work items and show to user advice what estimate should be used.
+
+\begin{figure}[h!]\centering
+	\includegraphics[width=1\textwidth]{pictures/polarion_estimation}
+	\caption{Estimations in \acrshort{polarion}}\label{fig:polarion_estimation}
+\end{figure}
+
+
+\section{Defect bot}
+
 
 \chapter{ML in production environment}
 
@@ -584,7 +676,7 @@ First we need to select number of topics to discover. \acrshort{lda} will go thr
 
 Data are fuel for \acrshort{ml} but their use can be limited especially if we talk about customer's data with sensitive information. Now we face new regulation in form of \acrshort{gdpr} that will change rules how to threat and store data. What \acrshort{gdpr} is?\\
 
-\acrshort{gdpr}\cite{gdpr_info} is a legal framework that sets guidelines for the collection and processing of personal information of individuals within the European Union (EU). The \acrshort{gdpr} sets out the principles for data management and the rights of the individual, while also imposing fines that can be revenue-based. The General Data Protection Regulation covers all companies that deal with data of EU citizens, so it is a critical regulation for corporate compliance officers at banks, insurers, and other financial companies. \acrshort{gdpr} will come into effect across the EU on May 25, 2018.\\
+\acrshort{gdpr}\cite{gdpr_info} is a legal framework that sets guidelines for the collection and processing of personal information of individuals within the European Union (EU). Thse \acrshort{gdpr} sets out the principles for data management and the rights of the individual, while also imposing fines that can be revenue-based. The General Data Protection Regulation covers all companies that deal with data of EU citizens, so it is a critical regulation for corporate compliance officers at banks, insurers, and other financial companies. \acrshort{gdpr} will come into effect across the EU on May 25, 2018.\\
 
 Data types affected by \acrshort{gdpr} are:
 \begin{itemize}[nosep]
@@ -681,7 +773,8 @@ For \acrfull{polarion} \acrshort{gdpr} leads to more strictly regulation already
 	\item[GUI] Graphic user interface
 	\item[CNTK] Microsoft Cognitive Toolkit
 	\item[LDA] Latent Dirichlet allocation
-	\item[GDPR] General Data Protection Regulation
+	\item[GDPR] General data protection regulation
+	\item[OCR] Optical character recognition	
 \end{description}
 
 

@@ -328,3 +328,33 @@ parent={},%
 %
 }%
 }%
+\ifglsentryexists{ocr}{}%
+{%
+\gls@defglossaryentry{ocr}%
+{%
+name={OCR},%
+sort={OCR},%
+type={acronym},%
+first={Optical character recognitionn\glsspace (OCR)},%
+firstplural={Optical character recognitionns\glsspace (OCRs)},%
+text={OCR},%
+plural={OCRs},%
+description={Optical character recognitionn},%
+descriptionplural={Optical character recognitionn\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Optical character recognitionn},%
+longplural={Optical character recognitionns},%
+short={OCR},%
+shortplural={OCRs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
