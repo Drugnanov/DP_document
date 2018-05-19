@@ -92,6 +92,8 @@
 \newacronym{gui}{GUI}{Graphic user interface}
 \newacronym{cntk}{CNTK}{Microsoft Cognitive Toolkit}
 \newacronym{lda}{LDA}{Latent Dirichlet allocation}
+\newacronym{gdpr}{GDPR}{General Data Protection Regulation}
+
 
 \todototoc
 \listoftodos
@@ -578,9 +580,79 @@ First we need to select number of topics to discover. \acrshort{lda} will go thr
 
 \chapter{ML in production environment}
 
-\chapter{GDPR}
+\chapter{General Data Protection Regulation}
 
-implement own ML server using just shareable libraries and provides to customers ability to using ML technics.
+Data are fuel for \acrshort{ml} but their use can be limited especially if we talk about customer's data with sensitive information. Now we face new regulation in form of \acrshort{gdpr} that will change rules how to threat and store data. What \acrshort{gdpr} is?\\
+
+\acrshort{gdpr}\cite{gdpr_info} is a legal framework that sets guidelines for the collection and processing of personal information of individuals within the European Union (EU). The \acrshort{gdpr} sets out the principles for data management and the rights of the individual, while also imposing fines that can be revenue-based. The General Data Protection Regulation covers all companies that deal with data of EU citizens, so it is a critical regulation for corporate compliance officers at banks, insurers, and other financial companies. \acrshort{gdpr} will come into effect across the EU on May 25, 2018.\\
+
+Data types affected by \acrshort{gdpr} are:
+\begin{itemize}[nosep]
+\item Basic identity information such as name, address and ID numbers
+\item Web data (location, IP address, cookie data, \dots)
+\item Health and genetic data
+\item Biometric data
+\item Racial or ethnic data
+\item Political opinions
+\item Sexual orientation\\
+\end{itemize}
+
+What companies will be affected by:
+\begin{itemize}[nosep]
+	\item A presence in an EU country.
+	\item No presence in the EU, but it processes personal data of European residents.
+	\item More than 250 employees.
+	\item Fewer than 250 employees but its data-processing impacts the rights and freedoms of data subjects, is not occasional, or includes certain types of sensitive personal data. That effectively means almost all companies.\\
+\end{itemize}
+
+\acrshort{gdpr} extends rights of data subjects that can be summarized like:
+\begin{itemize}[nosep]
+\item the right to access
+\item the right to be forgotten, a.k.a. right to erasure
+\item the right to data portability\\
+\end{itemize}
+
+In more detail look at the picture below \ref{fig:gdpr_subject_rights}.
+\begin{figure}[h!]\centering
+	\includegraphics[width=1\textwidth]{pictures/gdpr_subject_rights}
+	\caption{\acrshort{gdpr} consumer rights \cite{gdpr_subject_rights}}\label{fig:gdpr_subject_rights}
+\end{figure}
+
+\begin{itemize}[nosep]
+\item  The data subject’s right of access which means 
+	\begin{itemize}[nosep]
+	\item  the right to know whether data concerning him or her are being processed and 
+	\item  if so, access it with loads of additional stipulations.
+	\end{itemize}
+\item  The data subject’s right to rectification. When personal data are inaccurate, then controllers need to correct them indeed.
+The previously mentioned right to erasure or right to be forgotten with additional stipulations, among others if personal data has been made public.
+\item The data subject right to restriction of processing. Simply said, the right of the consumer or whatever you call the natural person under the scope of the \acrshort{gdpr}, to limit the processing of his/her personal data with, once more, several rules and exceptions of course.
+\item  The right to be informed. In general, the \acrshort{gdpr} asks controllers and so on to inform data subjects on several matters. Providing clear and correct information is a key duty in many regards. Simply said, the \acrshort{gdpr} wants consumers to know because if you don’t know you can’t decide. The controller must inform recipients who got these data, where feasible. And then the data subject also has a right, even if not strictly called a right, to ask \textit{who are all these recipients who got to see my data}. 
+\item  The right to data portability. This is again one of those data subject rights that are in the infographic and which we covered more in depth previously.
+\item  The data subject’s right to object. That does indeed mean what it says: data subjects can say they don’t want the personal data processing to be done or going on. Direct marketers and people who do profiling should pay a lot of attention to the right to object as it’s a lot about them and certainly profiling with automated means.
+\item  The data subject right not to be subject to a decision based solely on automated processing, including profiling, which produces legal effects concerning him or her or similarly significantly affects him or her.\\
+\end{itemize}
+
+
+\begin{figure}[p!]\centering
+	\includegraphics[width=1\textwidth]{pictures/gdpr_subject_rights_detail}
+	\caption{\acrshort{gdpr} consumer rights in detail \cite{gdpr_subject_rights}}\label{fig:gdpr_subject_rights_detail}
+\end{figure}
+
+What we need to be careful about and is not part of current Data Protection Directive?
+
+\begin{itemize}[nosep]
+\item Data breach notification: Controllers and processors are now required to notify supervisory authorities within 72 hours of learning of a breach and to notify the people to whom the data applies \textit{without undue delay}. 
+\item Explicit consent: \acrshort{gdpr} requires that at the time you collect personal data, explicit consent must be given by the data subject. This means organisations can no longer bury generic consent in a long form full of legalese. Instead, organisations must offer specific information on what data is collected, how the data will be stored and processed, and must use clear and plain language. Nothing short of opt-in will do, and it must be as easy to withdraw consent as to give it. 
+\item Data transfer out of the EU: Personal data must not leave the EU unless you have approval from the supervisory authority, or where the data subject is informed of the data transfer and associated risks and authorises the transfer. 
+\item Data protection officer (DPO) appointment: If you process data on a large scale then you must appoint, hire, assign or contract with a DPO, who is your representative to the supervisory authorities that monitor and ensure compliance with the regulation.\\
+\end{itemize}
+
+\pagebreak
+IT with \acrshort{ml} is very competitive environment where companies around the world fight for primacy in research and business use. And as \acrshort{gdpr} affects only EU this can disadvantage EU companies with their world competitors and their moving our of EU borders. Still true impact of \acrshort{gdpr} is unclear and only future shows.\\
+
+For \acrfull{polarion} \acrshort{gdpr} leads to more strictly regulation already so strict environment. Transfer data to external services seems to be quite hard and for this \acrshort{polarion} should implement its own \acrshort{ml} solution that customers can install in their own secured environment and work with it without sending data to external repositories.
+
 
 \chapter{Validity}
 
@@ -609,6 +681,7 @@ implement own ML server using just shareable libraries and provides to customers
 	\item[GUI] Graphic user interface
 	\item[CNTK] Microsoft Cognitive Toolkit
 	\item[LDA] Latent Dirichlet allocation
+	\item[GDPR] General Data Protection Regulation
 \end{description}
 
 

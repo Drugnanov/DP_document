@@ -33,6 +33,11 @@ Why you should use Spark for machine learning. [online], [cit. 2018-05-06].
 Experiments with Latent Dirichlet Allocation. [online], [cit. 2018-05-06].
 \urlprefix\biburl{https://mollermara.com/tag/statistics.html}
 
+\bibitem{gdpr_subject_rights}
+Data subject rights and personal information: data subject rights under the
+  GDPR. [online], [cit. 2018-05-06].
+\urlprefix\biburl{https://www.i-scoop.eu/gdpr/data-subject-rights-gdpr/}
+
 \bibitem{ml_first_occurence}
 Samuel, A.~L.: Some Studies in Machine Learning Using the Game of Checkers.
   [online], [cit. 2018-05-02].
@@ -80,5 +85,9 @@ Apache Spark MTlib. [online], [cit. 2018-05-06].
 \bibitem{ml_lda}
 Topic modeling with LDA introduction. [online], [cit. 2018-05-06].
 \urlprefix\biburl{https://algobeans.com/2015/06/21/laymans-explanation-of-topic-modeling-with-lda-2/}
+
+\bibitem{gdpr_info}
+General Data Protection Regulation (GDPR). [online], [cit. 2018-05-06].
+\urlprefix\biburl{https://www.investopedia.com/terms/g/general-data-protection-regulation-gdpr.asp}
 
 \end{thebibliography}

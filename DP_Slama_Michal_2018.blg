@@ -7,6 +7,10 @@ I was expecting a `,' or a `}'---line 122 of file mybibliographyfile.bib
  :  title = apache 
  :                 MXNet",
 I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 130 of file mybibliographyfile.bib
+ :  title = Guide 
+ :                to the General Data Protection Regulation (GDPR)",
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "ml_spark_advantages]"
 Warning--to sort, need author or key in polarion_alm
 Warning--to sort, need author or key in ml_tensorflow_dl
@@ -14,6 +18,7 @@ Warning--to sort, need author or key in ml_aws
 Warning--to sort, need author or key in ml_cntk
 Warning--to sort, need author or key in ml_spark_advantages
 Warning--to sort, need author or key in ml_lda_exmplanation
+Warning--to sort, need author or key in gdpr_subject_rights
 Warning--to sort, need author or key in ml_tensorflow
 Warning--to sort, need author or key in ml_pytorch
 Warning--to sort, need author or key in ml_keras
@@ -23,4 +28,5 @@ Warning--to sort, need author or key in ml_aws_benefits
 Warning--to sort, need author or key in ml_spark
 Warning--to sort, need author or key in ml_mxnet
 Warning--to sort, need author or key in ml_lda
-(There was 1 error message)
+Warning--to sort, need author or key in gdpr_info
+(There were 2 error messages)

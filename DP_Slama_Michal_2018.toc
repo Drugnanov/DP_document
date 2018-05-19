@@ -43,10 +43,10 @@
 \contentsline {section}{\numberline {4.2}Architecture}{29}{section.4.2}
 \contentsline {section}{\numberline {4.3}Realization of prototype}{29}{section.4.3}
 \contentsline {chapter}{\chapternumberline {5}ML in production environment}{31}{chapter.5}
-\contentsline {chapter}{\chapternumberline {6}Security}{33}{chapter.6}
-\contentsline {chapter}{\chapternumberline {7}Validity}{35}{chapter.7}
-\contentsline {chapter}{\chapternumberline {8}The value of the enhancement}{37}{chapter.8}
-\contentsline {chapter}{Conclusion}{39}{chapter*.18}
-\contentsline {chapter}{Bibliography}{41}{section*.20}
-\contentsline {appendix}{\chapternumberline {A}List of abbreviations used}{43}{appendix.A}
-\contentsline {appendix}{\chapternumberline {B}CD contains}{45}{appendix.B}
+\contentsline {chapter}{\chapternumberline {6}General Data Protection Regulation}{33}{chapter.6}
+\contentsline {chapter}{\chapternumberline {7}Validity}{39}{chapter.7}
+\contentsline {chapter}{\chapternumberline {8}The value of the enhancement}{41}{chapter.8}
+\contentsline {chapter}{Conclusion}{43}{chapter*.20}
+\contentsline {chapter}{Bibliography}{45}{section*.22}
+\contentsline {appendix}{\chapternumberline {A}List of abbreviations used}{47}{appendix.A}
+\contentsline {appendix}{\chapternumberline {B}CD contains}{49}{appendix.B}
