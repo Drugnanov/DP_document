@@ -358,3 +358,33 @@ parent={},%
 %
 }%
 }%
+\ifglsentryexists{d3}{}%
+{%
+\gls@defglossaryentry{d3}%
+{%
+name={D3},%
+sort={D3},%
+type={acronym},%
+first={Data-driven documents\glsspace (D3)},%
+firstplural={Data-driven documentss\glsspace (D3s)},%
+text={D3},%
+plural={D3s},%
+description={Data-driven documents},%
+descriptionplural={Data-driven documents\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Data-driven documents},%
+longplural={Data-driven documentss},%
+short={D3},%
+shortplural={D3s},%
+counter={page},%
+parent={},%
+%
+}%
+}%

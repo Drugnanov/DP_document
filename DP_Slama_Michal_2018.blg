@@ -11,7 +11,12 @@ I was expecting a `,' or a `}'---line 130 of file mybibliographyfile.bib
  :  title = Guide 
  :                to the General Data Protection Regulation (GDPR)",
 I'm skipping whatever remains of this entry
+Repeated entry---line 157 of file mybibliographyfile.bib
+ : @misc{d3
+ :         ,
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "ml_spark_advantages]"
+Warning--I didn't find a database entry for "lda_algotithm"
 Warning--to sort, need author or key in polarion_alm
 Warning--to sort, need author or key in ml_tensorflow_dl
 Warning--to sort, need author or key in ml_aws
@@ -28,5 +33,6 @@ Warning--to sort, need author or key in ml_aws_benefits
 Warning--to sort, need author or key in ml_spark
 Warning--to sort, need author or key in ml_mxnet
 Warning--to sort, need author or key in ml_lda
+Warning--to sort, need author or key in d3
 Warning--to sort, need author or key in gdpr_info
-(There were 2 error messages)
+(There were 3 error messages)

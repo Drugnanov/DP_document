@@ -95,6 +95,7 @@
 \newacronym{lda}{LDA}{Latent Dirichlet allocation}
 \newacronym{gdpr}{GDPR}{General Data Protection Regulation}
 \newacronym{ocr}{OCR}{Optical character recognitionn}
+\newacronym{d3}{D3}{Data-driven documents}
 
 
 \todototoc
@@ -559,7 +560,7 @@ It has been chosen by \acrshort{aws} be part of their \acrshort{ml} on demand in
 
 Now let's switch to some specific algorithm.
 
-\section{Latent Dirichlet allocation}
+\section{Latent Dirichlet allocation}\label{lda_algotithm}
 
 \acrshort{lda}\cite{ml_lda} is a type of topic modeling algorithm. The purpose of \acrshort{lda} is to learn the representation of a fixed number of topics, and given this number of topics learn the topic distribution that each document in a collection of documents has.
 
@@ -632,7 +633,7 @@ svn: 12 s [94% log2 (45x)] (554x), ObjectMaps: 1.56 s
 \end{spverbatim}
 \end{spverbatim}
 
-\section{Suggesting of how to split a document Space}
+\section{Suggesting of how to split a document Space} \label{sec:lda_case}
 
 \acrshort{polarion} is about working with documents. It is expected that customers have a hundreds of documents separated into document spaces. Document spaces are used as folders and make hierarchy. But in some cases customers create too many document under one document space and orientation within this space becomes unclear. Idea is to split documents under one document space into groups based on their topic. This is a job for \acrshort{lda}.
 
@@ -666,7 +667,7 @@ Firstly we need to find similar tasks. We can look for work items with same para
 	\caption{Estimations in \acrshort{polarion}}\label{fig:polarion_estimation}
 \end{figure}
 
-\section{Defect recommendations}
+\section{Defect recommendations} \label{sec:defect_recommendations}
 
 Defect is a special type of work item in \acrshort{polarion} using to track errors and misbehaviours of the system. Creating of this type is done by whoever found the defect and so the author need to have knowledge about already created defects and how to correctly set all parameters for that type of defect. \acrshort{polarion} can try to find similar defects and help the user to better set properties up.\\
 
@@ -720,11 +721,191 @@ Many new defects are created every day. The standard process describes that befo
 
 Analysis of duplicates should be extend to more complex form taking in account also reference work items, similar but not the same text, attachments and so on.
 
-\chapter{Prototypes}
+\chapter{Proof of concept prototypes}
+
+We go through \acrshort{ml} frameworks and algorithms and useful \acrshort{polarion} user cases expandable with \acrshort{ml}. Now it is time to come with \acrshort{pof} prototypes for some of the previous user cases.\\
+
+From internal discussion came up these two user cases:
+\begin{itemize}[nosep]
+\item Suggesting of how to split a document Space\ref{sec:lda_case}
+\item Defect recommendations\ref{sec:defect_recommendations}
+\end{itemize}
+
+Let's move on to their implementation done in a team.
+
+\section{Prototype - suggesting of how to split a document Space}
+
+Task to split documents is a task to find their topics a group them with them. Finding topics is a perfect task for the previously mentioned \acrshort{lda}\cite{lda_algotithm} algorithm. 
+
+Technologies used:
+\begin{itemize}[nosep]
+	\item PostgreSQL
+	\item Java
+	\begin{itemize}[nosep]
+		\item Spring
+		\item LDA from \url{https://github.com/chen0040/java-lda}
+	\end{itemize}[nosep]
+	\item D3 Data Driven documents\cite{d3}
+\end{itemize}[nosep]
+
+The procedure is as follows:
+\begin{enumerate}[nosep]
+\item data acquisition and clearing
+\item creating topics
+\item visualisation\\
+\end{enumerate}
+
+For \acrshort{pof} purposes no integration with \acrshort{polarion} code base will be done. 
+
+\subsection{data acquisition}
+
+It is possible to get data form \acrshort{polarion} through its API. But our case required to download data directly from database when data are stored to own database used just for the prototype. For this purpose the production database were cloned and used.\\
+
+First step is to download all documents data. Then process each document's description and get list of work items contained in the document and download them. After it go through newly downloaded work items and look into their description for a references work items. If there is a referenced work items and download them if the work item was not downloaded previously.\\ 
+
+Some problems were encountered:
+\begin{enumerate}[nosep]
+	\item Document has invalid data
+	- reason for this are mainly historical data and these documents were skipped.
+	\item Incorrect referenced URL
+	- link to referenced work item is in invalid format. Again reason for this is a historical form of link and these links were skipped. 
+	\item Non existing work items
+	- can happen and links were skipped
+\end{enumerate} 
+
+After application of these restriction we have thousands of documents with tens of thousands work items ready to next stage.
+
+\subsection{creating topics}  
+
+This is where \acrshort{lda} library is coming to the scene.
+
+Firstly we need to convert document data to just a plain text suitable for \acrshort{lda}. This processing takes text from document including its title and connects it with text from all his work items. Text from work items again means title plus description and if there is a referenced work item also text from it.\\
+
+Processing is done in 4 levels when for the first level all documents are taken, topics generated. 5 most common topics are taken a documents suitable for them are put under them. Next level takes just a document under one topic a do the same thing as in previous step and so on for the next levels. Results is a three chart structure of all documents in \acrshort{polarion}\ref{lda_tree_chart}.\\
+
+First runs revealed problem with interpretation of words so these sets were defined: 
+\begin{itemize}[nosep]
+ \item stop words - common words used in language without specific meaning - ignored
+ \item html - html tag commonly used in work item's description but inappropriate for topics modeling - ignored
+ \item Polarion keywords - keywords from Polarion domain like \textit{workitems},\textit{dpp}, \textit{wiki} and so on - ignored
+ \item special - command words like \textit{while} or \textit{for} - ignored\\
+\end{itemize}
+
+\begin{figure}[h!]\centering
+	\includegraphics[width=1\textwidth]{pictures/lda_tree_chart}
+	\caption{Tree chart of documents}\label{fig:lda_tree_chart}
+\end{figure}
+
+Using \acrshort{lda} library works flawlessly without any stuck or unexpected behaviour.   
+
+\subsection{Visualisation} 
+
+Using \acrshort{d3} library provides nice and easy to use visualizations. 
+
+Showing the most common topics for documents. More bigger the topic name is, the more topic is common in the documents. You can recognize that some names are redundant it is because topics were named after their most common word. See pictures below \textit{Topics distribution in external database documents}\ref{fig:lda_topics_external_database} and \textit{Topics distribution in variant management documents}\ref{fig:lda_topics_vm}.\\
+	   
+\begin{figure}[p!]\centering
+	\includegraphics[width=1\textwidth]{pictures/lda_topics_external_database}
+	\caption{Topics distribution in external database documents}\label{fig:lda_topics_external_database}
+\end{figure}
+
+\begin{figure}[p!]\centering
+	\includegraphics[width=1\textwidth]{pictures/lda_topics_vm}
+	\caption{Topics distribution in variant management documents}\label{fig:lda_topics_vm}
+\end{figure}
+
+Impressive visualization is a circle graph of all topics. It is circle view of previous tree chart where white circles are documents and depending on how big the white circle is, as a matter of fact, belongs to the topic. See \textit{Circle representation of all topic}\ref{fig:lda_documents_cloud} and \textit{Detail of topics in circle representation}\ref{fig:lda_circle_detail}.
+
+\begin{figure}[h!]\centering
+	\includegraphics[width=1\textwidth]{pictures/lda_documents_cloud}
+	\caption{Circle representation of all topics}\label{fig:lda_documents_cloud}
+\end{figure}
+
+\begin{figure}[p!]\centering
+	\includegraphics[width=1\textwidth]{pictures/lda_circle_detail}
+	\caption{Detail of topics in circle representation}\label{fig:lda_circle_detail}
+\end{figure}
+
+\pagebreak
+\clearpage
+\section{Prototype - defect recommendations}
+
+\acrshort{aws} was used for \acrfull{ml} implementation providing interface for data modeling in a form what is needed. Author also had a previous experiences and participate in the training around \acrfull{aws} helping him to realize this prototype faster. \\
+
+What was used:
+\begin{itemize}[nosep]
+\item \acrshort{aws} cloud service and its own ML/AI engine.
+\item \acrshort{aws} provides a service to import data, store, train ML engine, and setup learning and ML service to cater to specific data sets. 
+\item SCALA was used for a back-end and for extracting and pushing data from \acrshort{polarion} to \acrshort{aws}.
+\item JavaScript injection via Chrome extension was used to inject JS/HTML into a \acrshort{polarion} UI so you can see the results.
+\item Asynchronous real-time connection between \acrshort{polarion} UI, SCALA back-end and \acrshort{aws} was used as a connection.\\
+\end{itemize}
+
+5 categories were selected to recommendation:
+\begin{itemize}[nosep]
+	\item Assignee
+	\item Priority
+	\item Severity
+	\item Category
+	\item Package\\
+\end{itemize}
+
+Two separated parts were implemented:
+\begin{itemize}[nosep]
+	\item Loading Polarion defect data
+	\item Real-time pull of results based on Polarion input\\
+\end{itemize}
+
+\subsection{Loading Polarion defect data}
+
+Data was downloaded from \acrshort{polarion} services and processed to \acrshort{aws} cvs input format. Example of such a data file is below. In reality file has thousands and thousands of lines.
+
+\begin{spverbatim}
+id,title,assignee,priority,severity,linkedRevisions
+DPP-10188, linking a particular historical revision of a wiki 
+page does not work,Pavel Borovik,105.35,blocker,186728
+DPP-10188, linking a particular historical revision of a wiki 
+page does not work,Pavel Borovik,105.35,blocker,191862
+DPP-10110,Polarion program shortcuts do not works since Polarion 
+3.3 when updated from previous version,Jiri Banszel,60.35,major,
+188587
+DPP-10212,Export of formatted multi-lined text to Excel table 
+fails with ClassCastException,Jiri Banszel,82.35,critical,186439
+\end{spverbatim}
+\end{spverbatim}
+\bigskip
+Then data file where pushed as a \textit{AWS ML data set} into a \acrshort{aws} cloud for \acrshort{ml}. ML uses 70 \% of data to learn and then it test itself by using the rest (30 \%) and provides a probability of its guesses by express it in \%.\\
+
+For each category was created one file and from this file one endpoint as so for each category estimation implementation consumes different endpoint.
+
+\subsection{Real-time pull of results based on Polarion input}
+
+Basic description is that user enters title of work item and click on \acrshort{ml} bar to show recommendations. Communication scheme is shown in the picture \textit{Communication scheme}\ref{fig:defect_bot_scheme}.\\
+
+\begin{figure}[h!]\centering
+	\includegraphics[width=1\textwidth]{pictures/defect_bot_scheme}
+	\caption{Communication scheme}\label{fig:defect_bot_scheme}
+\end{figure}
+
+\begin{enumerate}[nosep]
+	\item User enters a title and request recommendations
+	\item Chrome extension grab title and send it to scala backend
+	\item Scala backend asks \acrshort{aws} for recommendations and returns it to chrome extension
+	\item Chrome extension shows recommendations to user as shown in the picture below \ref{fig:defect_bot_workitem}\\
+\end{enumerate}
+
+\begin{figure}[h!]\centering
+	\includegraphics[width=1\textwidth]{pictures/defect_bot_workitem}
+	\caption{Practical use}\label{fig:defect_bot_workitem}
+\end{figure}
+
+Quality of the results is surprisingly good and shows great potential for future production implementation. System is currently deployed on testing environment ready to be extended.
+
+\chapter{ML in production}
 
 
 
-\chapter{General Data Protection Regulation}
+\subsection{General Data Protection Regulation}
 
 Data are fuel for \acrshort{ml} but their use can be limited especially if we talk about customer's data with sensitive information. Now we face new regulation in form of \acrshort{gdpr} that will change rules how to threat and store data. What \acrshort{gdpr} is?\\
 
@@ -777,7 +958,6 @@ The previously mentioned right to erasure or right to be forgotten with addition
 \item  The data subject right not to be subject to a decision based solely on automated processing, including profiling, which produces legal effects concerning him or her or similarly significantly affects him or her.\\
 \end{itemize}
 
-
 \begin{figure}[p!]\centering
 	\includegraphics[width=1\textwidth]{pictures/gdpr_subject_rights_detail}
 	\caption{\acrshort{gdpr} consumer rights in detail \cite{gdpr_subject_rights}}\label{fig:gdpr_subject_rights_detail}
@@ -826,7 +1006,8 @@ For \acrfull{polarion} \acrshort{gdpr} leads to more strictly regulation already
 	\item[CNTK] Microsoft Cognitive Toolkit
 	\item[LDA] Latent Dirichlet allocation
 	\item[GDPR] General data protection regulation
-	\item[OCR] Optical character recognition	
+	\item[OCR] Optical character recognition
+	\item[D3] D3 Data-driven documents
 \end{description}
 
 

@@ -144,6 +144,7 @@
 \newlabel{fig:ml_spark_ecosystem}{{\M@TitleReference {3.5}{Spark ecosystem \cite  {ml_spark_advantages}\relax }}{27}{Spark ecosystem \cite {ml_spark_advantages}\relax }{figure.caption.16}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {3.8}MxNet}{27}{section.3.8}}
 \@writefile{toc}{\contentsline {section}{\numberline {3.9}Latent Dirichlet allocation}{27}{section.3.9}}
+\newlabel{lda_algotithm}{{\M@TitleReference {3.9}{Latent Dirichlet allocation}}{27}{Latent Dirichlet allocation}{section.3.9}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {3.6}{\ignorespaces Plate notation (Bayesian inference) for \acrshort {lda} \cite  {ml_lda_exmplanation}\relax }}{28}{figure.caption.17}}
 \newlabel{fig:ml_lda_scheme}{{\M@TitleReference {3.6}{Plate notation (Bayesian inference) for \acrshort {lda} \cite  {ml_lda_exmplanation}\relax }}{28}{Plate notation (Bayesian inference) for \acrshort {lda} \cite {ml_lda_exmplanation}\relax }{figure.caption.17}{}}
 \@writefile{lof}{\addvspace {10pt}}
@@ -157,6 +158,7 @@
 \newlabel{fig:polarion_search}{{\M@TitleReference {4.2}{Search work item in \acrshort {polarion}\relax }}{30}{Search work item in \acrshort {polarion}\relax }{figure.caption.19}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {4.3}Suggestion for optimization of Polarion configuration}{30}{section.4.3}}
 \@writefile{toc}{\contentsline {section}{\numberline {4.4}Suggesting of how to split\IeC {\nobreakspace  }a\IeC {\nobreakspace  }document Space}{31}{section.4.4}}
+\newlabel{sec:lda_case}{{\M@TitleReference {4.4}{Suggesting of how to split\IeC {\nobreakspace  }a\IeC {\nobreakspace  }document Space}}{31}{Suggesting of how to split a document Space}{section.4.4}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces Document space in \acrshort {polarion}\relax }}{32}{figure.caption.20}}
 \newlabel{fig:polarion_document_space}{{\M@TitleReference {4.3}{Document space in \acrshort {polarion}\relax }}{32}{Document space in \acrshort {polarion}\relax }{figure.caption.20}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {4.5}Translating documents}{33}{section.4.5}}
@@ -164,6 +166,7 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {4.4}{\ignorespaces Estimations in \acrshort {polarion}\relax }}{34}{figure.caption.21}}
 \newlabel{fig:polarion_estimation}{{\M@TitleReference {4.4}{Estimations in \acrshort {polarion}\relax }}{34}{Estimations in \acrshort {polarion}\relax }{figure.caption.21}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {4.7}Defect recommendations}{34}{section.4.7}}
+\newlabel{sec:defect_recommendations}{{\M@TitleReference {4.7}{Defect recommendations}}{34}{Defect recommendations}{section.4.7}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {4.5}{\ignorespaces Properties of defect work item in \acrshort {polarion}\relax }}{35}{figure.caption.22}}
 \newlabel{fig:defect_menu}{{\M@TitleReference {4.5}{Properties of defect work item in \acrshort {polarion}\relax }}{35}{Properties of defect work item in \acrshort {polarion}\relax }{figure.caption.22}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {4.8}Chat bot}{35}{section.4.8}}
@@ -173,32 +176,56 @@
 \@writefile{toc}{\contentsline {section}{\numberline {4.10}Detection of duplicated defects}{37}{section.4.10}}
 \@writefile{lof}{\contentsline {figure}{\numberline {4.7}{\ignorespaces Similar defect suggestion in \acrshort {polarion}\relax }}{37}{figure.caption.24}}
 \newlabel{fig:polarion_defect_similar}{{\M@TitleReference {4.7}{Similar defect suggestion in \acrshort {polarion}\relax }}{37}{Similar defect suggestion in \acrshort {polarion}\relax }{figure.caption.24}{}}
+\citation{lda_algotithm}
+\citation{d3}
 \@writefile{lof}{\addvspace {10pt}}
 \@writefile{lot}{\addvspace {10pt}}
-\@writefile{toc}{\contentsline {chapter}{\chapternumberline {5}ML in production environment}{39}{chapter.5}}
+\@writefile{toc}{\contentsline {chapter}{\chapternumberline {5}Proof of concept prototypes}{39}{chapter.5}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.1}Prototype - suggesting of how to split\IeC {\nobreakspace  }a\IeC {\nobreakspace  }document Space}{39}{section.5.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.1}data acquisition}{40}{subsection.5.1.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.2}creating topics}{40}{subsection.5.1.2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.1}{\ignorespaces Tree chart of documents\relax }}{41}{figure.caption.25}}
+\newlabel{fig:lda_tree_chart}{{\M@TitleReference {5.1}{Tree chart of documents\relax }}{41}{Tree chart of documents\relax }{figure.caption.25}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.3}Visualisation}{41}{subsection.5.1.3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.2}{\ignorespaces Topics distribution in external database documents\relax }}{42}{figure.caption.26}}
+\newlabel{fig:lda_topics_external_database}{{\M@TitleReference {5.2}{Topics distribution in external database documents\relax }}{42}{Topics distribution in external database documents\relax }{figure.caption.26}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.3}{\ignorespaces Topics distribution in variant management documents\relax }}{42}{figure.caption.27}}
+\newlabel{fig:lda_topics_vm}{{\M@TitleReference {5.3}{Topics distribution in variant management documents\relax }}{42}{Topics distribution in variant management documents\relax }{figure.caption.27}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.4}{\ignorespaces Circle representation of all topics\relax }}{43}{figure.caption.28}}
+\newlabel{fig:lda_documents_cloud}{{\M@TitleReference {5.4}{Circle representation of all topics\relax }}{43}{Circle representation of all topics\relax }{figure.caption.28}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.5}{\ignorespaces Detail of topics in circle representation\relax }}{44}{figure.caption.29}}
+\newlabel{fig:lda_circle_detail}{{\M@TitleReference {5.5}{Detail of topics in circle representation\relax }}{44}{Detail of topics in circle representation\relax }{figure.caption.29}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.2}Prototype - defect recommendations}{45}{section.5.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.1}Loading Polarion defect data}{45}{subsection.5.2.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.2}Real-time pull of results based on Polarion input}{46}{subsection.5.2.2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.6}{\ignorespaces Communication scheme\relax }}{46}{figure.caption.30}}
+\newlabel{fig:defect_bot_scheme}{{\M@TitleReference {5.6}{Communication scheme\relax }}{46}{Communication scheme\relax }{figure.caption.30}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.7}{\ignorespaces Practical use\relax }}{47}{figure.caption.31}}
+\newlabel{fig:defect_bot_workitem}{{\M@TitleReference {5.7}{Practical use\relax }}{47}{Practical use\relax }{figure.caption.31}{}}
 \citation{gdpr_info}
 \@writefile{lof}{\addvspace {10pt}}
 \@writefile{lot}{\addvspace {10pt}}
-\@writefile{toc}{\contentsline {chapter}{\chapternumberline {6}General Data Protection Regulation}{41}{chapter.6}}
+\@writefile{toc}{\contentsline {chapter}{\chapternumberline {6}ML in production}{49}{chapter.6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.0.1}General Data Protection Regulation}{49}{subsection.6.0.1}}
 \citation{gdpr_subject_rights}
 \citation{gdpr_subject_rights}
-\@writefile{lof}{\contentsline {figure}{\numberline {6.1}{\ignorespaces \acrshort {gdpr} consumer rights \cite  {gdpr_subject_rights}\relax }}{42}{figure.caption.25}}
-\newlabel{fig:gdpr_subject_rights}{{\M@TitleReference {6.1}{\acrshort {gdpr} consumer rights \cite  {gdpr_subject_rights}\relax }}{42}{\acrshort {gdpr} consumer rights \cite {gdpr_subject_rights}\relax }{figure.caption.25}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.1}{\ignorespaces \acrshort {gdpr} consumer rights \cite  {gdpr_subject_rights}\relax }}{50}{figure.caption.32}}
+\newlabel{fig:gdpr_subject_rights}{{\M@TitleReference {6.1}{\acrshort {gdpr} consumer rights \cite  {gdpr_subject_rights}\relax }}{50}{\acrshort {gdpr} consumer rights \cite {gdpr_subject_rights}\relax }{figure.caption.32}{}}
 \citation{gdpr_subject_rights}
 \citation{gdpr_subject_rights}
-\@writefile{lof}{\contentsline {figure}{\numberline {6.2}{\ignorespaces \acrshort {gdpr} consumer rights in detail \cite  {gdpr_subject_rights}\relax }}{44}{figure.caption.26}}
-\newlabel{fig:gdpr_subject_rights_detail}{{\M@TitleReference {6.2}{\acrshort {gdpr} consumer rights in detail \cite  {gdpr_subject_rights}\relax }}{44}{\acrshort {gdpr} consumer rights in detail \cite {gdpr_subject_rights}\relax }{figure.caption.26}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.2}{\ignorespaces \acrshort {gdpr} consumer rights in detail \cite  {gdpr_subject_rights}\relax }}{52}{figure.caption.33}}
+\newlabel{fig:gdpr_subject_rights_detail}{{\M@TitleReference {6.2}{\acrshort {gdpr} consumer rights in detail \cite  {gdpr_subject_rights}\relax }}{52}{\acrshort {gdpr} consumer rights in detail \cite {gdpr_subject_rights}\relax }{figure.caption.33}{}}
 \@writefile{lof}{\addvspace {10pt}}
 \@writefile{lot}{\addvspace {10pt}}
-\@writefile{toc}{\contentsline {chapter}{\chapternumberline {7}Validity}{47}{chapter.7}}
+\@writefile{toc}{\contentsline {chapter}{\chapternumberline {7}Validity}{55}{chapter.7}}
 \@writefile{lof}{\addvspace {10pt}}
 \@writefile{lot}{\addvspace {10pt}}
-\@writefile{toc}{\contentsline {chapter}{\chapternumberline {8}The value of the enhancement}{49}{chapter.8}}
+\@writefile{toc}{\contentsline {chapter}{\chapternumberline {8}The value of the enhancement}{57}{chapter.8}}
 \bibstyle{csn690}
 \bibdata{mybibliographyfile}
 \@writefile{lof}{\addvspace {10pt}}
 \@writefile{lot}{\addvspace {10pt}}
-\@writefile{toc}{\contentsline {chapter}{Conclusion}{51}{chapter*.27}}
+\@writefile{toc}{\contentsline {chapter}{Conclusion}{59}{chapter*.34}}
 \bibcite{polarion_alm}{1}
 \bibcite{ml_tensorflow_dl}{2}
 \bibcite{ml_aws}{3}
@@ -210,7 +237,7 @@
 \bibcite{ml_history}{9}
 \bibcite{mlp2018_microsoft}{10}
 \bibcite{ml_tensorflow}{11}
-\@writefile{toc}{\contentsline {chapter}{Bibliography}{53}{section*.29}}
+\@writefile{toc}{\contentsline {chapter}{Bibliography}{61}{section*.36}}
 \bibcite{ml_pytorch}{12}
 \bibcite{ml_keras}{13}
 \bibcite{ml_caffe2}{14}
@@ -219,12 +246,13 @@
 \bibcite{ml_spark}{17}
 \bibcite{ml_mxnet}{18}
 \bibcite{ml_lda}{19}
-\bibcite{gdpr_info}{20}
+\bibcite{d3}{20}
+\bibcite{gdpr_info}{21}
 \@writefile{lof}{\addvspace {10pt}}
 \@writefile{lot}{\addvspace {10pt}}
-\@writefile{toc}{\contentsline {appendix}{\chapternumberline {A}List of abbreviations used}{55}{appendix.A}}
+\@writefile{toc}{\contentsline {appendix}{\chapternumberline {A}List of abbreviations used}{63}{appendix.A}}
 \@writefile{lof}{\addvspace {10pt}}
 \@writefile{lot}{\addvspace {10pt}}
-\@writefile{toc}{\contentsline {appendix}{\chapternumberline {B}CD contains}{57}{appendix.B}}
-\memsetcounter{lastsheet}{71}
-\memsetcounter{lastpage}{57}
+\@writefile{toc}{\contentsline {appendix}{\chapternumberline {B}CD contains}{65}{appendix.B}}
+\memsetcounter{lastsheet}{79}
+\memsetcounter{lastpage}{65}
