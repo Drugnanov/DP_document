@@ -388,3 +388,33 @@ parent={},%
 %
 }%
 }%
+\ifglsentryexists{saas}{}%
+{%
+\gls@defglossaryentry{saas}%
+{%
+name={SaaS},%
+sort={SaaS},%
+type={acronym},%
+first={Software as a service\glsspace (SaaS)},%
+firstplural={Software as a services\glsspace (SaaSs)},%
+text={SaaS},%
+plural={SaaSs},%
+description={Software as a service},%
+descriptionplural={Software as a service\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Software as a service},%
+longplural={Software as a services},%
+short={SaaS},%
+shortplural={SaaSs},%
+counter={page},%
+parent={},%
+%
+}%
+}%

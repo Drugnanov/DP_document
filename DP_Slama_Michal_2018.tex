@@ -44,44 +44,17 @@
 \authorGN{Michal} %(křestní) jméno (jména) autora
 \authorFN{Sláma} %příjmení autora
 \authorWithDegrees{Bc. Michal Sláma} %jméno autora včetně současných akademických titulů
-\author{Jan Nový} %jméno autora bez akademických titulů
+\author{Michal Sláma} %jméno autora bez akademických titulů
 \supervisor{Ing. Jurij Černikov}
 \acknowledgements{I would like to thank to my supervisour for his extraordinary leading and valuable advices during the whole process of writing this thesis.}
-\abstractCS{Machine learning (ML) is becaming essencial part any software application. Its same for application lifecycle management (ALM) which hides great opportunities to improve using, processing or behaviour of the whole system based on the ML principies. This work cointains description of ML principies relevat for using in the ALM environment. For the specific software is used Polarion which is wordwide successful enterprise solution for ALM. This thesis provides analysis it's core business and user cases and posible ways how to integrate ML to improve Polarion in different areas. As Polarion must that customer's data are not exposed to any possible thread ensure on all levels we will discuss the way how to achieve this goal by a different kind of architecture or implementation. }
-\abstractEN{Sem doplňte ekvivalent abstraktu Vaší práce v~angličtině.}
+\abstractCS{Diplomová práce obsahuje přehled možný požití stojového užení v aplikace Polarion ALM. Práce začíná analýzou funkcí Polarionu následovanou recenzí nejběžnějších \acrshort{ml} frameworků a algoritmů vhodných pro použití v prostředí Polarionu. Následuje popis důležitých případů použití s cílem najít nejvhodnějšího kandidáta pro aplikaci \acrshort{ml}. Pro dva vybrané případy použití je vytvočen prototyp s využitím produkčních dat a následně je důskutována náročnost budoucího nasazení do produkce spolu s komplikací ve formě nové \acrshort{gdpr} směrnice.}
+\abstractEN{Master thesis contains an overview of possible ways how to use Machine learning (ML) in Polarion ALM software. Thesis begins with analysis of Polarion functionality is followed by review of \acrshort{ml} frameworks and algorithms suitable for using in Polarion environment. Followed by description of important user cases with business value and appropriate for \acrshort{ml} implementation. By combining the previous one two user cases are selected to create a prototype based on production data. Finally we are discussing deployment to production and its problems including new \acrshort{gdpr} regulation.}
 \placeForDeclarationOfAuthenticity{V~Praze}
 \declarationOfAuthenticityOption{4} %volba Prohlášení (číslo 1-6)
-\keywordsCS{Strojové učení, životní cyklus softwarových aplikací, ALM}
-\keywordsEN{Machine learning, application lifecycle management, ALM}
-
-%definition for Java source code examples
-\lstset{
-	basicstyle=\footnotesize\ttfamily,
-	numberstyle=\tiny,
-	numbersep=5pt,
-	tabsize=2,
-	extendedchars=true,
-	breaklines=true,
-	%	showstringspaces=true,
-	keywordstyle=\color{red},
-	frame=b,         
-	stringstyle=\color{white}\ttfamily,
-	showspaces=false, 
-	showtabs=false,  
-	xleftmargin=17pt,
-	framexleftmargin=17pt,
-	framexrightmargin=5pt,
-	framexbottommargin=4pt,
-	showstringspaces=false, 
-	breakatwhitespace=true,
-	commentstyle=\color{pgreen},
-	keywordstyle=\color{pblue},
-	stringstyle=\color{pred}    
-}
-\lstloadlanguages{Java}
+\keywordsCS{Strojové učení, životní cyklus softwarových aplikací, ALM, GDPR, AWS, Amazon web services, LDA, Latent Dirichlet allocation}
+\keywordsEN{Machine learning, application lifecycle management, ALM, GDPR, AWS, Amazon web services, LDA, Latent Dirichlet allocation}
 
 \begin{document}
-
 
 \newacronym{alm}{ALM}{Application lifecycle management}
 \newacronym{plm}{PLM}{Product lifecycle management}
@@ -96,6 +69,7 @@
 \newacronym{gdpr}{GDPR}{General Data Protection Regulation}
 \newacronym{ocr}{OCR}{Optical character recognitionn}
 \newacronym{d3}{D3}{Data-driven documents}
+\newacronym{saas}{SaaS}{Software as a service}
 
 
 \todototoc
@@ -828,7 +802,7 @@ Impressive visualization is a circle graph of all topics. It is circle view of p
 
 \pagebreak
 \clearpage
-\section{Prototype - defect recommendations}
+\section{Prototype - defect recommendations}\label{prototype_defect_rec}
 
 \acrshort{aws} was used for \acrfull{ml} implementation providing interface for data modeling in a form what is needed. Author also had a previous experiences and participate in the training around \acrfull{aws} helping him to realize this prototype faster. \\
 
@@ -901,9 +875,11 @@ Basic description is that user enters title of work item and click on \acrshort{
 
 Quality of the results is surprisingly good and shows great potential for future production implementation. System is currently deployed on testing environment ready to be extended.
 
-\chapter{ML in production}
+\chapter{ML in Polarion production}
 
+Both implemented prototypes are in test environment ready for further development together with not implemented ideas that are still on table. Decision to go to production is not so simple as can look like because if your product operate in a regulated environment any violation against these regulation may have fatal impact on \acrshort{polarion} trade mark. The main problem are data and customers must be sure that with data being handled correctly all the time. \\ 
 
+Let's look at \acrshort{gdpr} regulation coming into force just these days when this thesis is published.
 
 \subsection{General Data Protection Regulation}
 
@@ -972,18 +948,48 @@ What we need to be careful about and is not part of current Data Protection Dire
 \item Data protection officer (DPO) appointment: If you process data on a large scale then you must appoint, hire, assign or contract with a DPO, who is your representative to the supervisory authorities that monitor and ensure compliance with the regulation.\\
 \end{itemize}
 
-\pagebreak
 IT with \acrshort{ml} is very competitive environment where companies around the world fight for primacy in research and business use. And as \acrshort{gdpr} affects only EU this can disadvantage EU companies with their world competitors and their moving our of EU borders. Still true impact of \acrshort{gdpr} is unclear and only future shows.\\
 
 For \acrfull{polarion} \acrshort{gdpr} leads to more strictly regulation already so strict environment. Transfer data to external services seems to be quite hard and for this \acrshort{polarion} should implement its own \acrshort{ml} solution that customers can install in their own secured environment and work with it without sending data to external repositories.
 
+\section{ML future}
+\acrshort{ml} is no longer in category should have but it quickly move to technology that all system must have in some way and it does not matter if it will voice recognition, chat bot or some sort of data analysis. As you can see in the picture \textit{Expected IT budget for ML}\ref{fig:ml_budget} almost all companies invest in \acrshort{ml} technologies with vision of improving their profit greatly.\\
 
-\chapter{Validity}
+\begin{figure}[h!]\centering
+	\includegraphics[width=1\textwidth]{pictures/ml_budget}
+	\caption{Expected IT budget for ML\cite{ml_realword}}\label{fig:ml_budget}
+\end{figure}
 
-\chapter{The value of the enhancement}
+Of course \acrshort{ml} is not the only technology changing market and market expectation are seen in the picture \textit{Technologies trends over next 3 years}\ref{fig:ml_changing_market} and \acrshort{ml} experts paid in gold.
+
+\begin{figure}[h!]\centering
+	\includegraphics[width=1\textwidth]{pictures/ml_changing_market}
+	\caption{Technologies trends over next 3 years\cite{ml_realword}}\label{fig:ml_changing_market}
+\end{figure}
+
+Important change is the time from idea to \acrshort{pof} implementation. We are no longer talking about years but more likely months and even weeks or days. And \acrshort{ml} was about pure mathematical algorithms and equals no it is more about integrations of existing \acrshort{ml} solutions and massage it with own data. It helps management to see and recognize benefits \acrshort{ml} projects in their product in a shorter time and with a lower cost and make a decision to start with production implementation.
+
+\section{Changes to environment}
+
+The practical impact of \acrshort{gdpr} on data manipulation is something what will revealed and in current state it is better to wait and see what happens. 
+
+But for sure what we used for Defect recommendation\ref{prototype_defect_rec} can not be used in production environment. We need to move \acrshort{ml} server to \acrshort{polarion} environment by using existing server's implementations or create our own server. \acrshort{ml} community provides libraries and guides helping with creating own server what is our next target.
 
 \begin{conclusion}
-	%sem napište závěr Vaší práce
+	
+We have analyzed and described \acrshort{polarion} main parts and benefits what makes \acrshort{polarion} one of the best \acrshort{alm} solution on the market of large enterprise solutions with strong regulations that are reason why user experience is worse in compare with others lightweight solutions. 
+
+Review of \acrshort{ml} existing solutions and algorithms revealed readiness of \acrshort{ml} for a fast prototyping and production deployment. Big companies like Facebook, Google or Microsoft continue with developing their own \acrshort{ml} frameworks with growing community support and production implementations.
+
+We dig deep into \acrshort{polarion} using and found several promising user case candidates for \acrshort{ml} prototyping. Each of these user cases has a valuable business potential move \acrshort{polarion} one step above the competitors without the need for drastic changes to the current implementation.
+
+We have chosen two user cases and successfully implement prototype for each of them. Implementation confirm that prototyping is no longer task for years but rather months or even weeks with \acrshort{ml} services as \acrshort{saas}. both prototypes are now in test environment and ready to next development.  
+
+Despite the fact that prototyping is easier than ever before, move to production remains complicated not only from the point of view technologies, but rather regulation and new \acrshort{gdpr} guideline slow down or even make it impossible.
+
+Nevertheless \acrshort{ml} will be more and more common part of any application and companies have to catch up with this trend to survive. \acrshort{polarion} works on it.   
+
+
 \end{conclusion}
 
 \bibliographystyle{csn690}
@@ -1008,114 +1014,8 @@ For \acrfull{polarion} \acrshort{gdpr} leads to more strictly regulation already
 	\item[GDPR] General data protection regulation
 	\item[OCR] Optical character recognition
 	\item[D3] D3 Data-driven documents
+	\item[SaaS] Software as a service
 \end{description}
-
-
-% % % % % % % % % % % % % % % % % % % % % % % % % % % % 
-% % Tuto kapitolu z výsledné práce ODSTRAŇTE.
-% % % % % % % % % % % % % % % % % % % % % % % % % % % % 
-% 
-% \chapter{Návod k~použití této šablony}
-% 
-% Tento dokument slouží jako základ pro napsání závěrečné práce na Fakultě informačních technologií ČVUT v~Praze.
-% 
-% \section{Výběr základu}
-% 
-% Vyberte si šablonu podle druhu práce (bakalářská, diplomová), jazyka (čeština, angličtina) a kódování (ASCII, \mbox{UTF-8}, \mbox{ISO-8859-2} neboli latin2 a nebo \mbox{Windows-1250}). 
-% 
-% V~české variantě naleznete šablony v~souborech pojmenovaných ve formátu práce\_kódování.tex. Typ může být:
-% \begin{description}
-% 	\item[BP] bakalářská práce,
-% 	\item[DP] diplomová (magisterská) práce.
-% \end{description}
-% Kódování, ve kterém chcete psát, může být:
-% \begin{description}
-% 	\item[UTF-8] kódování Unicode,
-% 	\item[ISO-8859-2] latin2,
-% 	\item[Windows-1250] znaková sada 1250 Windows.
-% \end{description}
-% V~případě nejistoty ohledně kódování doporučujeme následující postup:
-% \begin{enumerate}
-% 	\item Otevřete šablony pro kódování UTF-8 v~editoru prostého textu, který chcete pro psaní práce použít -- pokud můžete texty s~diakritikou normálně přečíst, použijte tuto šablonu.
-% 	\item V~opačném případě postupujte dále podle toho, jaký operační systém používáte:
-% 	\begin{itemize}
-% 		\item v~případě Windows použijte šablonu pro kódování \mbox{Windows-1250},
-% 		\item jinak zkuste použít šablonu pro kódování \mbox{ISO-8859-2}.
-% 	\end{itemize}
-% \end{enumerate}
-% 
-% 
-% V~anglické variantě jsou šablony pojmenované podle typu práce, možnosti jsou:
-% \begin{description}
-% 	\item[bachelors] bakalářská práce,
-% 	\item[masters] diplomová (magisterská) práce.
-% \end{description}
-% 
-% \section{Použití šablony}
-% 
-% Šablona je určena pro zpracování systémem \LaTeXe{}. Text je možné psát v~textovém editoru jako prostý text, lze však také využít specializovaný editor pro \LaTeX{}, např. Kile.
-% 
-% Pro získání tisknutelného výstupu z~takto vytvořeného souboru použijte příkaz \verb|pdflatex|, kterému předáte cestu k~souboru jako parametr. Vhodný editor pro \LaTeX{} toto udělá za Vás. \verb|pdfcslatex| ani \verb|cslatex| \emph{nebudou} s~těmito šablonami fungovat.
-% 
-% Více informací o~použití systému \LaTeX{} najdete např. v~\cite{wikilatex}.
-% 
-% \subsection{Typografie}
-% 
-% Při psaní dodržujte typografické konvence zvoleného jazyka. České \uv{uvozovky} zapisujte použitím příkazu \verb|\uv|, kterému v~parametru předáte text, jenž má být v~uvozovkách. Anglické otevírací uvozovky se v~\LaTeX{}u zadávají jako dva zpětné apostrofy, uzavírací uvozovky jako dva apostrofy. Často chybně uváděný symbol "{} (palce) nemá s~uvozovkami nic společného.
-% 
-% Dále je třeba zabránit zalomení řádky mezi některými slovy, v~češtině např. za jednopísmennými předložkami a spojkami (vyjma \uv{a}). To docílíte vložením pružné nezalomitelné mezery -- znakem \texttt{\textasciitilde}. V~tomto případě to není třeba dělat ručně, lze použít program \verb|vlna|.
-% 
-% Více o~typografii viz \cite{kobltypo}.
-% 
-% \subsection{Obrázky}
-% 
-% Pro umožnění vkládání obrázků je vhodné použít balíček \verb|graphicx|, samotné vložení se provede příkazem \verb|\includegraphics|. Takto je možné vkládat obrázky ve formátu PDF, PNG a JPEG jestliže používáte pdf\LaTeX{} nebo ve formátu EPS jestliže používáte \LaTeX{}. Doporučujeme preferovat vektorové obrázky před rastrovými (vyjma fotografií).
-% 
-% \subsubsection{Získání vhodného formátu}
-% 
-% Pro získání vektorových formátů PDF nebo EPS z~jiných lze použít některý z~vektorových grafických editorů. Pro převod rastrového obrázku na vektorový lze použít rasterizaci, kterou mnohé editory zvládají (např. Inkscape). Pro konverze lze použít též nástroje pro dávkové zpracování běžně dodávané s~\LaTeX{}em, např. \verb|epstopdf|.
-% 
-% \subsubsection{Plovoucí prostředí}
-% 
-% Příkazem \verb|\includegraphics| lze obrázky vkládat přímo, doporučujeme však použít plovoucí prostředí, konkrétně \verb|figure|. Například obrázek \ref{fig:float} byl vložen tímto způsobem. Vůbec přitom nevadí, když je obrázek umístěn jinde, než bylo původně zamýšleno -- je tomu tak hlavně kvůli dodržení typografických konvencí. Namísto vynucování konkrétní pozice obrázku doporučujeme používat odkazování z~textu (dvojice příkazů \verb|\label| a \verb|\ref|).
-% 
-% \begin{figure}\centering
-% 	\includegraphics[width=0.5\textwidth, angle=30]{cvut-logo-bw}
-% 	\caption[Příklad obrázku]{Ukázkový obrázek v~plovoucím prostředí}\label{fig:float}
-% \end{figure}
-% 
-% \subsubsection{Verze obrázků}
-% 
-% % Gnuplot BW i barevně
-% Může se hodit mít více verzí stejného obrázku, např. pro barevný či černobílý tisk a nebo pro prezentaci. S~pomocí některých nástrojů na generování grafiky je to snadné.
-% 
-% Máte-li například graf vytvořený v programu Gnuplot, můžete jeho černobílou variantu (viz obr. \ref{fig:gnuplot-bw}) vytvořit parametrem \verb|monochrome dashed| příkazu \verb|set term|. Barevnou variantu (viz obr. \ref{fig:gnuplot-col}) vhodnou na prezentace lze vytvořit parametrem \verb|colour solid|.
-% 
-% \begin{figure}\centering
-% 	\includegraphics{gnuplot-bw}
-% 	\caption{Černobílá varianta obrázku generovaného programem Gnuplot}\label{fig:gnuplot-bw}
-% \end{figure}
-% 
-% \begin{figure}\centering
-% 	\includegraphics{gnuplot-col}
-% 	\caption{Barevná varianta obrázku generovaného programem Gnuplot}\label{fig:gnuplot-col}
-% \end{figure}
-% 
-% 
-% \subsection{Tabulky}
-% 
-% Tabulky lze zadávat různě, např. v~prostředí \verb|tabular|, avšak pro jejich vkládání platí to samé, co pro obrázky -- použijte plovoucí prostředí, v~tomto případě \verb|table|. Například tabulka \ref{tab:matematika} byla vložena tímto způsobem.
-% 
-% \begin{table}\centering
-% 	\caption[Příklad tabulky]{Zadávání matematiky}\label{tab:matematika}
-% 	\begin{tabular}{|l|l|c|c|}\hline
-% 		Typ		& Prostředí		& \LaTeX{}ovská zkratka	& \TeX{}ovská zkratka	\tabularnewline \hline \hline
-% 		Text		& \verb|math|		& \verb|\(...\)|	& \verb|$...$|		\tabularnewline \hline
-% 		Displayed	& \verb|displaymath|	& \verb|\[...\]|	& \verb|$$...$$|	\tabularnewline \hline
-% 	\end{tabular}
-% \end{table}
-% 
-% % % % % % % % % % % % % % % % % % % % % % % % % % % % 
 
 \chapter{CD contains}
 

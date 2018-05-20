@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.2.27)  20 MAY 2018 18:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.2.27)  20 MAY 2018 21:56
 entering extended mode
 **./DP_Slama_Michal_2018.tex
 (DP_Slama_Michal_2018.tex
@@ -1690,36 +1690,32 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \sift@deathcycles=\count300
 \@vwid@loff=\dimen318
 \@vwid@roff=\dimen319
-))
-("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstlang1
-.sty"
-File: lstlang1.sty 2015/06/04 1.6 listings language file
-) (DP_Slama_Michal_2018.aux)
+)) (DP_Slama_Michal_2018.aux)
 \openout1 = `DP_Slama_Michal_2018.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 83.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 57.
 
 ("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 \AtBeginShipoutBox=\box52
-Package hyperref Info: Link coloring OFF on input line 83.
+Package hyperref Info: Link coloring OFF on input line 57.
 
 ("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\nameref.
 sty"
@@ -1733,10 +1729,10 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 83.
-LaTeX Info: Redefining \ref on input line 83.
-LaTeX Info: Redefining \pageref on input line 83.
-LaTeX Info: Redefining \nameref on input line 83.
+LaTeX Info: Redefining \nameref on input line 57.
+LaTeX Info: Redefining \ref on input line 57.
+LaTeX Info: Redefining \pageref on input line 57.
+LaTeX Info: Redefining \nameref on input line 57.
 (DP_Slama_Michal_2018.out) (DP_Slama_Michal_2018.out)
 \@outlinefile=\write8
 \openout8 = `DP_Slama_Michal_2018.out'.
@@ -1790,7 +1786,7 @@ Package caption Info: End \AtBeginDocument code.
 <cvut-logo-bw-en.pdf, id=176, 591.64943pt x 193.23091pt>
 File: cvut-logo-bw-en.pdf Graphic file (type pdf)
 <use cvut-logo-bw-en.pdf>
-Package pdftex.def Info: cvut-logo-bw-en.pdf  used on input line 83.
+Package pdftex.def Info: cvut-logo-bw-en.pdf  used on input line 57.
 (pdftex.def)             Requested size: 184.5pt x 60.25772pt.
  [1
 
@@ -1799,43 +1795,53 @@ Package pdftex.def Info: cvut-logo-bw-en.pdf  used on input line 83.
 ]
 
 LaTeX Font Warning: Font shape `OT1/lmr/bx/sc' undefined
-(Font)              using `OT1/lmr/bx/n' instead on input line 83.
+(Font)              using `OT1/lmr/bx/n' instead on input line 57.
 
-LaTeX Font Info:    Try loading font information for OT1+lmss on input line 83.
+LaTeX Font Info:    Try loading font information for OT1+lmss on input line 57.
 
 ("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\ot1lmss.fd"
 File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 
 LaTeX Font Warning: Font shape `OT1/lmss/bx/sc' undefined
-(Font)              using `OT1/lmss/bx/n' instead on input line 83.
+(Font)              using `OT1/lmss/bx/n' instead on input line 57.
 
 [3
 
 ] [4
 
 ] [5]
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 83.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 57.
 
 ("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\omslmr.fd"
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 83.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 57.
 
 
 ("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 83.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 57.
 
 [6
 
-] [7
+]
+Overfull \hbox (17.34106pt too wide) in paragraph at lines 57--57
+\OT1/lmr/m/n/10.95 Po-lar-i-onu. Nasleduje popis dulezitych prpadu pou
+zit s clem najt ne-jvhodnejsho
+ []
 
-] [8
+[7
 
-] (DP_Slama_Michal_2018.toc
+]
+Overfull \hbox (10.921pt too wide) in paragraph at lines 57--57
+[]\OT1/lmr/bx/n/10.95 Keywords \OT1/lmr/m/n/10.95 Ma-chine learn-ing, ap-pli-ca
+-tion life-cy-cle man-age-ment, ALM, GDPR,
+ []
+
+[8] (DP_Slama_Michal_2018.toc
 LaTeX Font Info:    Try loading font information for OML+lmm on input line 5.
 
 ("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
@@ -1853,11 +1859,11 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 5.
 
-[9]) [10] (DP_Slama_Michal_2018.lof) [11
+[9
 
-] [12
+]) [10] (DP_Slama_Michal_2018.lof [11
 
-]
+]) [12]
 \@gls@deffile=\write9
 \openout9 = `DP_Slama_Michal_2018.glsdefs'.
 
@@ -1865,32 +1871,33 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 ntifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.104 \begin{introduction}
-                           [1
+l.78 \begin{introduction}
+                          [1
+
 
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.104 \begin{introduction}
-                           [2
+l.78 \begin{introduction}
+                          [2
 
 ] [3] [4
 
 ] [5] [6
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 132--134
+Underfull \hbox (badness 10000) in paragraph at lines 106--108
 
  []
 
-LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 135
+LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 109
 .
 ("C:\Users\qhxq9u\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\ot1lmtt.fd"
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Overfull \hbox (6.52046pt too wide) in paragraph at lines 135--136
+Overfull \hbox (6.52046pt too wide) in paragraph at lines 109--110
 []\OT1/lmr/m/n/10.95 You can try [][]Po-lar-ion[] on []$\OT1/lmtt/m/n/10.95 htt
 ps : / / polarion\OML/lmm/m/it/10.95 :\OT1/lmtt/m/n/10.95 plm\OML/lmm/m/it/10.9
 5 :\OT1/lmtt/m/n/10.95 automation\OML/lmm/m/it/10.95 :\OT1/lmtt/m/n/10.95 sieme
@@ -1898,17 +1905,46 @@ ns\OML/lmm/m/it/10.95 :\OT1/lmtt/m/n/10.95 com/$[]\OT1/lmr/m/n/10.95 .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--136
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--160
+Underfull \hbox (badness 10000) in paragraph at lines 132--134
 
  []
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 171--172
+Underfull \hbox (badness 10000) in paragraph at lines 145--146
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 147--148
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 149--150
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 158--159
+
+ []
+
+<pictures/alm_unified_processes.jpg, id=439, 622.57594pt x 609.02531pt>
+File: pictures/alm_unified_processes.jpg Graphic file (type jpg)
+<use pictures/alm_unified_processes.jpg>
+Package pdftex.def Info: pictures/alm_unified_processes.jpg  used on input line
+ 162.
+(pdftex.def)             Requested size: 369.0pt x 360.96667pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 170--172
 
  []
 
@@ -1922,139 +1958,110 @@ Underfull \hbox (badness 10000) in paragraph at lines 175--176
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 184--185
-
- []
-
-<pictures/alm_unified_processes.jpg, id=426, 622.57594pt x 609.02531pt>
-File: pictures/alm_unified_processes.jpg Graphic file (type jpg)
-<use pictures/alm_unified_processes.jpg>
-Package pdftex.def Info: pictures/alm_unified_processes.jpg  used on input line
- 188.
-(pdftex.def)             Requested size: 369.0pt x 360.96667pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 196--198
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 199--200
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 201--202
-
- []
-
 [8] [9 <./pictures/alm_unified_processes.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 229--230
+Underfull \hbox (badness 10000) in paragraph at lines 203--204
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 231--232
+Underfull \hbox (badness 10000) in paragraph at lines 205--206
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 237--238
+Underfull \hbox (badness 10000) in paragraph at lines 211--212
 
  []
 
 [10]
-<pictures/document_workflow.jpg, id=462, 616.55344pt x 364.36125pt>
+<pictures/document_workflow.jpg, id=475, 616.55344pt x 364.36125pt>
 File: pictures/document_workflow.jpg Graphic file (type jpg)
 <use pictures/document_workflow.jpg>
-Package pdftex.def Info: pictures/document_workflow.jpg  used on input line 242
+Package pdftex.def Info: pictures/document_workflow.jpg  used on input line 216
 .
 (pdftex.def)             Requested size: 369.0pt x 218.06802pt.
 
 
 LaTeX Warning: Reference `document_workflow' on page 11 undefined on input line
- 246.
+ 220.
 
 [11 <./pictures/document_workflow.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 254--255
+Underfull \hbox (badness 10000) in paragraph at lines 228--229
 
  []
 
-<pictures/agile_benefits.jpg, id=474, 632.3625pt x 353.06906pt>
+<pictures/agile_benefits.jpg, id=487, 632.3625pt x 353.06906pt>
 File: pictures/agile_benefits.jpg Graphic file (type jpg)
 <use pictures/agile_benefits.jpg>
-Package pdftex.def Info: pictures/agile_benefits.jpg  used on input line 261.
+Package pdftex.def Info: pictures/agile_benefits.jpg  used on input line 235.
 (pdftex.def)             Requested size: 369.0pt x 206.03006pt.
 [12 <./pictures/agile_benefits.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 283--284
+Underfull \hbox (badness 10000) in paragraph at lines 257--258
 
  []
 
 
-Overfull \hbox (0.62366pt too wide) in paragraph at lines 310--312
+Overfull \hbox (0.62366pt too wide) in paragraph at lines 284--286
 []\OT1/lmr/m/n/10.95 Difficulty link-ing and trac-ing ar-ti-facts across dif-fe
 r-ently struc-tured repos-
  []
 
 [13]
-<pictures/collaboration_workflow.jpg, id=497, 347.79938pt x 349.305pt>
+<pictures/collaboration_workflow.jpg, id=510, 347.79938pt x 349.305pt>
 File: pictures/collaboration_workflow.jpg Graphic file (type jpg)
 <use pictures/collaboration_workflow.jpg>
 Package pdftex.def Info: pictures/collaboration_workflow.jpg  used on input lin
-e 319.
+e 293.
 (pdftex.def)             Requested size: 369.0pt x 370.6133pt.
  [14 <./pictures/collaboration_workflow.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 335--336
+Underfull \hbox (badness 10000) in paragraph at lines 309--310
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 341--342
+Underfull \hbox (badness 10000) in paragraph at lines 315--316
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 347--348
+Underfull \hbox (badness 10000) in paragraph at lines 321--322
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 353--354
+Underfull \hbox (badness 10000) in paragraph at lines 327--328
 
  []
 
 [15]
-Underfull \hbox (badness 10000) in paragraph at lines 359--360
+Underfull \hbox (badness 10000) in paragraph at lines 333--334
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 364--365
+Underfull \hbox (badness 10000) in paragraph at lines 338--339
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 366--367
+Underfull \hbox (badness 10000) in paragraph at lines 340--341
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 368--369
+Underfull \hbox (badness 10000) in paragraph at lines 342--343
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 370--371
+Underfull \hbox (badness 10000) in paragraph at lines 344--345
 
  []
 
-<pictures/medical_standard.jpg, id=522, 287.57437pt x 427.5975pt>
+<pictures/medical_standard.jpg, id=535, 287.57437pt x 427.5975pt>
 File: pictures/medical_standard.jpg Graphic file (type jpg)
 <use pictures/medical_standard.jpg>
-Package pdftex.def Info: pictures/medical_standard.jpg  used on input line 373.
+Package pdftex.def Info: pictures/medical_standard.jpg  used on input line 347.
 
 (pdftex.def)             Requested size: 369.0pt x 548.68657pt.
 
@@ -2071,12 +2078,12 @@ Overfull \vbox (3.4863pt too high) has occurred while \output is active []
 [17 <./pictures/medical_standard.jpg>] [18
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 381--382
+Underfull \hbox (badness 10000) in paragraph at lines 355--356
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 383--384
+Underfull \hbox (badness 10000) in paragraph at lines 357--358
 
  []
 
@@ -2084,12 +2091,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 383--384
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [19]
-Underfull \hbox (badness 10000) in paragraph at lines 395--396
+Underfull \hbox (badness 10000) in paragraph at lines 369--370
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 397--398
+Underfull \hbox (badness 10000) in paragraph at lines 371--372
 
  []
 
@@ -2097,91 +2104,91 @@ Underfull \hbox (badness 10000) in paragraph at lines 397--398
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [20]
-<pictures/ml_tensorflow_dl.jpg, id=569, 803.0pt x 454.69875pt>
+<pictures/ml_tensorflow_dl.jpg, id=582, 803.0pt x 454.69875pt>
 File: pictures/ml_tensorflow_dl.jpg Graphic file (type jpg)
 <use pictures/ml_tensorflow_dl.jpg>
-Package pdftex.def Info: pictures/ml_tensorflow_dl.jpg  used on input line 418.
+Package pdftex.def Info: pictures/ml_tensorflow_dl.jpg  used on input line 392.
 
 (pdftex.def)             Requested size: 369.0pt x 208.94887pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [21 <./pictures/ml_tensorflow_dl.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 427--428
+Underfull \hbox (badness 10000) in paragraph at lines 401--402
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 433--434
+Underfull \hbox (badness 10000) in paragraph at lines 407--408
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 443--444
+Underfull \hbox (badness 10000) in paragraph at lines 417--418
 
  []
 
 [22]
-Underfull \hbox (badness 10000) in paragraph at lines 453--455
+Underfull \hbox (badness 10000) in paragraph at lines 427--429
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 461--462
+Underfull \hbox (badness 10000) in paragraph at lines 435--436
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 464--465
+Underfull \hbox (badness 10000) in paragraph at lines 438--439
 
  []
 
-<pictures/ml_aws_sagemaker_stack.jpg, id=598, 640.3925pt x 360.34625pt>
+<pictures/ml_aws_sagemaker_stack.jpg, id=611, 640.3925pt x 360.34625pt>
 File: pictures/ml_aws_sagemaker_stack.jpg Graphic file (type jpg)
 <use pictures/ml_aws_sagemaker_stack.jpg>
 Package pdftex.def Info: pictures/ml_aws_sagemaker_stack.jpg  used on input lin
-e 469.
+e 443.
 (pdftex.def)             Requested size: 369.0pt x 207.63736pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [23]
-Underfull \hbox (badness 10000) in paragraph at lines 503--504
+Underfull \hbox (badness 10000) in paragraph at lines 477--478
 
  []
 
-<pictures/ml_aws_sagemaker_buildprocess.jpg, id=609, 903.375pt x 249.93375pt>
+<pictures/ml_aws_sagemaker_buildprocess.jpg, id=622, 903.375pt x 249.93375pt>
 File: pictures/ml_aws_sagemaker_buildprocess.jpg Graphic file (type jpg)
 <use pictures/ml_aws_sagemaker_buildprocess.jpg>
 Package pdftex.def Info: pictures/ml_aws_sagemaker_buildprocess.jpg  used on in
-put line 506.
+put line 480.
 (pdftex.def)             Requested size: 369.0pt x 102.09213pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [24 <./pictures/ml_aws_sagemaker_stack.jpg>]
-<pictures/ml_cntk_architecture.jpg, id=622, 1405.25pt x 723.70375pt>
+<pictures/ml_cntk_architecture.jpg, id=635, 1405.25pt x 723.70375pt>
 File: pictures/ml_cntk_architecture.jpg Graphic file (type jpg)
 <use pictures/ml_cntk_architecture.jpg>
 Package pdftex.def Info: pictures/ml_cntk_architecture.jpg  used on input line 
-520.
+494.
 (pdftex.def)             Requested size: 369.0pt x 190.03581pt.
  [25 <./pictures/ml_aws_sagemaker_buildprocess.jpg> <./pictures/ml_cntk_archite
 cture.jpg>]
 
 LaTeX Warning: Citation `ml_spark_advantages]' on page 26 undefined on input li
-ne 530.
+ne 504.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 532--533
+Underfull \hbox (badness 10000) in paragraph at lines 506--507
 
  []
 
-<pictures/ml_spark_ecosystem.png, id=633, 622.325pt x 332.24126pt>
+<pictures/ml_spark_ecosystem.png, id=646, 622.325pt x 332.24126pt>
 File: pictures/ml_spark_ecosystem.png Graphic file (type png)
 <use pictures/ml_spark_ecosystem.png>
-Package pdftex.def Info: pictures/ml_spark_ecosystem.png  used on input line 54
-9.
+Package pdftex.def Info: pictures/ml_spark_ecosystem.png  used on input line 52
+3.
 (pdftex.def)             Requested size: 369.0pt x 196.99905pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -2190,222 +2197,222 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [26]
-Underfull \hbox (badness 10000) in paragraph at lines 557--558
+Underfull \hbox (badness 10000) in paragraph at lines 531--532
 
  []
 
-<pictures/ml_lda_scheme.jpg, id=649, 5086.00125pt x 2755.29375pt>
+<pictures/ml_lda_scheme.jpg, id=662, 5086.00125pt x 2755.29375pt>
 File: pictures/ml_lda_scheme.jpg Graphic file (type jpg)
 <use pictures/ml_lda_scheme.jpg>
-Package pdftex.def Info: pictures/ml_lda_scheme.jpg  used on input line 570.
+Package pdftex.def Info: pictures/ml_lda_scheme.jpg  used on input line 544.
 (pdftex.def)             Requested size: 369.0pt x 199.8693pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [27 <./pictures/ml_spark_ecosystem.png>] [28 <./pictures/ml_lda_scheme.jpg>]
-<pictures/polarion_attachments.jpg, id=674, 794.2172pt x 246.9225pt>
+<pictures/polarion_attachments.jpg, id=687, 794.2172pt x 246.9225pt>
 File: pictures/polarion_attachments.jpg Graphic file (type jpg)
 <use pictures/polarion_attachments.jpg>
 Package pdftex.def Info: pictures/polarion_attachments.jpg  used on input line 
-585.
+559.
 (pdftex.def)             Requested size: 369.0pt x 114.72357pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 589--590
+Underfull \hbox (badness 10000) in paragraph at lines 563--564
 
  []
 
 [29
 
  <./pictures/polarion_attachments.jpg>]
-<pictures/polarion_search.jpg, id=688, 831.105pt x 51.94406pt>
+<pictures/polarion_search.jpg, id=701, 831.105pt x 51.94406pt>
 File: pictures/polarion_search.jpg Graphic file (type jpg)
 <use pictures/polarion_search.jpg>
-Package pdftex.def Info: pictures/polarion_search.jpg  used on input line 598.
+Package pdftex.def Info: pictures/polarion_search.jpg  used on input line 572.
 (pdftex.def)             Requested size: 369.0pt x 23.06232pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 606--607
+Underfull \hbox (badness 10000) in paragraph at lines 580--581
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 608--609
+Underfull \hbox (badness 10000) in paragraph at lines 582--583
 
  []
 
 
-Overfull \hbox (10.41641pt too wide) in paragraph at lines 612--612
+Overfull \hbox (10.41641pt too wide) in paragraph at lines 586--586
 []\OT1/lmtt/m/n/10.95 2018-05-09[] 15:09:34,595[] [main[] |[] u:p][] INFO[] [] 
 TXLOGGER[] [] -[] Summary[] for[]
  []
 
 
-Overfull \hbox (10.41641pt too wide) in paragraph at lines 614--614
+Overfull \hbox (10.41641pt too wide) in paragraph at lines 588--588
 []\OT1/lmtt/m/n/10.95 2018-05-09[] 15:09:35,347[] [main[] |[] u:p][] INFO[] [] 
 TXLOGGER[] [] -[] Summary[] for[]
  []
 
 
-Overfull \hbox (4.66768pt too wide) in paragraph at lines 614--614
+Overfull \hbox (4.66768pt too wide) in paragraph at lines 588--588
 \OT1/lmtt/m/n/10.95 'Context[] recognition':[] transactions:[] 0,[] svn:[] 0.43
 6[] s[] [49%[] getDir2[]
  []
 
 [30 <./pictures/polarion_search.jpg>]
-Overfull \hbox (4.66768pt too wide) in paragraph at lines 615--615
+Overfull \hbox (4.66768pt too wide) in paragraph at lines 589--589
 []\OT1/lmtt/m/n/10.95 2018-05-09[] 15:09:54,556[] [LowLevelDataService-contextI
 nitializer-3[]
  []
 
 
-Overfull \hbox (16.16515pt too wide) in paragraph at lines 615--615
+Overfull \hbox (16.16515pt too wide) in paragraph at lines 589--589
 \OT1/lmtt/m/n/10.95 |[] u:p][] INFO[] [] TXLOGGER[] [] -[] Summary:[] Total:[] 
 19.2[] s,[] CPU[] [user:[] 1.25[] s,[]
  []
 
 
-Overfull \hbox (10.41641pt too wide) in paragraph at lines 615--615
+Overfull \hbox (10.41641pt too wide) in paragraph at lines 589--589
 \OT1/lmtt/m/n/10.95 system:[] 1.06[] s],[] Allocated[] memory:[] 440.6[] MB,[] 
 transactions:[] 0,[] svn:[]
  []
 
 
-Overfull \hbox (4.66768pt too wide) in paragraph at lines 617--617
+Overfull \hbox (4.66768pt too wide) in paragraph at lines 591--591
 []\OT1/lmtt/m/n/10.95 2018-05-09[] 15:09:54,556[] [LowLevelDataService-contextI
 nitializer-5[]
  []
 
 
-Overfull \hbox (16.16515pt too wide) in paragraph at lines 617--617
+Overfull \hbox (16.16515pt too wide) in paragraph at lines 591--591
 \OT1/lmtt/m/n/10.95 |[] u:p][] INFO[] [] TXLOGGER[] [] -[] Summary:[] Total:[] 
 19.2[] s,[] CPU[] [user:[] 5.61[] s,[]
  []
 
 
-Overfull \hbox (4.66768pt too wide) in paragraph at lines 617--617
+Overfull \hbox (4.66768pt too wide) in paragraph at lines 591--591
 \OT1/lmtt/m/n/10.95 system:[] 0.859[] s],[] Allocated[] memory:[] 3.5[] GB,[] t
 ransactions:[] 0,[] svn:[]
  []
 
 
-Overfull \hbox (4.66768pt too wide) in paragraph at lines 621--621
+Overfull \hbox (4.66768pt too wide) in paragraph at lines 595--595
 []\OT1/lmtt/m/n/10.95 2018-05-09[] 15:09:54,556[] [LowLevelDataService-contextI
 nitializer-1[]
  []
 
 
-Overfull \hbox (4.66768pt too wide) in paragraph at lines 621--621
+Overfull \hbox (4.66768pt too wide) in paragraph at lines 595--595
 \OT1/lmtt/m/n/10.95 |[] u:p][] INFO[] [] TXLOGGER[] [] -[] Summary:[] Total:[] 
 19.2[] s,[] CPU[] [user:[] 0.891[]
  []
 
 
-Overfull \hbox (4.66768pt too wide) in paragraph at lines 625--625
+Overfull \hbox (4.66768pt too wide) in paragraph at lines 599--599
 []\OT1/lmtt/m/n/10.95 2018-05-09[] 15:09:54,556[] [LowLevelDataService-contextI
 nitializer-4[]
  []
 
 
-Overfull \hbox (16.16515pt too wide) in paragraph at lines 625--625
+Overfull \hbox (16.16515pt too wide) in paragraph at lines 599--599
 \OT1/lmtt/m/n/10.95 |[] u:p][] INFO[] [] TXLOGGER[] [] -[] Summary:[] Total:[] 
 19.2[] s,[] CPU[] [user:[] 1.11[] s,[]
  []
 
 
-Overfull \hbox (4.66768pt too wide) in paragraph at lines 625--625
+Overfull \hbox (4.66768pt too wide) in paragraph at lines 599--599
 \OT1/lmtt/m/n/10.95 system:[] 1.5[] s],[] Allocated[] memory:[] 596.0[] MB,[] t
 ransactions:[] 0,[] svn:[]
  []
 
 
-Overfull \hbox (16.16515pt too wide) in paragraph at lines 625--625
+Overfull \hbox (16.16515pt too wide) in paragraph at lines 599--599
 \OT1/lmtt/m/n/10.95 13[] s[] [67%[] log2[] (65x),[] 14%[] log[] (1x)][] (1445x)
 ,[] ObjectMaps:[] 1.3[] s[] [72%[]
  []
 
 
-Overfull \hbox (16.16515pt too wide) in paragraph at lines 625--625
+Overfull \hbox (16.16515pt too wide) in paragraph at lines 599--599
 \OT1/lmtt/m/n/10.95 setLastProcessedRevision[] (359x),[] 18%[] saveIfNeeded[] (
 6218x)][] (22872x)[] 
  []
 
 
-Overfull \hbox (4.66768pt too wide) in paragraph at lines 626--626
+Overfull \hbox (4.66768pt too wide) in paragraph at lines 600--600
 []\OT1/lmtt/m/n/10.95 2018-05-09[] 15:09:54,556[] [LowLevelDataService-contextI
 nitializer-2[]
  []
 
 
-Overfull \hbox (16.16515pt too wide) in paragraph at lines 626--626
+Overfull \hbox (16.16515pt too wide) in paragraph at lines 600--600
 \OT1/lmtt/m/n/10.95 |[] u:p][] INFO[] [] TXLOGGER[] [] -[] Summary:[] Total:[] 
 19.2[] s,[] CPU[] [user:[] 1.55[] s,[]
  []
 
 
-Overfull \hbox (4.66768pt too wide) in paragraph at lines 626--626
+Overfull \hbox (4.66768pt too wide) in paragraph at lines 600--600
 \OT1/lmtt/m/n/10.95 system:[] 1.8[] s],[] Allocated[] memory:[] 705.2[] MB,[] t
 ransactions:[] 0,[] svn:[]
  []
 
 
-Overfull \hbox (10.41641pt too wide) in paragraph at lines 629--629
+Overfull \hbox (10.41641pt too wide) in paragraph at lines 603--603
 []\OT1/lmtt/m/n/10.95 2018-05-09[] 15:09:54,581[] [main[] |[] u:p][] INFO[] [] 
 TXLOGGER[] [] -[] Summary[] for[]
  []
 
 
-Overfull \hbox (4.66768pt too wide) in paragraph at lines 631--631
+Overfull \hbox (4.66768pt too wide) in paragraph at lines 605--605
 []\OT1/lmtt/m/n/10.95 [61%[] setLastProcessedRevision[] (1915x),[] 26%[] saveIf
 Needed[] (49771x)][]
  []
 
 [31]
-<pictures/polarion_document_space.jpg, id=706, 319.1925pt x 341.77687pt>
+<pictures/polarion_document_space.jpg, id=719, 319.1925pt x 341.77687pt>
 File: pictures/polarion_document_space.jpg Graphic file (type jpg)
 <use pictures/polarion_document_space.jpg>
 Package pdftex.def Info: pictures/polarion_document_space.jpg  used on input li
-ne 641.
+ne 615.
 (pdftex.def)             Requested size: 369.0pt x 395.11073pt.
  [32 <./pictures/polarion_document_space.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 653--654
+Underfull \hbox (badness 10000) in paragraph at lines 627--628
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 655--656
+Underfull \hbox (badness 10000) in paragraph at lines 629--630
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 661--662
+Underfull \hbox (badness 10000) in paragraph at lines 635--636
 
  []
 
-<pictures/polarion_estimation.jpg, id=720, 244.66406pt x 252.945pt>
+<pictures/polarion_estimation.jpg, id=733, 244.66406pt x 252.945pt>
 File: pictures/polarion_estimation.jpg Graphic file (type jpg)
 <use pictures/polarion_estimation.jpg>
 Package pdftex.def Info: pictures/polarion_estimation.jpg  used on input line 6
-66.
+40.
 (pdftex.def)             Requested size: 369.0pt x 381.4969pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 672--673
+Underfull \hbox (badness 10000) in paragraph at lines 646--647
 
  []
 
 [33]
-<pictures/defect_menu.jpg, id=729, 843.15pt x 333.49594pt>
+<pictures/defect_menu.jpg, id=742, 843.15pt x 333.49594pt>
 File: pictures/defect_menu.jpg Graphic file (type jpg)
 <use pictures/defect_menu.jpg>
-Package pdftex.def Info: pictures/defect_menu.jpg  used on input line 675.
+Package pdftex.def Info: pictures/defect_menu.jpg  used on input line 649.
 (pdftex.def)             Requested size: 369.0pt x 145.95499pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--680
+Underfull \hbox (badness 10000) in paragraph at lines 653--654
 
  []
 
@@ -2413,29 +2420,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 679--680
 Underfull \vbox (badness 3460) has occurred while \output is active []
 
  [34 <./pictures/polarion_estimation.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 689--690
+Underfull \hbox (badness 10000) in paragraph at lines 663--664
 
  []
 
 
-LaTeX Warning: Reference `polarion_help' on page 35 undefined on input line 696
+LaTeX Warning: Reference `polarion_help' on page 35 undefined on input line 670
 .
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 696--697
+Underfull \hbox (badness 10000) in paragraph at lines 670--671
 
  []
 
-<pictures/polarion_help.jpg, id=739, 384.6872pt x 671.50874pt>
+<pictures/polarion_help.jpg, id=752, 384.6872pt x 671.50874pt>
 File: pictures/polarion_help.jpg Graphic file (type jpg)
 <use pictures/polarion_help.jpg>
-Package pdftex.def Info: pictures/polarion_help.jpg  used on input line 699.
+Package pdftex.def Info: pictures/polarion_help.jpg  used on input line 673.
 (pdftex.def)             Requested size: 369.0pt x 644.16975pt.
 
-LaTeX Warning: Float too large for page by 71.96948pt on input line 701.
+LaTeX Warning: Float too large for page by 71.96948pt on input line 675.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 707--708
+Underfull \hbox (badness 10000) in paragraph at lines 681--682
 
  []
 
@@ -2443,96 +2450,96 @@ Underfull \hbox (badness 10000) in paragraph at lines 707--708
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [35 <./pictures/defect_menu.jpg>] [36 <./pictures/polarion_help.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 713--714
+Underfull \hbox (badness 10000) in paragraph at lines 687--688
 
  []
 
-<pictures/polarion_defect_similar.jpg, id=756, 329.73187pt x 182.18062pt>
+<pictures/polarion_defect_similar.jpg, id=769, 329.73187pt x 182.18062pt>
 File: pictures/polarion_defect_similar.jpg Graphic file (type jpg)
 <use pictures/polarion_defect_similar.jpg>
 Package pdftex.def Info: pictures/polarion_defect_similar.jpg  used on input li
-ne 718.
+ne 692.
 (pdftex.def)             Requested size: 369.0pt x 203.88243pt.
 [37 <./pictures/polarion_defect_similar.jpg>] [38
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 726--727
+Underfull \hbox (badness 10000) in paragraph at lines 700--701
 
  []
 
 
-LaTeX Warning: Citation `lda_algotithm' on page 39 undefined on input line 738.
+LaTeX Warning: Citation `lda_algotithm' on page 39 undefined on input line 712.
 
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 755--756
+Underfull \hbox (badness 10000) in paragraph at lines 729--730
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 762--763
+Underfull \hbox (badness 10000) in paragraph at lines 736--737
 
  []
 
 [39]
-Underfull \hbox (badness 10000) in paragraph at lines 764--765
+Underfull \hbox (badness 10000) in paragraph at lines 738--739
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 782--783
+Underfull \hbox (badness 10000) in paragraph at lines 756--757
 
  []
 
 
-LaTeX Warning: Reference `lda_tree_chart' on page 40 undefined on input line 78
-4.
+LaTeX Warning: Reference `lda_tree_chart' on page 40 undefined on input line 75
+8.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 784--785
+Underfull \hbox (badness 10000) in paragraph at lines 758--759
 
  []
 
 [40]
-Underfull \hbox (badness 10000) in paragraph at lines 791--792
+Underfull \hbox (badness 10000) in paragraph at lines 765--766
 
  []
 
-<pictures/lda_tree_chart.jpg, id=799, 1010.27437pt x 474.27188pt>
+<pictures/lda_tree_chart.jpg, id=812, 1010.27437pt x 474.27188pt>
 File: pictures/lda_tree_chart.jpg Graphic file (type jpg)
 <use pictures/lda_tree_chart.jpg>
-Package pdftex.def Info: pictures/lda_tree_chart.jpg  used on input line 795.
+Package pdftex.def Info: pictures/lda_tree_chart.jpg  used on input line 769.
 (pdftex.def)             Requested size: 369.0pt x 173.2272pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 805--806
+Underfull \hbox (badness 10000) in paragraph at lines 779--780
 
  []
 
-<pictures/lda_topics_external_database.jpg, id=804, 1394.20876pt x 836.12375pt>
+<pictures/lda_topics_external_database.jpg, id=817, 1394.20876pt x 836.12375pt>
 
 File: pictures/lda_topics_external_database.jpg Graphic file (type jpg)
 <use pictures/lda_topics_external_database.jpg>
 Package pdftex.def Info: pictures/lda_topics_external_database.jpg  used on inp
-ut line 808.
+ut line 782.
 (pdftex.def)             Requested size: 369.0pt x 221.29105pt.
-<pictures/lda_topics_vm.jpg, id=805, 1310.8975pt x 793.96625pt>
+<pictures/lda_topics_vm.jpg, id=818, 1310.8975pt x 793.96625pt>
 File: pictures/lda_topics_vm.jpg Graphic file (type jpg)
 <use pictures/lda_topics_vm.jpg>
-Package pdftex.def Info: pictures/lda_topics_vm.jpg  used on input line 813.
+Package pdftex.def Info: pictures/lda_topics_vm.jpg  used on input line 787.
 (pdftex.def)             Requested size: 369.0pt x 223.48418pt.
-<pictures/lda_documents_cloud.jpg, id=808, 938.75719pt x 681.29532pt>
+<pictures/lda_documents_cloud.jpg, id=821, 938.75719pt x 681.29532pt>
 File: pictures/lda_documents_cloud.jpg Graphic file (type jpg)
 <use pictures/lda_documents_cloud.jpg>
-Package pdftex.def Info: pictures/lda_documents_cloud.jpg  used on input line 8
-20.
+Package pdftex.def Info: pictures/lda_documents_cloud.jpg  used on input line 7
+94.
 (pdftex.def)             Requested size: 369.0pt x 267.79364pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<pictures/lda_circle_detail.jpg, id=809, 560.8453pt x 531.48563pt>
+<pictures/lda_circle_detail.jpg, id=822, 560.8453pt x 531.48563pt>
 File: pictures/lda_circle_detail.jpg Graphic file (type jpg)
 <use pictures/lda_circle_detail.jpg>
-Package pdftex.def Info: pictures/lda_circle_detail.jpg  used on input line 825
+Package pdftex.def Info: pictures/lda_circle_detail.jpg  used on input line 799
 .
 (pdftex.def)             Requested size: 369.0pt x 349.67867pt.
 
@@ -2542,53 +2549,53 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ase.jpg> <./pictures/lda_topics_vm.jpg>] [43 <./pictures/lda_documents_cloud.jp
 g>]
 [44 <./pictures/lda_circle_detail.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 833--834
+Underfull \hbox (badness 10000) in paragraph at lines 807--808
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 841--842
+Underfull \hbox (badness 10000) in paragraph at lines 815--816
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 850--851
+Underfull \hbox (badness 10000) in paragraph at lines 824--825
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 856--857
+Underfull \hbox (badness 10000) in paragraph at lines 830--831
 
  []
 
 [45
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 877--878
+Underfull \hbox (badness 10000) in paragraph at lines 851--852
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 883--884
+Underfull \hbox (badness 10000) in paragraph at lines 857--858
 
  []
 
-<pictures/defect_bot_scheme.jpg, id=852, 1046.91125pt x 531.9875pt>
+<pictures/defect_bot_scheme.jpg, id=865, 1046.91125pt x 531.9875pt>
 File: pictures/defect_bot_scheme.jpg Graphic file (type jpg)
 <use pictures/defect_bot_scheme.jpg>
-Package pdftex.def Info: pictures/defect_bot_scheme.jpg  used on input line 886
+Package pdftex.def Info: pictures/defect_bot_scheme.jpg  used on input line 860
 .
 (pdftex.def)             Requested size: 369.0pt x 187.50533pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 894--895
+Underfull \hbox (badness 10000) in paragraph at lines 868--869
 
  []
 
-<pictures/defect_bot_workitem.jpg, id=855, 1032.10594pt x 582.67688pt>
+<pictures/defect_bot_workitem.jpg, id=868, 1032.10594pt x 582.67688pt>
 File: pictures/defect_bot_workitem.jpg Graphic file (type jpg)
 <use pictures/defect_bot_workitem.jpg>
 Package pdftex.def Info: pictures/defect_bot_workitem.jpg  used on input line 8
-98.
+72.
 (pdftex.def)             Requested size: 369.0pt x 208.3143pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -2597,68 +2604,88 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 >] [48
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 910--911
+Underfull \hbox (badness 10000) in paragraph at lines 880--881
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 912--913
+Underfull \hbox (badness 10000) in paragraph at lines 886--887
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 922--923
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 930--931
+Underfull \hbox (badness 10000) in paragraph at lines 888--889
 
  []
 
 [49]
-Underfull \hbox (badness 10000) in paragraph at lines 937--938
+Underfull \hbox (badness 10000) in paragraph at lines 898--899
 
  []
 
-<pictures/gdpr_subject_rights.jpg, id=890, 652.4375pt x 375.4025pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 906--907
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 913--914
+
+ []
+
+<pictures/gdpr_subject_rights.jpg, id=905, 652.4375pt x 375.4025pt>
 File: pictures/gdpr_subject_rights.jpg Graphic file (type jpg)
 <use pictures/gdpr_subject_rights.jpg>
 Package pdftex.def Info: pictures/gdpr_subject_rights.jpg  used on input line 9
-42.
+18.
 (pdftex.def)             Requested size: 369.0pt x 212.3262pt.
 [50 <./pictures/gdpr_subject_rights.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 958--959
+Underfull \hbox (badness 10000) in paragraph at lines 934--935
 
  []
 
-<pictures/gdpr_subject_rights_detail.jpg, id=902, 652.4375pt x 748.7975pt>
+<pictures/gdpr_subject_rights_detail.jpg, id=917, 652.4375pt x 748.7975pt>
 File: pictures/gdpr_subject_rights_detail.jpg Graphic file (type jpg)
 <use pictures/gdpr_subject_rights_detail.jpg>
 Package pdftex.def Info: pictures/gdpr_subject_rights_detail.jpg  used on input
- line 962.
+ line 938.
 (pdftex.def)             Requested size: 369.0pt x 423.51698pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 972--973
+Underfull \hbox (badness 10000) in paragraph at lines 948--949
+
+ []
+
+[51] [52 <./pictures/gdpr_subject_rights_detail.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 951--952
 
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [51]
-[52 <./pictures/gdpr_subject_rights_detail.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 976--977
+Underfull \hbox (badness 10000) in paragraph at lines 956--957
 
  []
 
-[53] [54
+<pictures/ml_budget.jpg, id=942, 799.98875pt x 594.22pt>
+File: pictures/ml_budget.jpg Graphic file (type jpg)
+<use pictures/ml_budget.jpg>
+Package pdftex.def Info: pictures/ml_budget.jpg  used on input line 959.
+(pdftex.def)             Requested size: 369.0pt x 274.08801pt.
 
-] [55] [56
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-] [57] [58
+<pictures/ml_changing_market.jpg, id=948, 799.98875pt x 602.25pt>
+File: pictures/ml_changing_market.jpg Graphic file (type jpg)
+<use pictures/ml_changing_market.jpg>
+Package pdftex.def Info: pictures/ml_changing_market.jpg  used on input line 96
+6.
+(pdftex.def)             Requested size: 369.0pt x 277.7919pt.
 
-] (DP_Slama_Michal_2018.bbl [59] [60
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[53] [54 <./pictures/ml_budget.jpg>] [55 <./pictures/ml_changing_market.jpg>]
+[56
+
+] (DP_Slama_Michal_2018.bbl [57] [58
 
 ]
 bibitemlist
@@ -2669,55 +2696,67 @@ Underfull \hbox (badness 1728) in paragraph at lines 12--14
  []
 
 
-Underfull \hbox (badness 2790) in paragraph at lines 42--45
+Underfull \hbox (badness 5446) in paragraph at lines 37--40
+[]\OT1/lmr/m/n/10.95 Feldman, M.: 10 Real-World Ex-am-ples of Ma-chine Learn-in
+g
+ []
+
+
+Underfull \hbox (badness 1609) in paragraph at lines 37--40
+\OT1/lmr/m/n/10.95 and AI [2018]. [on-line], [cit. 2018-05-06]. Dos-tupne z: [
+]$\OT1/lmtt/m/n/10.95 https : / /
+ []
+
+
+Underfull \hbox (badness 2790) in paragraph at lines 47--50
 []\OT1/lmr/m/n/10.95 Samuel, A. L.: Some Stud-ies in Ma-chine Learn-ing Us-ing 
 the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 47--49
+Underfull \hbox (badness 10000) in paragraph at lines 52--54
 \OT1/lmtt/m/n/10.95 02 / 19 / a -[] short -[] history -[] of -[] machine -[] le
 arning -[] every -[] manager -[]
  []
 
-
-Underfull \hbox (badness 6220) in paragraph at lines 54--56
+[59]
+Underfull \hbox (badness 6220) in paragraph at lines 59--61
 []\OT1/lmr/m/n/10.95 TensorFlow. [on-line], [cit. 2018-05-05]. Dos-tupne z: []
 $\OT1/lmtt/m/n/10.95 https : / /
  []
 
-[61]
-Underfull \hbox (badness 2418) in paragraph at lines 70--73
+
+Underfull \hbox (badness 2418) in paragraph at lines 75--78
 []\OT1/lmr/m/n/10.95 What is Ama-zon Cloud, Its Ad-van-tages and Why Should You
 
  []
 
 
-Underfull \hbox (badness 8151) in paragraph at lines 70--73
+Underfull \hbox (badness 8151) in paragraph at lines 75--78
 \OT1/lmr/m/n/10.95 Con-sider It. [on-line], [cit. 2018-05-06]. Dos-tupne z: []
 $\OT1/lmtt/m/n/10.95 https :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--73
+Underfull \hbox (badness 10000) in paragraph at lines 75--78
 \OT1/lmtt/m/n/10.95 / / www\OML/lmm/m/it/10.95 :\OT1/lmtt/m/n/10.95 netsolution
 s\OML/lmm/m/it/10.95 :\OT1/lmtt/m/n/10.95 com / insights / what -[] is -[] amaz
 on -[] cloud -[] its -[]
  []
 
-) [62]
+) [60]
 No file DP_Slama_Michal_2018.gls.
 No file DP_Slama_Michal_2018.acr.
-[63
+[61
 
-] [64
+] [62
 
 ]
 
 Package caption Warning: Unused \captionsetup[lstlisting] on input line 37.
 See the caption package documentation for explanation.
 
-[65]
+[63]
 \tf@toc=\write10
 \openout10 = `DP_Slama_Michal_2018.toc'.
 
@@ -2727,14 +2766,14 @@ See the caption package documentation for explanation.
 \tf@tdo=\write12
 \openout12 = `DP_Slama_Michal_2018.tdo'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1132.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1132.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1032.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1032.
  (DP_Slama_Michal_2018.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1132.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1132.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1032.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1032.
 
 Package rerunfilecheck Info: File `DP_Slama_Michal_2018.out' has not changed.
-(rerunfilecheck)             Checksum: 05AFA79EAB457D053C974D2F7EA89DD1;6608.
+(rerunfilecheck)             Checksum: C5DBC86DFC8DF416CAF378D3D6DD4794;6650.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -2742,18 +2781,21 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1132.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1032.
  ) 
 Here is how much of TeX's memory you used:
- 33911 strings out of 493303
- 595241 string characters out of 3129349
- 744910 words of memory out of 3000000
- 36661 multiletter control sequences out of 15000+200000
+ 33923 strings out of 493303
+ 595494 string characters out of 3129349
+ 728835 words of memory out of 3000000
+ 36673 multiletter control sequences out of 15000+200000
  58530 words of font info for 41 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,12n,92p,2068b,558s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{glo:d3} has been referenced but does not exist, r
-eplaced by a fixed one
+pdfTeX warning (dest): name{glo:saas} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{glo:d3} has been referenced but does not exist, rep
+laced by a fixed one
 
 pdfTeX warning (dest): name{glo:ocr} has been referenced but does not exist, re
 placed by a fixed one
@@ -2776,12 +2818,6 @@ placed by a fixed one
 pdfTeX warning (dest): name{glo:alm} has been referenced but does not exist, re
 placed by a fixed one
 
-pdfTeX warning (dest): name{glo:ml} has been referenced but does not exist, rep
-laced by a fixed one
-
-pdfTeX warning (dest): name{glo:gdpr} has been referenced but does not exist, r
-eplaced by a fixed one
-
 pdfTeX warning (dest): name{glo:polarion} has been referenced but does not exis
 t, replaced by a fixed one
 
@@ -2790,6 +2826,12 @@ placed by a fixed one
 
 pdfTeX warning (dest): name{glo:cntk} has been referenced but does not exist, r
 eplaced by a fixed one
+
+pdfTeX warning (dest): name{glo:gdpr} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{glo:ml} has been referenced but does not exist, rep
+laced by a fixed one
 
 {C:/Users/qhxq9u/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc
 }{C:/Users/qhxq9u/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathi
@@ -2809,9 +2851,9 @@ cal/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Users/qhxq9u/AppData
 pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/qh
 xq9u/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Use
 rs/qhxq9u/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb>
-Output written on DP_Slama_Michal_2018.pdf (79 pages, 2021667 bytes).
+Output written on DP_Slama_Michal_2018.pdf (77 pages, 2125207 bytes).
 PDF statistics:
- 1111 PDF objects out of 1200 (max. 8388607)
- 226 named destinations out of 1000 (max. 500000)
- 473 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1155 PDF objects out of 1200 (max. 8388607)
+ 228 named destinations out of 1000 (max. 500000)
+ 483 words of extra memory for PDF output out of 10000 (max. 10000000)
 
