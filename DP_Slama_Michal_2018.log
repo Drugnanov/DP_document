@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.2.27)  19 MAY 2018 22:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.2.27)  20 MAY 2018 12:16
 entering extended mode
 **./DP_Slama_Michal_2018.tex
 (DP_Slama_Michal_2018.tex
@@ -1787,7 +1787,7 @@ Package caption Info: End \AtBeginDocument code.
 {C:/Users/qhxq9u/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2
 
 ]
-<cvut-logo-bw-en.pdf, id=156, 591.64943pt x 193.23091pt>
+<cvut-logo-bw-en.pdf, id=168, 591.64943pt x 193.23091pt>
 File: cvut-logo-bw-en.pdf Graphic file (type pdf)
 <use cvut-logo-bw-en.pdf>
 Package pdftex.def Info: cvut-logo-bw-en.pdf  used on input line 83.
@@ -1927,7 +1927,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 183--184
 
  []
 
-<pictures/alm_unified_processes.jpg, id=378, 622.57594pt x 609.02531pt>
+<pictures/alm_unified_processes.jpg, id=402, 622.57594pt x 609.02531pt>
 File: pictures/alm_unified_processes.jpg Graphic file (type jpg)
 <use pictures/alm_unified_processes.jpg>
 Package pdftex.def Info: pictures/alm_unified_processes.jpg  used on input line
@@ -1967,7 +1967,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 236--237
  []
 
 [10]
-<pictures/document_workflow.jpg, id=414, 616.55344pt x 364.36125pt>
+<pictures/document_workflow.jpg, id=438, 616.55344pt x 364.36125pt>
 File: pictures/document_workflow.jpg Graphic file (type jpg)
 <use pictures/document_workflow.jpg>
 Package pdftex.def Info: pictures/document_workflow.jpg  used on input line 241
@@ -1983,7 +1983,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 253--254
 
  []
 
-<pictures/agile_benefits.jpg, id=426, 632.3625pt x 353.06906pt>
+<pictures/agile_benefits.jpg, id=450, 632.3625pt x 353.06906pt>
 File: pictures/agile_benefits.jpg Graphic file (type jpg)
 <use pictures/agile_benefits.jpg>
 Package pdftex.def Info: pictures/agile_benefits.jpg  used on input line 260.
@@ -2000,7 +2000,7 @@ r-ently struc-tured repos-
  []
 
 [13]
-<pictures/collaboration_workflow.jpg, id=449, 347.79938pt x 349.305pt>
+<pictures/collaboration_workflow.jpg, id=473, 347.79938pt x 349.305pt>
 File: pictures/collaboration_workflow.jpg Graphic file (type jpg)
 <use pictures/collaboration_workflow.jpg>
 Package pdftex.def Info: pictures/collaboration_workflow.jpg  used on input lin
@@ -2051,7 +2051,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 369--370
 
  []
 
-<pictures/medical_standard.jpg, id=474, 287.57437pt x 427.5975pt>
+<pictures/medical_standard.jpg, id=498, 287.57437pt x 427.5975pt>
 File: pictures/medical_standard.jpg Graphic file (type jpg)
 <use pictures/medical_standard.jpg>
 Package pdftex.def Info: pictures/medical_standard.jpg  used on input line 372.
@@ -2097,7 +2097,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 396--397
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [20]
-<pictures/ml_tensorflow_dl.jpg, id=521, 803.0pt x 454.69875pt>
+<pictures/ml_tensorflow_dl.jpg, id=545, 803.0pt x 454.69875pt>
 File: pictures/ml_tensorflow_dl.jpg Graphic file (type jpg)
 <use pictures/ml_tensorflow_dl.jpg>
 Package pdftex.def Info: pictures/ml_tensorflow_dl.jpg  used on input line 417.
@@ -2136,7 +2136,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 463--464
 
  []
 
-<pictures/ml_aws_sagemaker_stack.jpg, id=550, 640.3925pt x 360.34625pt>
+<pictures/ml_aws_sagemaker_stack.jpg, id=574, 640.3925pt x 360.34625pt>
 File: pictures/ml_aws_sagemaker_stack.jpg Graphic file (type jpg)
 <use pictures/ml_aws_sagemaker_stack.jpg>
 Package pdftex.def Info: pictures/ml_aws_sagemaker_stack.jpg  used on input lin
@@ -2150,7 +2150,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 502--503
 
  []
 
-<pictures/ml_aws_sagemaker_buildprocess.jpg, id=561, 903.375pt x 249.93375pt>
+<pictures/ml_aws_sagemaker_buildprocess.jpg, id=585, 903.375pt x 249.93375pt>
 File: pictures/ml_aws_sagemaker_buildprocess.jpg Graphic file (type jpg)
 <use pictures/ml_aws_sagemaker_buildprocess.jpg>
 Package pdftex.def Info: pictures/ml_aws_sagemaker_buildprocess.jpg  used on in
@@ -2160,7 +2160,7 @@ put line 505.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [24 <./pictures/ml_aws_sagemaker_stack.jpg>]
-<pictures/ml_cntk_architecture.jpg, id=574, 1405.25pt x 723.70375pt>
+<pictures/ml_cntk_architecture.jpg, id=598, 1405.25pt x 723.70375pt>
 File: pictures/ml_cntk_architecture.jpg Graphic file (type jpg)
 <use pictures/ml_cntk_architecture.jpg>
 Package pdftex.def Info: pictures/ml_cntk_architecture.jpg  used on input line 
@@ -2177,7 +2177,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 531--532
 
  []
 
-<pictures/ml_spark_ecosystem.png, id=585, 622.325pt x 332.24126pt>
+<pictures/ml_spark_ecosystem.png, id=609, 622.325pt x 332.24126pt>
 File: pictures/ml_spark_ecosystem.png Graphic file (type png)
 <use pictures/ml_spark_ecosystem.png>
 Package pdftex.def Info: pictures/ml_spark_ecosystem.png  used on input line 54
@@ -2194,7 +2194,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 556--557
 
  []
 
-<pictures/ml_lda_scheme.jpg, id=601, 5086.00125pt x 2755.29375pt>
+<pictures/ml_lda_scheme.jpg, id=625, 5086.00125pt x 2755.29375pt>
 File: pictures/ml_lda_scheme.jpg Graphic file (type jpg)
 <use pictures/ml_lda_scheme.jpg>
 Package pdftex.def Info: pictures/ml_lda_scheme.jpg  used on input line 569.
@@ -2203,7 +2203,7 @@ Package pdftex.def Info: pictures/ml_lda_scheme.jpg  used on input line 569.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [27 <./pictures/ml_spark_ecosystem.png>] [28 <./pictures/ml_lda_scheme.jpg>]
-<pictures/polarion_attachments.jpg, id=626, 794.2172pt x 246.9225pt>
+<pictures/polarion_attachments.jpg, id=650, 794.2172pt x 246.9225pt>
 File: pictures/polarion_attachments.jpg Graphic file (type jpg)
 <use pictures/polarion_attachments.jpg>
 Package pdftex.def Info: pictures/polarion_attachments.jpg  used on input line 
@@ -2217,7 +2217,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 588--589
 [29
 
  <./pictures/polarion_attachments.jpg>]
-<pictures/polarion_search.jpg, id=640, 831.105pt x 51.94406pt>
+<pictures/polarion_search.jpg, id=664, 831.105pt x 51.94406pt>
 File: pictures/polarion_search.jpg Graphic file (type jpg)
 <use pictures/polarion_search.jpg>
 Package pdftex.def Info: pictures/polarion_search.jpg  used on input line 597.
@@ -2359,7 +2359,7 @@ Needed[] (49771x)][]
  []
 
 [31]
-<pictures/polarion_document_space.jpg, id=658, 319.1925pt x 341.77687pt>
+<pictures/polarion_document_space.jpg, id=682, 319.1925pt x 341.77687pt>
 File: pictures/polarion_document_space.jpg Graphic file (type jpg)
 <use pictures/polarion_document_space.jpg>
 Package pdftex.def Info: pictures/polarion_document_space.jpg  used on input li
@@ -2380,7 +2380,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 660--661
 
  []
 
-<pictures/polarion_estimation.jpg, id=672, 244.66406pt x 252.945pt>
+<pictures/polarion_estimation.jpg, id=696, 244.66406pt x 252.945pt>
 File: pictures/polarion_estimation.jpg Graphic file (type jpg)
 <use pictures/polarion_estimation.jpg>
 Package pdftex.def Info: pictures/polarion_estimation.jpg  used on input line 6
@@ -2389,73 +2389,137 @@ Package pdftex.def Info: pictures/polarion_estimation.jpg  used on input line 6
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[33] [34 <./pictures/polarion_estimation.jpg>] [35
 
-] [36
+Underfull \hbox (badness 10000) in paragraph at lines 671--672
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 677--678
+ []
+
+[33]
+<pictures/defect_menu.jpg, id=705, 843.15pt x 333.49594pt>
+File: pictures/defect_menu.jpg Graphic file (type jpg)
+<use pictures/defect_menu.jpg>
+Package pdftex.def Info: pictures/defect_menu.jpg  used on input line 674.
+(pdftex.def)             Requested size: 369.0pt x 145.95499pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 678--679
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--680
+Underfull \vbox (badness 3460) has occurred while \output is active []
+
+ [34 <./pictures/polarion_estimation.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 688--689
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 689--690
+LaTeX Warning: Reference `polarion_help' on page 35 undefined on input line 695
+.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--696
 
  []
 
+<pictures/polarion_help.jpg, id=715, 384.6872pt x 671.50874pt>
+File: pictures/polarion_help.jpg Graphic file (type jpg)
+<use pictures/polarion_help.jpg>
+Package pdftex.def Info: pictures/polarion_help.jpg  used on input line 698.
+(pdftex.def)             Requested size: 369.0pt x 644.16975pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 697--698
+LaTeX Warning: Float too large for page by 71.96948pt on input line 700.
 
- []
 
-[37]
-Underfull \hbox (badness 10000) in paragraph at lines 704--705
-
- []
-
-<pictures/gdpr_subject_rights.jpg, id=707, 652.4375pt x 375.4025pt>
-File: pictures/gdpr_subject_rights.jpg Graphic file (type jpg)
-<use pictures/gdpr_subject_rights.jpg>
-Package pdftex.def Info: pictures/gdpr_subject_rights.jpg  used on input line 7
-09.
-(pdftex.def)             Requested size: 369.0pt x 212.3262pt.
-[38 <./pictures/gdpr_subject_rights.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 725--726
-
- []
-
-<pictures/gdpr_subject_rights_detail.jpg, id=719, 652.4375pt x 748.7975pt>
-File: pictures/gdpr_subject_rights_detail.jpg Graphic file (type jpg)
-<use pictures/gdpr_subject_rights_detail.jpg>
-Package pdftex.def Info: pictures/gdpr_subject_rights_detail.jpg  used on input
- line 730.
-(pdftex.def)             Requested size: 369.0pt x 423.51698pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 740--741
+Underfull \hbox (badness 10000) in paragraph at lines 706--707
 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [39]
-[40 <./pictures/gdpr_subject_rights_detail.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 744--745
+ [35 <./pictures/defect_menu.jpg>] [36 <./pictures/polarion_help.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 712--713
 
  []
 
-[41] [42
+<pictures/polarion_defect_similar.png, id=732, 329.73187pt x 182.18062pt>
+File: pictures/polarion_defect_similar.png Graphic file (type png)
+<use pictures/polarion_defect_similar.png>
+Package pdftex.def Info: pictures/polarion_defect_similar.png  used on input li
+ne 717.
+(pdftex.def)             Requested size: 369.0pt x 203.88243pt.
+[37 <./pictures/polarion_defect_similar.png>] [38
 
-] [43] [44
+] [39] [40
 
-] [45] [46
+]
+Underfull \hbox (badness 10000) in paragraph at lines 727--728
 
-] (DP_Slama_Michal_2018.bbl [47] [48
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 729--730
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 739--740
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 747--748
+
+ []
+
+[41]
+Underfull \hbox (badness 10000) in paragraph at lines 754--755
+
+ []
+
+<pictures/gdpr_subject_rights.jpg, id=768, 652.4375pt x 375.4025pt>
+File: pictures/gdpr_subject_rights.jpg Graphic file (type jpg)
+<use pictures/gdpr_subject_rights.jpg>
+Package pdftex.def Info: pictures/gdpr_subject_rights.jpg  used on input line 7
+59.
+(pdftex.def)             Requested size: 369.0pt x 212.3262pt.
+[42 <./pictures/gdpr_subject_rights.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 775--776
+
+ []
+
+<pictures/gdpr_subject_rights_detail.jpg, id=780, 652.4375pt x 748.7975pt>
+File: pictures/gdpr_subject_rights_detail.jpg Graphic file (type jpg)
+<use pictures/gdpr_subject_rights_detail.jpg>
+Package pdftex.def Info: pictures/gdpr_subject_rights_detail.jpg  used on input
+ line 780.
+(pdftex.def)             Requested size: 369.0pt x 423.51698pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 790--791
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [43]
+[44 <./pictures/gdpr_subject_rights_detail.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 794--795
+
+ []
+
+[45] [46
+
+] [47] [48
+
+] [49] [50
+
+] (DP_Slama_Michal_2018.bbl [51] [52
 
 ]
 bibitemlist
@@ -2483,7 +2547,7 @@ Underfull \hbox (badness 6220) in paragraph at lines 54--56
 $\OT1/lmtt/m/n/10.95 https : / /
  []
 
-[49]
+[53]
 Underfull \hbox (badness 2418) in paragraph at lines 70--73
 []\OT1/lmr/m/n/10.95 What is Ama-zon Cloud, Its Ad-van-tages and Why Should You
 
@@ -2502,19 +2566,19 @@ s\OML/lmm/m/it/10.95 :\OT1/lmtt/m/n/10.95 com / insights / what -[] is -[] amaz
 on -[] cloud -[] its -[]
  []
 
-) [50]
+) [54]
 No file DP_Slama_Michal_2018.gls.
 No file DP_Slama_Michal_2018.acr.
-[51
+[55
 
-] [52
+] [56
 
 ]
 
 Package caption Warning: Unused \captionsetup[lstlisting] on input line 37.
 See the caption package documentation for explanation.
 
-[53]
+[57]
 \tf@toc=\write10
 \openout10 = `DP_Slama_Michal_2018.toc'.
 
@@ -2524,27 +2588,33 @@ See the caption package documentation for explanation.
 \tf@tdo=\write12
 \openout12 = `DP_Slama_Michal_2018.tdo'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 899.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 899.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 949.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 949.
  (DP_Slama_Michal_2018.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 899.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 899.
-Package rerunfilecheck Info: File `DP_Slama_Michal_2018.out' has not changed.
-(rerunfilecheck)             Checksum: 5952497263BAF77E6348D6345BAE5413;5477.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 949.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 949.
 
+
+Package rerunfilecheck Warning: File `DP_Slama_Michal_2018.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `DP_Slama_Michal_2018.out':
+(rerunfilecheck)             Before: 90EEF277EBD1FEA339268FB612F90C85;6103
+(rerunfilecheck)             After:  21E7C9F361C71F6F7B2FD671DFA3192D;6113.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 899.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 949.
  ) 
 Here is how much of TeX's memory you used:
- 33764 strings out of 493303
- 592328 string characters out of 3129349
+ 33796 strings out of 493303
+ 593021 string characters out of 3129349
  743910 words of memory out of 3000000
- 36569 multiletter control sequences out of 15000+200000
+ 36588 multiletter control sequences out of 15000+200000
  58530 words of font info for 41 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,12n,92p,2068b,558s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2602,9 +2672,9 @@ cal/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Users/qhxq9u/AppData
 pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/qh
 xq9u/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Use
 rs/qhxq9u/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb>
-Output written on DP_Slama_Michal_2018.pdf (67 pages, 1181105 bytes).
+Output written on DP_Slama_Michal_2018.pdf (71 pages, 1370093 bytes).
 PDF statistics:
- 916 PDF objects out of 1000 (max. 8388607)
- 181 named destinations out of 1000 (max. 500000)
- 383 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 977 PDF objects out of 1000 (max. 8388607)
+ 191 named destinations out of 1000 (max. 500000)
+ 422 words of extra memory for PDF output out of 10000 (max. 10000000)
 

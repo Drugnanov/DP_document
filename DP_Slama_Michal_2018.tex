@@ -666,11 +666,63 @@ Firstly we need to find similar tasks. We can look for work items with same para
 	\caption{Estimations in \acrshort{polarion}}\label{fig:polarion_estimation}
 \end{figure}
 
+\section{Defect recommendations}
 
-\section{Defect bot}
+Defect is a special type of work item in \acrshort{polarion} using to track errors and misbehaviours of the system. Creating of this type is done by whoever found the defect and so the author need to have knowledge about already created defects and how to correctly set all parameters for that type of defect. \acrshort{polarion} can try to find similar defects and help the user to better set properties up.\\
+
+\begin{figure}[h!]\centering
+	\includegraphics[width=1\textwidth]{pictures/defect_menu}
+	\caption{Properties of defect work item  in \acrshort{polarion}}\label{fig:defect_menu}
+\end{figure}
+
+Similar defects will be searched based on title of the defect that is written by a author and must be so accurate information as possible to ensure better results. \\
+
+\pagebreak
+
+Properties for recommendations:
+\begin{itemize}[nosep]
+\item severity
+\item priority
+\item assignee
+\item package
+\item category\\
+\end{itemize}
+
+Thanks to this defects will get faster to the responsible person and the time from finding to the first reaction or even fix will be significantly shorter. It has clear business values helps entire company to react faster and with less people to be involved.
+
+\section{Chat bot}
+
+For such a huge product as \acrshort{polarion} is it is natural that users are sometimes lost. Whether it's forgotten of old stuff or looking for new functions or processes. In both cases they have two options. The first is to try search on \acrshort{polarion} help page\ref{polarion_help} and the second is to bother a colleague. It is true that the better they know the question they get the answer faster and here can help chat bot.\\
+
+\begin{figure}[p!]\centering
+	\includegraphics[width=1\textwidth]{pictures/polarion_help}
+	\caption{Help page in \acrshort{polarion}}\label{fig:polarion_help}
+\end{figure}
+
+Idea is to take existing help page and index it in a usable format for some of the open-source chat bots. This first line of communication will help users to solve their problems separately and questions to colleagues or even Polarion experts will be reduced leading to more productivity environment.  
+
+\section{The most complained parts of Polarion}
+
+\acrshort{polarion} accepts complaints and suggestions every day from wide range of customers. As a results new projects are emerging to add new functionality or to fix the old ones to better satisfy customer's demands poorly analyzed during the first implementation. Creating of new project is done by a management who would like to welcome a tool to track specific parts of \acrshort{polarion} mostly targeted by customer's demands.\\
+
+We need to take into account not only information but also its sentiment how much is a customer concerned with this problem. 	
+
+\section{Detection of duplicated defects}
+
+Many new defects are created every day. The standard process describes that before the creation, the user should verify that the same defect does not exists. This is done by searching \acrshort{polarion} and as was said previously it is not as good as should be also because there is no specific specification as to what the new defect should look like and how it should contain information.\\
+
+\acrshort{polarion} already contains basic duplicate analysis show on \ref{fig:polarion_defect_similar}.
+
+\begin{figure}[h!]\centering
+	\includegraphics[width=1\textwidth]{pictures/polarion_defect_similar}
+	\caption{Similar defect suggestion in \acrshort{polarion}}\label{fig:polarion_defect_similar}
+\end{figure}
+
+Analysis of duplicates should be extend to more complex form taking in account also reference work items, similar but not the same text, attachments and so on.
+
+\chapter{Prototypes}
 
 
-\chapter{ML in production environment}
 
 \chapter{General Data Protection Regulation}
 
