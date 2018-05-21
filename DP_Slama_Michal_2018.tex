@@ -366,51 +366,51 @@ The path from just a theory to practical usage was long and hard \cite{ml_histor
 \end{itemize}
 
 \pagebreak
-During MLP 2018 \cite{mlp2018_microsoft} presented a heartbreaking use case for facial recognition. Try to imagine a natural disaster that leads to thousands and thousands refugees. Families are divided and with all the chaos, it is impossible to find each other. Depression is rising and may lead to panic or violence. \acrshort{ml} offers a simple idea. Just take a picture of yourself and it will find your relatives. How? \acrshort{ml} has learned from data from other families and has determined what common family characters are and how they can be used to quickly create family matches. Based on this \acrshort{ml} is able to say with high probability if someone is related to someone else. \\
+During MLP 2018 \cite{mlp2018_microsoft} presented a heartbreaking use case for facial recognition. Try to imagine a natural disaster that leads to thousands and thousands refugees. Families are divided and with all the chaos, it is impossible to find each other. Depression is rising and may lead to panic or violence. \acrshort{ml} offers a simple idea. Just take a picture of yourself and it will find your relatives. How? \acrshort{ml} has learned from data from other families and has determined what common family characteritics are and how they can be used to quickly create family matches. Based on this, \acrshort{ml} is able to say with high probability if someone is related to someone else. \\
 
-What makes this example so special? This use case utilizes  \acrshort{ml} in a new way but the algorithms and frameworks were already here. Data was provided, a model was created and it works. Sounds pretty easy and of course reality was a bit more complicated but it gives us a good idea of the current state of \acrshort{ml}. Companies can use existing implementations without the need for a deep knowledge of complicated algorithm. They can start right away on their own problems and business cases and see results in a very short time.\\
+What makes this example so special? This use case utilizes  \acrshort{ml} in a new way but the algorithms and frameworks were already here. Data was provided, a model was created and it works. Sounds pretty easy and of course in reality it was a bit more complicated, but it gives us a good idea of the current state of \acrshort{ml}. Companies can use existing implementations without the need for a deep knowledge of complicated algorithm. They can start right away on their own problems and business cases and see results in a very short time.\\
 
 It is said that when using existing solutions a \acrshort{pof} should not take more than 2 months according to learning task and processed data.
 
 Learning can be done in different ways: 
 \begin{itemize}[nosep]
-\item Supervised learning: relies on data where the data are annotated and algorithm comes through them and tries to find similarities. For example, we want to distinguish between pictures of cats and dogs. Algorithm will go through on lots of annotated pictures and classify them. After it algorithm will be able correctly annotated new pictures but the main disadvantage is need of a large amount of preprocessed data. 
-\item Semi-supervised learning: algorithm does not have any annotations. Again a large amount of data are provided to algorithm and with some characteristics what we want to find. In our case of cats and dogs we want to separate pictures into two groups. During this separation algorithm will learn rules how cats and dogs look like. Compared to the previous one we are good with raw data and no preprocessing is needed.
-\item Reinforcement learning: Chess play is good example of this learning when want to win. Algorithm gets set of plays with moves and results and it learns on this trying to find best moves leading to victory. In case of games this approach has a great advantage that algorithm can play with himself and play many games in a short time that is for people question of minutes or hours.
+\item Supervised learning: Relies on data where the data is annotated and an algorithm goies through it and tries to find similarities. For example, if we want to distinguish between pictures of cats and dogs,  an algorithm will go through allot of annotated pictures and classify them. After that, the algorithm will be able to correctly annotate new pictures based on what it's learned. The main disadvantage is the need for a large amount of preprocessed data. 
+\item Semi-supervised learning: An algorithm does not have any annotations. Again a large amount of data ise provided to the algorithm along with some characteristics of what we want to find. In the case of cats and dogs, the goal is to separate the pictures into two groups. During this separation the algorithm will learn rules about what cats and dogs look like. Compared to the previous example, only raw data is required and no preprocessing is needed.
+\item Reinforcement learning: The game of chess is good example of this type of learning. When the goal is to win. An algorithm gets a set of scenarios with moves and results and it learns by trying to find the best moves that will lead to victory. With games, this approach has a great advantage because the algorithm can play far more games in a short period of time than a human player could.
 \end{itemize}
 
 
-For the first Let's see what \acrshort{ml} frameworks or libraries are available.
+For the first, let's see what \acrshort{ml} frameworks or libraries are available.
 
 \section{TensorFlow}
 
-TensorFlow\cite{ml_tensorflow} is an open source software library with strong support for machine learning and deep learning and the flexible numerical computation core is used across many other scientific domains. Developed by Google for its internal usage but fast became one the most used \acrshort{ml} framework. The reason for this is the ease with which developers can build and deploy applications.
+TensorFlow\cite{ml_tensorflow} is an open source software library with strong support for machine learning and deep learning. The flexible numerical computation core is also used across many other scientific domains. It was developed by Google for user internally but fast became one the most used \acrshort{ml} frameworks. The reason for this is the ease with which developers can build and deploy applications.
 
-Main focused is on deep learning and has more tools to support reinforcement learning and other algorithms. Deep learning concept is shown in the figure \ref{fig:ml_tensorflow_dl}.
+Its main focused is on deep learning and it has more tools to support reinforcement learning and other algorithms. The Deep learning concept is shown in figure \ref{fig:ml_tensorflow_dl}.
 
 \begin{figure}[h!]\centering
 	\includegraphics[width=1\textwidth]{pictures/ml_tensorflow_dl}
 	\caption{Deep learning concept of Tensorflow \cite{ml_tensorflow_dl}}\label{fig:ml_tensorflow_dl}
 \end{figure}
 
-Tensorflow has much better performance and customizability, but the learning curve is much steeper as you are not just plugging in data and labels into a constructor, but are actually creating the layers which will make up your model. For its using you need solid understanding of machine learning and mathematical concepts especially linear algebra and calculus.
+Tensorflow has much better performance and customizability than some other options, but its learning curve is much steeper, since you are not just plugging in data and labels into a constructor, but are actually creating the layers that will make up your model. To use it, you need a solid understanding of machine learning and mathematical concepts. (Especially linear algebra and calculus.)
 \pagebreak
 
 \section{PyTorch}
 
-A Python version of Torch, known as Pytorch, was open-sourced by Facebook in January 2017. It is based on dynamic computation graphs. This has a lot of useful benefits for certain types of \acrshort{rnn}, situations where you need to generate weights and things where the very structure of the network changes.\\
+A Python version of Torch, known as Pytorch, was open-sourced by Facebook in January 2017. It is based on dynamic computation graphs. This has a lot of useful benefits for certain types of \acrshort{rnn}, situations when you need to generate weights and things where the very structure of the network changes.\\
 
-PyTorch\cite{ml_pytorch} also has a really nice interface and has the support of Facebook. And contains lots of modular pieces that are easy to combine. The downsides are that it’s a relatively newer framework, so there’s not many integrations with it, not much community and not many papers implemented in it. And note that dynamic computational graphs will make many things rather inefficient because lacking static optimizations.
+PyTorch\cite{ml_pytorch} also has a really nice interface and has the support of Facebook. It contains a lot of modular pieces that are easy to combine. The downsides are that it’s a relatively newer framework, so there’s not many integrations with it, not much of a community and not many papers implemented in it. (The dynamic computational graphs will also make many things rather inefficient because of the lack of static optimizations.)
 
 \section{Keras}
 
-Keras was created by Francois Chollet, a software engineer at Google and is a deep-learning library that sits atop TensorFlow and Theano, providing an intuitive AP that is inspired by Torch and its development is fast growing.\\
+Keras was created by Francois Chollet, a software engineer at Google and is a deep-learning library. It sits atop TensorFlow and Theano, providing an intuitive AP that is inspired by Torch and its development is fast growing.\\
 
-On the other hand as Keras\cite{ml_keras} is good in rapid prototyping it lack in flexibility.
+While Keras\cite{ml_keras} excells in rapid prototyping it lacks flexibility.
 
 \section{Caffe2}
 
-Caffe2\cite{ml_caffe2} with C++ engine is a successor to the original Caffe and is the second deep-learning framework to be backed by Facebook after Torch/PyTorch. The main difference is that Caffe2 is more scalable and light-weight but rather limited in flexibility. Good for smartphone inference.
+Caffe2\cite{ml_caffe2} with a C++ engine is a successor to the original Caffe and is the second deep-learning framework to be backed by Facebook after Torch/PyTorch. The main difference is that Caffe2 is more scalable and light-weight but also rather limited in flexibility. (It is good for smartphone inference.)
 
 \section{Amazon web services}
 
@@ -419,25 +419,25 @@ Caffe2\cite{ml_caffe2} with C++ engine is a successor to the original Caffe and 
 Advantages\cite{ml_aws_advantages} 
 \begin{itemize}[nosep]
 	\item Security.\\
--\acrshort{aws} conducts regular audits to ensure its infrastructural security. It has implemented best practices in security and also provides documentation on how to deploy the security features. It ensures the availability, integrity and confidentiality of your data and provides ‘end to end’ privacy and ‘end to end’ security.
+-\acrshort{aws} conducts regular audits to ensure that its infrastructure is secure. It has implemented best practices in security and also provides documentation on how to deploy the security features. It ensures the availability, integrity and confidentiality of data and provides ‘end to end’ privacy and ‘end to end’ security.
 	\item Cost-Effectiveness\\
--You consume only as much storage or computing power as required. No upfront investment or minimum expenditure is required. Generally, it is not easy to predict the requirements for the resources. So, you might allocate fewer resources than required and impact customer satisfaction or you might allocate excessive resources and not be able to maximize return on investment (ROI).
+-Users consume only as much storage or computing power as required. No upfront investment or minimum expenditure is required. Generally, it is not easy to predict the requirements for the resources, so a user might allocate fewer resources than required and impact customer satisfaction or allocate excessive resources and not be able to maximize a return on investment (ROI).
 	\item Flexibility and Openness\\
-- You can use the programming languages, architectures, operating systems and databases you are familiar with. In this manner, there won’t be any need for your IT personnel to pick up new skills and the overall time to market and productivity will improve. 
+- Users can use the programming languages, architectures, operating systems and databases they are familiar with. In this manner, there won’t be any need for their IT personnel to pick up new skills and the overall time to market and productivity will improve. 
 	\item Elasticity and Agility\\
-- allows you experiment and innovate quickly through its huge global cloud infrastructure. You can quickly scale up or scale down on the basis of demand. You can also use new applications, rather than wait for months for hardware.\\
+- Allows users to experiment and innovate quickly through its huge global cloud infrastructure. They can quickly scale up or scale down on the basis of demand. They can also use new applications, rather than wait for months for hardware.\\
 \end{itemize}
 
-Common company solves a problems those can be group by\cite{ml_aws_benefits}
+\cite{ml_aws_benefits}: Common company issues avoided by using u\acrshort{aws}
 \begin{itemize}[nosep]
 \item Overspending on hardware and storage capacity. 
 \item Business leaders want IT to help preserve cash. 
-\item A non-standardized IT environment and platform is expensive from a  security, support and training perspective.\\
+\item A non-standardized IT environment and platform is expensive from a security, support and training perspective.\\
 \end{itemize}
 
 All these problems are solved by \acrshort{aws}.\\
 
-\acrshort{aws} provides wide range of services shown in the picture below \ref{fig:ml_aws_sagemaker_stack}.
+\acrshort{aws} provides a wide range of services shown in the picture below \ref{fig:ml_aws_sagemaker_stack}.
 
 \begin{figure}[h!]\centering
 	\includegraphics[width=1\textwidth]{pictures/ml_aws_sagemaker_stack}
@@ -446,7 +446,7 @@ All these problems are solved by \acrshort{aws}.\\
 
 \subsection{Frameworks and infrastructure}
 
-At the low end computation customers can choose from the most used frameworks:
+At the low end, computation customers can choose from the most used frameworks:
 \begin{itemize}[nosep]
 	\item Mxnet 
 	\item TensorFlow 
@@ -457,37 +457,37 @@ At the low end computation customers can choose from the most used frameworks:
 	\item Gluon
 \end{itemize}
 
-Using is then just about calling united interface without dependence with framework was chosen. It bring great for testing different approaches in a short time.
+Using them is just a matter of calling a united interface without a dependendancy on the framework chosen. They are great for testing different approaches in a short time.
 
 \subsection{Application services}
 
-It is SaaS layer with applications ready for use. Customers do not need to implement their own solutions to test their data in common cases and can start to use it immediately.
+It is an SaaS layer with applications ready for use. Customers do not need to implement their own solutions to test their data in common cases and can start to use it immediately.
 
 
 \subsection{Platform services}
 
-On this level resides what we can expect except one and this is Amazon SageMaker.
+On this level resides what we can expect, except one, Amazon SageMaker.
 
-Amazon realized that developers need a fast way how to build, train and deploy machine learning models with as litter effort as possible. And for this purpose SageMaker was created.
+Amazon realized that developers need a fast way to build, train and deploy machine learning models with as little effort as possible. So they created SageMaker.
 
-Let's look closer on Amazaon SageMaker.
+Let's take a closer look at Amazaon SageMaker.
 
 \subsection{SageMaker} 
 
-Amazon SageMaker is a fully-managed platform that enables developers and data scientists to quickly and easily build, train, and deploy machine learning models at any scale with easy to use \acrshort{gui}.\\
+Amazon SageMaker is a fully-managed platform that enables developers and data scientists to quickly and easily build, train, and deploy machine learning models at any scale with an easy to use \acrshort{gui}.\\
 
 \begin{figure}[h!]\centering
 	\includegraphics[width=1\textwidth]{pictures/ml_aws_sagemaker_buildprocess}
 	\caption{Amazaon machine learning stack \cite{ml_aws}}\label{fig:ml_aws_sagemaker_buildprocess}
 \end{figure}
 
-Amazon SageMaker runs on a fully managed elastic compute server. This relieves the data scientist/ developer from DevOps concerns. Amazon SageMaker fully takes care of health checks, and outline infrastructure maintenance tasks via the built-in “Amazon CloudWatch monitoring and logging” service. Machine learning algorithms are provided pre-optimized particularly enhanced to run on Amazon’s compute servers and customers need only simply connect them to their data source. 
-Trained models can be deployed for production directly from Amazon SageMaker thta deploys the model as well as implements a secure HTTPs endpoint for the application. Again from customers point of view DevOps are not needed. 
-The last but not the least billing is based on utilization that are mostly dependent on customer use-case and demand peculiarities.
+Amazon SageMaker runs on a fully managed elastic compute server. This relieves the data scientist or developer from DevOps concerns. Amazon SageMaker takes care of all the health checks, and outline infrastructure maintenance tasks via the built-in “Amazon CloudWatch monitoring and logging” service. Machine learning algorithms are provided pre-optimized, specifically enhanced to run on Amazon’s compute servers. All customers have to do is connect them to their data source. 
+Trained models can be deployed for production directly from Amazon SageMaker. It deploys the model as well as implements a secure HTTPs endpoint for the application. (Again from customers point of view, DevOps are not needed.) 
+Last but not least, billing is based on utilization that is mostly dependent on individual customer use-cases and demands.
 
 \section{Microsoft Cognitive Toolkit}
 
-The Microsoft Cognitive Toolkit\cite{ml_cntk} written in C++ is a unified deep learning toolkit that describes neural networks as a series of computational steps via a directed graph. \acrshort{cntk} allows users to easily realize and combine popular model. CNTK has been available under an open-source license since April 2015 and is Microsoft's response to Google's TensorFlow.
+The Microsoft Cognitive Toolkit\cite{ml_cntk} written in C++ is a unified deep learning toolkit that describes neural networks as a series of computational steps via a directed graph. \acrshort{cntk} It lets users easily realize and combine popular model types. CNTK has been available under an open-source license since April 2015 and is Microsoft's response to Google's TensorFlow.
 
 
 \begin{figure}[h!]\centering
@@ -495,7 +495,7 @@ The Microsoft Cognitive Toolkit\cite{ml_cntk} written in C++ is a unified deep l
 	\caption{\acrshort{cntk} architecture \cite{ml_cntk}}\label{fig:ml_cntk_architecture}
 \end{figure}
 
-Thanks to architecture it is very flexible, allows distrubted training and supports main programming languages but lack visualizations.
+Thanks to its architecture it is very flexible, allows for distrubted training and supports all the main programming languages. A downside is that it lacks visualizations.
 
 \section{Apache Spark MLlib}
 
