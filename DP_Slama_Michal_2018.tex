@@ -501,9 +501,9 @@ Thanks to its architecture it is very flexible, allows for distrubted training a
 
 MLlib\cite{ml_spark} is Apache Spark's scalable machine learning library.
 
-Common\cite{ml_spark_advantages]} problem of prototyping in Python or R is that moving from development to production environments requires extensive re-engineering. 
+Common\cite{ml_spark_advantages]} The problem with prototyping in Python or R is that moving from development to production environments requires extensive re-engineering. 
 
-For this Spark provides data engineers and data scientists with a powerful, unified engine that is both fast (100x faster than Hadoop for large-scale data processing) and easy to use. This allows data practitioners to solve their machine learning problems interactively and at much greater scale.\\
+For this Spark provides data engineers and data scientists with a powerful, unified engine that is both fast (100x faster than Hadoop for large-scale data processing) and easy to use. This allows users to solve their machine learning problems interactively and at a much greater scale.\\
 
 The advantages of MLlib’s design include:
 
@@ -511,7 +511,7 @@ The advantages of MLlib’s design include:
 \item Simplicity
 - Simple APIs familiar to data scientists coming from tools like R and Python. Novices are able to run algorithms out of the box while experts can easily tune the system by adjusting important knobs and parameters.
 \item Scalability
-- Ability to run the same \acrshort{ml} code on your laptop and on a big cluster seamlessly without breaking down. This lets businesses use the same workflows as their user base and data sets grow.
+- The ability to run the same \acrshort{ml} code on a laptop and a big cluster seamlessly without breaking down. This lets businesses use the same workflows as their user base and data sets grow.
 \item Streamlined end-to-end
 - MLlib is on top of Spark and it makes possible to tackle these distinct needs with a single tool instead of many disjointed ones. The advantages are lower learning curves, less complex development and production environments, and ultimately shorter times to deliver high-performing models.
 \item Compatibility
@@ -526,13 +526,13 @@ The advantages of MLlib’s design include:
 \pagebreak
 \section{MxNet}
 
-Along\cite{ml_mxnet} side previous frameworks Apache's MxNet is a modern open-source deep learning framework used to train, and deploy deep neural networks supporting multiple programming languages.
+\cite{ml_mxnet} Like the previous frameworks Apache's MxNet is a modern open-source deep learning framework used to train, and deploy deep neural networks supporting multiple programming languages.
 
-Supports an efficient deployment of a trained model to low-end devices for inference, such as mobile devices, IoT devices, Serverless or containers which should used the models trained on a higher-level environments because of limited CPU an RAM resources.\\
+It supports an efficient deployment of a trained model to low-end devices for inference, such as mobile devices, IoT devices, Serverless or containers which should use models trained on higher-level environments because of their limited CPU an RAM resources.\\
 
-It has been chosen by \acrshort{aws} be part of their \acrshort{ml} on demand infrastructure.
+It has been chosen by \acrshort{aws} to be part of their \acrshort{ml} on demand infrastructure.
 
-Now let's switch to some specific algorithm.
+Now let's switch to a specific algorithm.
 
 \section{Latent Dirichlet allocation}\label{lda_algotithm}
 
@@ -545,15 +545,15 @@ In \acrshort{lda}, each document may be viewed as a mixture of various topics. T
 	\caption{Plate notation (Bayesian inference) for \acrshort{lda} \cite{ml_lda_exmplanation}}\label{fig:ml_lda_scheme}
 \end{figure}
 
-First we need to select number of topics to discover. \acrshort{lda} will go through each of the words in each of the documents, and it will randomly assign the word to one of the K topics. After this step we will have topic representations (how the words are distributed in each topic) and documents represented in terms of topics. This random form is not very optimal or accurate. To better this representation \acrshort{lda} will analyze per document what is the percentage of words within the document that were assigned to a particular topic. And for each word in the document, \acrshort{lda} will analyze over all the documents, what is the percentage of times that particular word has been assigned to a particular topic.
+First we need to select the number of topics to discover. \acrshort{lda} will go through each of the words in each of the documents, and it will randomly assign a word to one of the K topics. Then it will have topic representations, how the words are distributed in each topic, and documents represented in terms of topics. This random form is not very optimal or accurate. To better this representation \acrshort{lda} will analyze per document the percentage of words within the document that were assigned to a particular topic. And for each word in the document, \acrshort{lda} will analyze the percentage of times that particular word has been assigned to a particular topic in all the documents. 
 
 \chapter{Polarion's use cases for ML}
 
-\acrshort{polarion} serves for customers to plan and evaluate their every day work and if something is used frequently and periodically then there should be places for \acrshort{ml} to improve it. Let's find some use cases that can be good candidates for \acrshort{ml}. 
+\acrshort{polarion} enables its customers to plan and evaluate their every day work and if something is used frequently and periodically then there should be places for \acrshort{ml} to improve it. Let's find some use cases that can be good candidates for \acrshort{ml}. 
 
 \section{OCR for image attachments}
 
-\acrshort{polarion} allows users to upload files on work items (see the picture below \ref{fig:polarion_attachments}) In current image files are treated without processing their contents and it has impact on functions like search engine that can not use information in files. For this case \acrshort{ocr} should server well.
+\acrshort{polarion} allows users to upload files on Work Items (see the picture below \ref{fig:polarion_attachments}) Currently image files are treated without processing their contents and it has an impact on functions like search capabilities that can not use information within files. For this case \acrshort{ocr} should serve well.
 
 \begin{figure}[h!]\centering
 	\includegraphics[width=1\textwidth]{pictures/polarion_attachments}
@@ -562,24 +562,24 @@ First we need to select number of topics to discover. \acrshort{lda} will go thr
 
 What is \acrshort{ocr}? \acrshort{ocr} is a technology that enables you to convert different types of documents, such as scanned paper documents, PDF files or images captured by a digital camera into editable and searchable data. \\
 
-Advantages is plenty of free \acrshort{ocr} libraries in variety of programming languages ready to integrate with \acrshort{polarion}. Cost of this implementation should not be high but will lead to an increase in the index size that can rise rapidly as users using attachments a lot.  
+The advantages is that there are plenty of free \acrshort{ocr} libraries in variety of programming languages that are ready to integrate with \acrshort{polarion}. The cost of this implementation should not be high but it will lead to an increase in the index size that can rise rapidly due to the frequent use of attachments.  
 
 \section{Advanced Search in Polarion}
 
-Common problem with large amount of objects is to find that you are searching for. \acrshort{polarion} contains such large amount of objects. For example customers have more than 10 000 different kind of work items and you have to know how to find the specific one. This should be improved no looking just for exactly same expressions but also for similarities and make suggestions based on input data. 
+A common problem with a large amount of objects is being able to find what you are searching for. \acrshort{polarion} enterprise deployments can contain a large amount of such objects. For example customers have more than 10 000 different kind of Work Items and you have to know how to find a specific one. This should be improved to not only look for the exact same expressions but also for similarities and make suggestions based on the inputted data. 
 
 \begin{figure}[h!]\centering
 	\includegraphics[width=1\textwidth]{pictures/polarion_search}
-	\caption{Search work item in \acrshort{polarion}}\label{fig:polarion_search}
+	\caption{Search Work Items in \acrshort{polarion}}\label{fig:polarion_search}
 \end{figure}
 
-Work item's data can contains more specific test like references to another work items, pictures, graphs, stack traces...all these data types should be treated differently. Implementation will be hard as requirements are more unclear but results will lead to improve user experience and less domain experts knowing entire domain and so all work items will be needed.
+Work Item data can contain more specific challenges like references to other Work Items, pictures, graphs and stack traces. All these data types should be treated differently. Implementation will be difficult since the requirements are more unclear but results will lead to an improved user experience and less domain experts knowing the entire domain so all Work Items will be needed.
 
 \section{Suggestion for optimization of Polarion configuration} 
 
-Each customer has a special demands and has a specific environment where \acrshort{polarion} runs on. Optimize these configuration is not easy task as only experts across multiple domains (DevOps, Polarion administrators, Polarion experts, \dots) can see impact and consequences of different settings. \\
+Each customer has special demands and a specific environment that \acrshort{polarion} runs on. Optimizing these configurations is not an easy task since only experts across multiple domains (DevOps, Polarion administrators, Polarion experts, \dots) can see the impact and consequences of different settings. \\
 
-This can be changed by us as we know wide range of cases where \acrfull{polarion} or customer was stucked and needed help. This experience contains looking into log for a specific behaviour of user cases, memory/CPU/space/\dots consumption of \acrshort{polarion} or environment itself. Based on this data we should be able to automatically recommend changes to configuration or at least to start resolving problem more proactively before it becomes critical.\\
+This can be changed by us developers, since we know a wide range of cases where \acrfull{polarion} or a customer was stuck and needed help. This experience involves looking into the log for a specific behaviour of use cases, memory/CPU/space/\dots consumption of \acrshort{polarion} or the environment itself. Based on this data we should be able to automatically recommend changes to a given configuration or at least start resolving problems more proactively before they become critical.\\
 
 Example of log information:
 \begin{spverbatim}
@@ -607,28 +607,28 @@ svn: 12 s [94% log2 (45x)] (554x), ObjectMaps: 1.56 s
 \end{spverbatim}
 \end{spverbatim}
 
-\section{Suggesting of how to split a document Space} \label{sec:lda_case}
+\section{Suggesting how to split a document Space} \label{sec:lda_case}
 
-\acrshort{polarion} is about working with documents. It is expected that customers have a hundreds of documents separated into document spaces. Document spaces are used as folders and make hierarchy. But in some cases customers create too many document under one document space and orientation within this space becomes unclear. Idea is to split documents under one document space into groups based on their topic. This is a job for \acrshort{lda}.
+\acrshort{polarion} is about working with documents. It is expected that customers have a hundreds of documents separated into Document Spaces. Document Spaces are used as folders and make up a hierarchy. But in some cases customers create too many documents under one Document Space and the orientation within this space becomes unclear. The idea is to split documents under one document space into groups based on their topic. This is a job for \acrshort{lda}.
 
 \begin{figure}[h!]\centering
 	\includegraphics[width=1\textwidth]{pictures/polarion_document_space}
 	\caption{Document space in \acrshort{polarion}}\label{fig:polarion_document_space}
 \end{figure}
 
-As was said before \acrshort{polarion} document contains beside plain text also its work items that contain its own text including title, description, comments, selected properties... All these information should be taken into account for topic creation. Work item can have a reference to another work item and so on that is question how many work items in such chain use. 
+As was said before, aside from plain text, a \acrshort{polarion} Document also contains Work Items that in turn contain their own text. (Including titles, descriptions, comments, and selected properties) All this information should be taken into account for topic creation. A Work Item can have a reference to another Work Item and so on, which raises the question, how many WOrk Items in such a chain is viable.  
 
-Welcome topics into \acrshort{polarion} improves user experience on every day basis. If we talk about splitting documents in one document space topics can be also created for all documents and users will be able to find similar document across entire \acrshort{polarion} which is normally really hard task to do.
+Adding topics into \acrshort{polarion} improves the user experience on a daily basis. If we talk about splitting documents in one Document Space, topics can be also created for all documents and users will be able to find similar documents across \acrshort{polarion}, which is normally really hard task to do.
 
-\acrshort{lda} is downloadable library and can be easily integrated into existing code base. Changes on the side of \acrshort{polarion} will be much harder but business value of this feature is good enough to balance it.
+\acrshort{lda} is downloadable library and can be easily integrated into an existing code base. Changes on the side of \acrshort{polarion} will be much harder but the business value of this feature is good enough to balance it.
 
 \section{Translating documents}
 
-Normally customers have all their documents in one language. But there are cases when a document is created in one language and from the document is branched to another one which is translated to different language needed for example for external communication.\\
+Normally customers have all their documents in one language. But there are cases when a document is created in one language and from it branched translations are required for external communication.\\
 
-Important note is that a source document and a branched document are connected together and so changes to one can be propagated to another. Direction of propagation should be only from source to branched document because it is expected that branched document will contain more information than its source. First translation when branched document is created has no problems but complications come when the source is changed and changes should be propagated to its branched documents. These documents can already have overwriting or context changing changes and the question is how to solve a collision issue. \\
+An important note is that a source document and a branched document are connected together, so that changes to one can be propagated to the other. The direction of propagation should be only from source to branched document because it is expected that a branched document will contain more information than its source. The first translation branched from a document has no problems but complications come when the source is changed and changes should be propagated to its branched documents. These documents can already have overwriting or context changing changes and the question is how to solve a collision issue. \\
 
-Anyway problem lies also in translation itself though translation services are widely accessible we can not sent customer's data outside their environment and local translation server must be used.
+A problem also lies in the translation itself. Although translation services are widely accessible, we can not sent a customer's data outside their environment so a local translation server must be used.
 
 \section{Estimations and expectations}
 
