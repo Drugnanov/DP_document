@@ -628,13 +628,13 @@ Normally customers have all their documents in one language. But there are cases
 
 An important note is that a source document and a branched document are connected together, so that changes to one can be propagated to the other. The direction of propagation should be only from source to branched document because it is expected that a branched document will contain more information than its source. The first translation branched from a document has no problems but complications come when the source is changed and changes should be propagated to its branched documents. These documents can already have overwriting or context changing changes and the question is how to solve a collision issue. \\
 
-A problem also lies in the translation itself. Although translation services are widely accessible, we can not sent a customer's data outside their environment so a local translation server must be used.
+A problem also lies in the translation itself. Although translation services are widely accessible, customer's data cannot be sent outside their environment, so a local translation server must be used.
 
 \section{Estimations and expectations}
 
-Agile planning is built around task estimation, fulfilling expectations and constant improving by learning from estimations. The more experienced developer is, the better estimates has. Average time for a programmer job is in order of years and time to take familiar with \acrshort{polarion} is more than year. That is why estimates from inexperienced programmer are more tips then relevant data. On the other hand \acrshort{polarion} has previous data from all project done before which may give hints with the estimation of a task.\\ 
+Agile planning is built around task estimation, fulfilling expectations and constant improvement by learning from estimations. The more experienced a developer is, the better estimates they make. The average time for a programmer job is in the order of years and the time to get familiar with \acrshort{polarion} is more than year. That is why estimates from inexperienced programmers are more guesswork  than relevant data. On the other hand \acrshort{polarion} has at its disposal, the data from all previously completed projects and this data can be used to give hints on more accurate task estimations.\\ 
 
-Firstly we need to find similar tasks. We can look for work items with same parameter like category, story type and so on and combine it with similarity of description. Process all estimations from these found work items and show to user advice what estimate should be used.
+Firstly we need to find similar tasks. We can look for Work Items with the same parameter like category, story type and so on and combine it with the similarity of descriptions. All estimations from these found Work Items could be processed and shown to users to advise them on a more accurate estimate.
 
 \begin{figure}[h!]\centering
 	\includegraphics[width=1\textwidth]{pictures/polarion_estimation}
@@ -643,14 +643,14 @@ Firstly we need to find similar tasks. We can look for work items with same para
 
 \section{Defect recommendations} \label{sec:defect_recommendations}
 
-Defect is a special type of work item in \acrshort{polarion} using to track errors and misbehaviours of the system. Creating of this type is done by whoever found the defect and so the author need to have knowledge about already created defects and how to correctly set all parameters for that type of defect. \acrshort{polarion} can try to find similar defects and help the user to better set properties up.\\
+A Defect is a special type of Work Item in \acrshort{polarion} used to track errors and misbehaviours of the system. The creation of a Defect is done by whoever found the it, so the author needs to have knowledge about already existing defects and how to correctly set all parameters for that type of Defect. \acrshort{polarion} can try to find similar defects and help the user to better set properties up.\\
 
 \begin{figure}[h!]\centering
 	\includegraphics[width=1\textwidth]{pictures/defect_menu}
 	\caption{Properties of defect work item  in \acrshort{polarion}}\label{fig:defect_menu}
 \end{figure}
 
-Similar defects will be searched based on title of the defect that is written by a author and must be so accurate information as possible to ensure better results. \\
+Similar defects will be searched based on the title of the defect that is written by the author and it must contain as accurate  information as possible to ensure better results. \\
 
 \pagebreak
 
@@ -663,53 +663,53 @@ Properties for recommendations:
 \item category\\
 \end{itemize}
 
-Thanks to this defects will get faster to the responsible person and the time from finding to the first reaction or even fix will be significantly shorter. It has clear business values helps entire company to react faster and with less people to be involved.
+Thanks to this, the responsible person will be informed of a new defect faster and the time from its discovery to the first attempt to fix it will be significantly shorter. It has clear business value and helps the entire company react faster and requires that less people be involved.
 
 \section{Chat bot}
 
-For such a huge product as \acrshort{polarion} is it is natural that users are sometimes lost. Whether it's forgotten of old stuff or looking for new functions or processes. In both cases they have two options. The first is to try search on \acrshort{polarion} help page\ref{polarion_help} and the second is to bother a colleague. It is true that the better they know the question they get the answer faster and here can help chat bot.\\
+For such a huge product as \acrshort{polarion} it is natural that users are sometimes lost. (Either because they forget old stuff or spend time looking for new functions or processes.) In both cases they have two options. The first is to try search \acrshort{polarion}'s Help pages \ref{polarion_help} and the second is to bother a colleague. Because the help files are extensive, knowing how to frame the question determines how fast they can find what they need. Here's where a help chat bot could come in handy.\\
 
 \begin{figure}[p!]\centering
 	\includegraphics[width=1\textwidth]{pictures/polarion_help}
 	\caption{Help page in \acrshort{polarion}}\label{fig:polarion_help}
 \end{figure}
 
-Idea is to take existing help page and index it in a usable format for some of the open-source chat bots. This first line of communication will help users to solve their problems separately and questions to colleagues or even Polarion experts will be reduced leading to more productivity environment.  
+The idea is to take the existing help pages and index them in a usable format for some of the open-source chat bots. This first line of communication will help users solve their problems separately and questions to colleagues or even Polarion experts will be reduced. This will lead to a more productive environment.  
 
 \section{The most complained parts of Polarion}
 
-\acrshort{polarion} accepts complaints and suggestions every day from wide range of customers. As a results new projects are emerging to add new functionality or to fix the old ones to better satisfy customer's demands poorly analyzed during the first implementation. Creating of new project is done by a management who would like to welcome a tool to track specific parts of \acrshort{polarion} mostly targeted by customer's demands.\\
+\acrshort{polarion} accepts complaints and suggestions every day from wide range of customers. As a results new projects are emerging to add new functionality or to fix the old ones to better satisfy customer requirements that were poorly analyzed during the first implementation. The creation of new projects are done by management welcome a tool that would track specific parts of \acrshort{polarion} that are targeted the most by customer requests and requirements.\\
 
-We need to take into account not only information but also its sentiment how much is a customer concerned with this problem. 	
+We need to take into account not only information, but also its sentiment. (How much is a customer is really concerned with this problem.) 	
 
 \section{Detection of duplicated defects}
 
-Many new defects are created every day. The standard process describes that before the creation, the user should verify that the same defect does not exists. This is done by searching \acrshort{polarion} and as was said previously it is not as good as should be also because there is no specific specification as to what the new defect should look like and how it should contain information.\\
+Many new defects are created every day. The current process states that before the creation of a defect, a user should verify that the same defect does not already exist. This is done by searching \acrshort{polarion} and, as was said previously, it is not as good as should be, especially since there is no specific format on how to write defect descriptions and titles. \\
 
-\acrshort{polarion} already contains basic duplicate analysis show on \ref{fig:polarion_defect_similar}.
+\acrshort{polarion} already contains basic duplicate analysis shown on \ref{fig:polarion_defect_similar}.
 
 \begin{figure}[h!]\centering
 	\includegraphics[width=1\textwidth]{pictures/polarion_defect_similar}
 	\caption{Similar defect suggestion in \acrshort{polarion}}\label{fig:polarion_defect_similar}
 \end{figure}
 
-Analysis of duplicates should be extend to more complex form taking in account also reference work items, similar but not the same text, attachments and so on.
+An analysis of duplicates should be extended to more a complex level, also taking into account referenced Work Items, similar but not the same text, attachments and so on.
 
 \chapter{Proof of concept prototypes}
 
-We go through \acrshort{ml} frameworks and algorithms and useful \acrshort{polarion} user cases expandable with \acrshort{ml}. Now it is time to come with \acrshort{pof} prototypes for some of the previous user cases.\\
+We went through \acrshort{ml} frameworks and algorithms and useful \acrshort{polarion} use cases expandable with \acrshort{ml}. Now it is time to come up with \acrshort{pof} prototypes for some of the previous use cases.\\
 
-From internal discussion came up these two user cases:
+From internal discussions we came up these two use cases:
 \begin{itemize}[nosep]
-\item Suggesting of how to split a document Space\ref{sec:lda_case}
+\item Suggest how to split a Document Space\ref{sec:lda_case}
 \item Defect recommendations\ref{sec:defect_recommendations}
 \end{itemize}
 
 Let's move on to their implementation done in a team.
 
-\section{Prototype - suggesting of how to split a document Space}
+\section{Prototype - Suggest how to split a Document Space}
 
-Task to split documents is a task to find their topics a group them with them. Finding topics is a perfect task for the previously mentioned \acrshort{lda}\cite{lda_algotithm} algorithm. 
+The task to split documents is a task to find their topics and group them accordingly. Finding topics is a perfect task for the previously mentioned \acrshort{lda}\cite{lda_algotithm} algorithm. 
 
 Technologies used:
 \begin{itemize}[nosep]
@@ -960,11 +960,11 @@ For \acrfull{polarion} \acrshort{gdpr} leads to more strictly regulation already
 	\caption{Expected IT budget for ML\cite{ml_realword}}\label{fig:ml_budget}
 \end{figure}
 
-Of course \acrshort{ml} is not the only technology changing market and market expectation are seen in the picture \textit{Technologies trends over next 3 years}\ref{fig:ml_changing_market} and \acrshort{ml} experts paid in gold.
+Of course \acrshort{ml} is not the only technology changing market and market expectations are seen in the picture \textit{Technologies trends over next 3 years}\ref{fig:ml_changing_market} and \acrshort{ml} experts paid in gold.
 
 \begin{figure}[h!]\centering
 	\includegraphics[width=1\textwidth]{pictures/ml_changing_market}
-	\caption{Technologies trends over next 3 years\cite{ml_realword}}\label{fig:ml_changing_market}
+	\caption{Technology trends over the next 3 years\cite{ml_realword}}\label{fig:ml_changing_market}
 \end{figure}
 
 An important change is the time it takes from an idea to \acrshort{pof} implementation. We are no longer talking about years but more likely months or even weeks or days. \acrshort{ml} has evolved from pure mathematical algorithms to being more about the integration of existing \acrshort{ml} solutions with your own data set. It helps management see and recognize the benefits of \acrshort{ml} projects in their own product in a shorter time and with a lower cost. This combination is making it easier to start with production implementation.
