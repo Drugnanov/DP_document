@@ -4,39 +4,39 @@
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {2.1}{\ignorespaces A unified solution for ALM \cite {polarion_alm}\relax }}{9}{figure.caption.7}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Document workflow \cite {polarion_alm}\relax }}{11}{figure.caption.8}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Companies expectation from using Agile\cite {polarion_alm}\relax }}{13}{figure.caption.9}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Collaboration traceability workflow \cite {polarion_alm}\relax }}{14}{figure.caption.10}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Medical risk management workflow \cite {polarion_alm}\relax }}{17}{figure.caption.11}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces A unified solution for ALM \cite {polarion_alm}\relax }}{7}{figure.caption.6}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Document workflow \cite {polarion_alm}\relax }}{9}{figure.caption.7}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Companies expectation from using Agile\cite {polarion_alm}\relax }}{11}{figure.caption.8}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Collaboration traceability workflow \cite {polarion_alm}\relax }}{12}{figure.caption.9}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Medical risk management workflow \cite {polarion_alm}\relax }}{15}{figure.caption.10}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Deep learning concept of Tensorflow \cite {ml_tensorflow_dl}\relax }}{21}{figure.caption.12}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces AWS ML stack \cite {ml_aws}\relax }}{24}{figure.caption.13}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Amazaon machine learning stack \cite {ml_aws}\relax }}{25}{figure.caption.14}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces \acrshort {cntk} architecture \cite {ml_cntk}\relax }}{25}{figure.caption.15}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Spark ecosystem \cite {ml_spark_advantages}\relax }}{27}{figure.caption.16}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Plate notation (Bayesian inference) for \acrshort {lda} \cite {ml_lda_exmplanation}\relax }}{28}{figure.caption.17}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Deep learning concept of Tensorflow \cite {ml_tensorflow_dl}\relax }}{19}{figure.caption.11}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces AWS ML stack \cite {ml_aws}\relax }}{22}{figure.caption.12}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Amazaon machine learning stack \cite {ml_aws}\relax }}{23}{figure.caption.13}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces \acrshort {cntk} architecture \cite {ml_cntk}\relax }}{23}{figure.caption.14}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Spark ecosystem \cite {ml_spark_advantages}\relax }}{25}{figure.caption.15}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Plate notation (Bayesian inference) for \acrshort {lda} \cite {ml_lda_exmplanation}\relax }}{26}{figure.caption.16}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Attachments in \acrshort {polarion}\relax }}{29}{figure.caption.18}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Search work item in \acrshort {polarion}\relax }}{30}{figure.caption.19}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Document space in \acrshort {polarion}\relax }}{32}{figure.caption.20}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Estimations in \acrshort {polarion}\relax }}{34}{figure.caption.21}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Properties of defect work item in \acrshort {polarion}\relax }}{35}{figure.caption.22}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Help page in \acrshort {polarion}\relax }}{36}{figure.caption.23}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Similar defect suggestion in \acrshort {polarion}\relax }}{37}{figure.caption.24}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Attachments in \acrshort {polarion}\relax }}{27}{figure.caption.17}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Search Work Items in \acrshort {polarion}\relax }}{28}{figure.caption.18}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Document space in \acrshort {polarion}\relax }}{30}{figure.caption.19}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Estimations in \acrshort {polarion}\relax }}{32}{figure.caption.20}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Properties of defect work item in \acrshort {polarion}\relax }}{33}{figure.caption.21}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Help page in \acrshort {polarion}\relax }}{34}{figure.caption.22}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Similar defect suggestion in \acrshort {polarion}\relax }}{35}{figure.caption.23}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Tree chart of documents\relax }}{41}{figure.caption.25}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Topics distribution in external database documents\relax }}{42}{figure.caption.26}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Topics distribution in variant management documents\relax }}{42}{figure.caption.27}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Circle representation of all topics\relax }}{43}{figure.caption.28}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Detail of topics in circle representation\relax }}{44}{figure.caption.29}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Communication scheme\relax }}{46}{figure.caption.30}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Practical use\relax }}{47}{figure.caption.31}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Tree chart of documents\relax }}{39}{figure.caption.24}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Topics distribution in external database documents\relax }}{40}{figure.caption.25}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Topics distribution in variant management documents\relax }}{40}{figure.caption.26}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Circle representation of all topics\relax }}{41}{figure.caption.27}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Detail of topics in circle representation\relax }}{42}{figure.caption.28}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Communication scheme\relax }}{44}{figure.caption.29}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Practical use\relax }}{45}{figure.caption.30}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {6.1}{\ignorespaces \acrshort {gdpr} consumer rights \cite {gdpr_subject_rights}\relax }}{50}{figure.caption.32}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces \acrshort {gdpr} consumer rights in detail \cite {gdpr_subject_rights}\relax }}{52}{figure.caption.33}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Expected IT budget for ML\cite {ml_realword}\relax }}{54}{figure.caption.34}
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Technologies trends over next 3 years\cite {ml_realword}\relax }}{55}{figure.caption.35}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces \acrshort {gdpr} consumer rights \cite {gdpr_subject_rights}\relax }}{48}{figure.caption.31}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces \acrshort {gdpr} consumer rights in detail \cite {gdpr_subject_rights}\relax }}{50}{figure.caption.32}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Expected IT budget for ML\cite {ml_realword}\relax }}{52}{figure.caption.33}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Technology trends over the next 3 years\cite {ml_realword}\relax }}{53}{figure.caption.34}
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}
